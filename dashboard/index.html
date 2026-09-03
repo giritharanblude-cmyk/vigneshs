@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Soft-Skills Intelligence Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <h1>AI Soft-Skills Intelligence Dashboard</h1>
+            <p class="subtitle">Rolling 12-month analysis of AI-related soft-skill demand</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="filters" class="filter-bar">
+            <div class="filter-group">
+                <label for="filter-skill">Skill</label>
+                <select id="filter-skill" onchange="applyFilters()">
+                    <option value="all">All Skills</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-industry">Industry</label>
+                <select id="filter-industry" onchange="applyFilters()">
+                    <option value="all">All Industries</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-geography">Geography</label>
+                <select id="filter-geography" onchange="applyFilters()">
+                    <option value="all">All Geographies</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-confidence">Evidence Level</label>
+                <select id="filter-confidence" onchange="applyFilters()">
+                    <option value="all">All Levels</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </div>
+            <button class="btn-export" onclick="exportCSV()">Export CSV</button>
+        </section>
+
+        <section id="kpis" class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-total">--</div>
+                <div class="kpi-label">Total Tracked Skills</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-emerging">--</div>
+                <div class="kpi-label">Emerging Skills</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-increasing">--</div>
+                <div class="kpi-label">Increasing</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-declining">--</div>
+                <div class="kpi-label">Declining</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-evidence">--</div>
+                <div class="kpi-label">New Evidence Items</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-sources">--</div>
+                <div class="kpi-label">Sources Analyzed</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-industries">--</div>
+                <div class="kpi-label">Industries Tracked</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-countries">--</div>
+                <div class="kpi-label">Countries Tracked</div>
+            </div>
+        </section>
+
+        <section id="charts">
+            <div class="chart-card" data-aos="fade-up">
+                <h2>Top Emerging AI Soft Skills</h2>
+                <canvas id="chart-emerging"></canvas>
+                <p class="chart-note">Emerging Skill Score (0-1, higher = more emerging)</p>
+            </div>
+
+            <div class="chart-card">
+                <h2>Demand Growth (YoY)</h2>
+                <canvas id="chart-growth"></canvas>
+                <p class="chart-note">Year-over-year growth percentage by skill</p>
+            </div>
+
+            <div class="chart-card">
+                <h2>12-Month Demand Trend</h2>
+                <canvas id="chart-trend"></canvas>
+                <p class="chart-note">Monthly demand index, indexed to 100</p>
+            </div>
+
+            <div class="chart-card">
+                <h2>Skill Share Comparison</h2>
+                <canvas id="chart-share"></canvas>
+                <p class="chart-note">Current period vs previous period observation share</p>
+            </div>
+
+            <div class="chart-card">
+                <h2>Industry Comparison</h2>
+                <canvas id="chart-industry"></canvas>
+                <p class="chart-note">Share of observations by industry (only where data supports)</p>
+            </div>
+
+            <div class="chart-card">
+                <h2>Evidence Confidence</h2>
+                <canvas id="chart-confidence"></canvas>
+                <p class="chart-note">Distribution of High / Medium / Low confidence scores</p>
+            </div>
+        </section>
+
+        <section id="data-table">
+            <h2>Detailed Comparison</h2>
+            <table id="skills-table">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Skill</th>
+                        <th onclick="sortTable(1)">Emerging Score</th>
+                        <th onclick="sortTable(2)">YoY Growth %</th>
+                        <th onclick="sortTable(3)">MoM Growth %</th>
+                        <th onclick="sortTable(4)">Rolling 12M %</th>
+                        <th onclick="sortTable(5)">Skill Share %</th>
+                        <th>Confidence</th>
+                        <th>Evidence Type</th>
+                    </tr>
+                </thead>
+                <tbody id="skills-table-body"></tbody>
+            </table>
+        </section>
+
+        <section id="new-skills">
+            <h2>New Skills Detected</h2>
+            <div id="new-skills-list" class="tag-cloud"></div>
+            <p class="empty-hint" id="new-skills-empty">No new skills in this period.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Generated: <span id="generated-at">--</span> · <a href="#" id="source-link" onclick="showSources(); return false;">View Source Methodology</a></p>
+        <p class="footer-note">Observed = reported directly · Calculated = derived from source data · Estimated = modelled · Qualitative = text-based</p>
+    </footer>
+
+    <div id="source-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Source Methodology</h2>
+            <div id="source-modal-content"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

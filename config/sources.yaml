@@ -1,0 +1,156 @@
+source_tiers:
+  tier1:
+    name: Primary / Official Sources
+    priority: 1
+    domains:
+      - oecd.org
+      - ilo.org
+      - weforum.org
+      - unesco.org
+      - worldbank.org
+      - bls.gov
+      - ec.europa.eu
+      - eurostat.ec.europa.eu
+      - labor.gov
+      - stats.bls.gov
+      - gov.uk
+      - abs.gov.au
+      - statcan.gc.ca
+
+  tier2:
+    name: High-Quality Research
+    priority: 2
+    domains:
+      - nature.com
+      - science.org
+      - thelancet.com
+      - ieee.org
+      - acm.org
+      - elsevier.com
+      - springer.com
+      - ssrn.com
+      - arxiv.org
+
+  tier3:
+    name: Structured Market Evidence
+    priority: 3
+    domains:
+      - linkedin.com
+      - microsoft.com
+      - coursera.org
+      - lightcast.io
+      - burning-glass.com
+      - indeed.com
+      - glassdoor.com
+
+  tier4:
+    name: Discovery-Only Sources
+    priority: 4
+    domains:
+      - reuters.com
+      - bloomberg.com
+      - techcrunch.com
+      - wired.com
+      - forbes.com
+      - hbr.org
+      - medium.com
+
+rss_feeds:
+  - name: OECD AI Policy Observatory
+    url: https://oecd.ai/en/feed
+    tier: 1
+    category: policy
+
+  - name: World Economic Forum Blog
+    url: https://www.weforum.org/feed
+    tier: 1
+    category: research
+
+  - name: ILO News
+    url: https://www.ilo.org/rss/news
+    tier: 1
+    category: labour
+
+  - name: BLS News Releases
+    url: https://www.bls.gov/news/newsitenews.rss
+    tier: 1
+    category: employment
+
+  - name: IEEE Spectrum AI
+    url: https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss
+    tier: 2
+    category: research
+
+  - name: MIT Technology Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    tier: 2
+    category: research
+
+  - name: arXiv CS.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    tier: 2
+    category: research
+
+  - name: LinkedIn Economic Graph
+    url: https://www.linkedin.com/blog/topic/economic-graph/feed
+    tier: 3
+    category: labour_market
+
+  - name: Coursera Blog
+    url: https://www.coursera.org/articles/feed
+    tier: 3
+    category: skills
+
+  - name: Microsoft Work Lab
+    url: https://www.microsoft.com/en-us/research/feed/
+    tier: 3
+    category: work_trends
+
+api_sources:
+  - name: World Bank Indicators API
+    base_url: https://api.worldbank.org/v2
+    tier: 1
+    category: economic
+
+  - name: OECD Data API
+    base_url: https://sdmx.oecd.org/public/rest
+    tier: 1
+    category: economic
+
+  - name: BLS Public Data API
+    base_url: https://api.bls.gov/publicAPI/v2
+    tier: 1
+    category: employment
+
+search_queries:
+  - query: "AI soft skills demand workforce 2025 2026"
+    tier: 3
+    category: demand
+
+  - query: "artificial intelligence workplace skills hiring trends"
+    tier: 3
+    category: hiring
+
+  - query: "AI collaboration skills employer demand"
+    tier: 3
+    category: demand
+
+  - query: "human-AI teamwork emerging skills"
+    tier: 2
+    category: research
+
+  - query: "AI literacy training workforce development"
+    tier: 1
+    category: education
+
+  - query: "soft skills automation AI impact labour market"
+    tier: 1
+    category: labour
+
+  - query: "prompt engineering skills job market growth"
+    tier: 3
+    category: demand
+
+  - query: "AI ethics responsible use workplace skills"
+    tier: 2
+    category: ethics

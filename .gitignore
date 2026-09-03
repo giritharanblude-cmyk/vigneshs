@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data (generated files)
+data/raw/*
+data/processed/*
+data/historical/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/historical/.gitkeep
+
+# Keep the DB out of version control by default (regenerate from JSON/CSV)
+data/historical/*.db
+data/historical/*.db-*
+
+# Environments & secrets
+.env
+.env.*
+*.pem
+!*.pem.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Reports
+reports/daily/*.md

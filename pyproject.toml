@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "softskill-ai-trends"
+version = "1.0.0"
+description = "Soft-Skill AI Trends Intelligence Platform - daily research pipeline for AI-related soft skill demand"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Softskill AI Trends" }]
+keywords = ["skills", "ai", "trends", "research", "pipeline", "dashboard"]
+
+dependencies = [
+    "feedparser>=6.0.11",
+    "pandas>=2.0.0",
+    "pydantic>=2.5.0",
+    "PyYAML>=6.0.1",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "build>=1.0",
+]
+
+[project.scripts]
+softskill-trends = "src.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

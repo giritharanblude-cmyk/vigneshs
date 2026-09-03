@@ -1,0 +1,35 @@
+pipeline:
+  name: softskill-ai-trends
+  version: "1.0.0"
+  timezone: Asia/Kolkata
+  schedule_time: "19:00"
+
+  data_retention_months: 12
+
+  scoring:
+    demand_growth_weight: 0.30
+    hiring_frequency_weight: 0.25
+    cross_industry_weight: 0.15
+    cross_country_weight: 0.10
+    employer_evidence_weight: 0.10
+    recency_weight: 0.05
+    source_reliability_weight: 0.05
+
+  evidence_types:
+    - observed
+    - calculated
+    - estimated
+    - qualitative
+
+  thresholds:
+    minimum_sources_for_trend: 2
+    minimum_confidence_score: 0.3
+    emerging_skill_threshold: 0.5
+
+  email:
+    recipient: shrivigneshr15@gmail.com
+    subject_template: "Daily AI Soft-Skills Intelligence — {date}"
+
+  dashboard:
+    title: "AI Soft-Skills Intelligence Dashboard"
+    refresh_interval_hours: 24

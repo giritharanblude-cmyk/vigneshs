@@ -1,0 +1,155 @@
+skills:
+  - id: ai_literacy
+    name: AI Literacy
+    category: AI Foundations
+    description: Understanding AI concepts, capabilities, limitations, and appropriate use
+
+  - id: ai_collaboration
+    name: AI Collaboration
+    category: Human-AI Interaction
+    description: Working effectively with AI tools and systems to accomplish tasks
+
+  - id: prompt_literacy
+    name: Prompt Literacy
+    category: AI Foundations
+    description: Crafting effective prompts and instructions for AI systems
+
+  - id: critical_thinking
+    name: Critical Thinking
+    category: Cognitive Skills
+    description: Analyzing information objectively and forming reasoned judgments
+
+  - id: analytical_thinking
+    name: Analytical Thinking
+    category: Cognitive Skills
+    description: Breaking down complex problems into components for systematic analysis
+
+  - id: problem_solving
+    name: Problem Solving
+    category: Cognitive Skills
+    description: Identifying solutions to complex challenges using structured approaches
+
+  - id: communication
+    name: Communication
+    category: Interpersonal Skills
+    description: Conveying information clearly and effectively across channels
+
+  - id: presentation
+    name: Presentation
+    category: Interpersonal Skills
+    description: Delivering information to audiences in structured, engaging formats
+
+  - id: creativity
+    name: Creativity
+    category: Cognitive Skills
+    description: Generating novel ideas and innovative solutions
+
+  - id: adaptability
+    name: Adaptability
+    category: Personal Effectiveness
+    description: Adjusting to new conditions, technologies, and environments
+
+  - id: resilience
+    name: Resilience
+    category: Personal Effectiveness
+    description: Recovering from setbacks and maintaining performance under pressure
+
+  - id: leadership
+    name: Leadership
+    category: Management Skills
+    description: Guiding teams and organizations through change and uncertainty
+
+  - id: teamwork
+    name: Teamwork
+    category: Interpersonal Skills
+    description: Collaborating effectively within diverse teams
+
+  - id: collaboration
+    name: Collaboration
+    category: Interpersonal Skills
+    description: Working jointly with others to achieve shared goals
+
+  - id: emotional_intelligence
+    name: Emotional Intelligence
+    category: Personal Effectiveness
+    description: Recognizing, understanding, and managing emotions in self and others
+
+  - id: interpersonal_communication
+    name: Interpersonal Communication
+    category: Interpersonal Skills
+    description: Exchanging information and building relationships through interaction
+
+  - id: decision_making
+    name: Decision-Making
+    category: Cognitive Skills
+    description: Making timely, well-informed choices based on available evidence
+
+  - id: negotiation
+    name: Negotiation
+    category: Management Skills
+    description: Reaching mutually beneficial agreements through discussion
+
+  - id: conflict_management
+    name: Conflict Management
+    category: Management Skills
+    description: Resolving disagreements constructively and maintaining relationships
+
+  - id: coaching
+    name: Coaching
+    category: Management Skills
+    description: Developing others through guidance, feedback, and support
+
+  - id: ethical_reasoning
+    name: Ethical Reasoning
+    category: Ethics & Responsibility
+    description: Applying ethical principles to complex situations and technology use
+
+  - id: digital_literacy
+    name: Digital Literacy
+    category: AI Foundations
+    description: Using digital technologies effectively and responsibly
+
+  - id: data_literacy
+    name: Data Literacy
+    category: AI Foundations
+    description: Reading, interpreting, communicating, and working with data
+
+  - id: human_ai_collaboration
+    name: Human-AI Collaboration
+    category: Human-AI Interaction
+    description: Integrating human judgment with AI capabilities for enhanced outcomes
+
+  - id: change_management
+    name: Change Management
+    category: Management Skills
+    description: Leading and adapting to organizational and technological change
+
+  - id: learning_agility
+    name: Learning Agility
+    category: Personal Effectiveness
+    description: Rapidly acquiring new knowledge and applying it in unfamiliar situations
+
+  - id: self_directed_learning
+    name: Self-Directed Learning
+    category: Personal Effectiveness
+    description: Independently identifying learning needs and pursuing development
+
+  - id: professional_judgment
+    name: Professional Judgment
+    category: Cognitive Skills
+    description: Making sound decisions based on expertise and contextual understanding
+
+  - id: information_evaluation
+    name: Information Evaluation
+    category: Cognitive Skills
+    description: Assessing the quality, relevance, and reliability of information
+
+  - id: media_literacy
+    name: Media Literacy
+    category: Ethics & Responsibility
+    description: Critically analyzing and evaluating media messages and sources
+
+  - id: responsible_ai_use
+    name: Responsible AI Use
+    category: Ethics & Responsibility
+    description: Deploying and interacting with AI in ethically sound and compliant ways
