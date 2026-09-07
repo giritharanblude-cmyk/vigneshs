@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T08:19:14.323134",
+  "generated_at": "2026-09-07T08:23:00.634381",
   "total_skills": 31,
   "emerging_skills": 9,
   "increasing_skills": 9,
   "declining_skills": 3,
-  "new_evidence_items": 76,
-  "sources_analyzed": 83,
+  "new_evidence_items": 79,
+  "sources_analyzed": 112,
   "industries_tracked": 9,
   "countries_tracked": 2,
   "trends": [
@@ -15,7 +15,7 @@
       "yoy_growth": null,
       "mom_growth": 500.0,
       "rolling_12m_change": null,
-      "skill_share": 12.5,
+      "skill_share": 12.048192771084338,
       "share_change": null,
       "emerging_score": 0.9183,
       "confidence": "medium",
@@ -27,9 +27,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 15.0,
+      "skill_share": 15.66265060240964,
       "share_change": null,
-      "emerging_score": 0.6493,
+      "emerging_score": 0.6751,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -39,7 +39,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 15.0,
+      "skill_share": 14.457831325301203,
       "share_change": null,
       "emerging_score": 0.6421,
       "confidence": "high",
@@ -51,9 +51,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.75,
+      "skill_share": 8.433734939759036,
       "share_change": null,
-      "emerging_score": 0.6072,
+      "emerging_score": 0.629,
+      "confidence": "medium",
+      "evidence_type": "calculated"
+    },
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 7.228915662650602,
+      "share_change": null,
+      "emerging_score": 0.6156,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -63,7 +75,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 11.25,
+      "skill_share": 10.843373493975903,
       "share_change": null,
       "emerging_score": 0.6003,
       "confidence": "high",
@@ -75,7 +87,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 6.25,
+      "skill_share": 6.024096385542169,
       "share_change": null,
       "emerging_score": 0.5999,
       "confidence": "high",
@@ -87,7 +99,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.0,
+      "skill_share": 9.63855421686747,
       "share_change": null,
       "emerging_score": 0.564,
       "confidence": "high",
@@ -99,21 +111,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.0,
+      "skill_share": 4.819277108433735,
       "share_change": null,
       "emerging_score": 0.5124,
-      "confidence": "high",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.0,
-      "share_change": null,
-      "emerging_score": 0.5082,
       "confidence": "high",
       "evidence_type": "calculated"
     },
@@ -123,7 +123,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.25,
+      "skill_share": 1.2048192771084338,
       "share_change": null,
       "emerging_score": 0.2542,
       "confidence": "medium",
@@ -135,7 +135,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.5,
+      "skill_share": 2.4096385542168677,
       "share_change": null,
       "emerging_score": 0.234,
       "confidence": "low",
@@ -147,7 +147,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.5,
+      "skill_share": 2.4096385542168677,
       "share_change": null,
       "emerging_score": 0.1266,
       "confidence": "medium",
@@ -160,7 +160,11 @@
       "series": [
         {
           "month": "2026-07",
-          "demand_index": 4.0
+          "demand_index": 5.0
+        },
+        {
+          "month": "2026-08",
+          "demand_index": 1.0
         }
       ]
     },
@@ -241,16 +245,12 @@
       "skill": "Leadership",
       "series": [
         {
-          "month": "2026-06",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-08",
           "demand_index": 5.0
         },
         {
           "month": "2026-09",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -276,7 +276,7 @@
         },
         {
           "month": "2026-08",
-          "demand_index": 7.0
+          "demand_index": 8.0
         },
         {
           "month": "2026-09",
@@ -318,55 +318,55 @@
   ],
   "industry_comparison": [
     {
+      "industry": "general",
+      "count": 19,
+      "percentage": 22.9
+    },
+    {
       "industry": "education",
-      "count": 18,
-      "percentage": 22.5
+      "count": 19,
+      "percentage": 22.9
     },
     {
       "industry": "technology",
       "count": 17,
-      "percentage": 21.2
-    },
-    {
-      "industry": "general",
-      "count": 17,
-      "percentage": 21.2
+      "percentage": 20.5
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 10.0
+      "percentage": 9.6
     },
     {
       "industry": "healthcare",
       "count": 7,
-      "percentage": 8.8
+      "percentage": 8.4
     },
     {
       "industry": "consulting",
       "count": 5,
-      "percentage": 6.2
+      "percentage": 6.0
     },
     {
       "industry": "retail",
       "count": 3,
-      "percentage": 3.8
+      "percentage": 3.6
     },
     {
       "industry": "finance",
       "count": 3,
-      "percentage": 3.8
+      "percentage": 3.6
     },
     {
       "industry": "manufacturing",
       "count": 2,
-      "percentage": 2.5
+      "percentage": 2.4
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 6,
-    "medium": 5,
+    "high": 5,
+    "medium": 6,
     "low": 20
   }
 }
