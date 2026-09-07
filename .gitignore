@@ -7,10 +7,8 @@ venv/
 
 # Data (generated files)
 data/raw/*
-data/processed/*
 data/historical/*
 !data/raw/.gitkeep
-!data/processed/.gitkeep
 !data/historical/.gitkeep
 
 # Keep the DB out of version control by default (regenerate from JSON/CSV)
