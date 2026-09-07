@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T08:23:00.634381",
+  "generated_at": "2026-09-07T13:45:25.547036",
   "total_skills": 31,
   "emerging_skills": 9,
   "increasing_skills": 9,
   "declining_skills": 3,
-  "new_evidence_items": 79,
-  "sources_analyzed": 112,
+  "new_evidence_items": 80,
+  "sources_analyzed": 115,
   "industries_tracked": 9,
   "countries_tracked": 2,
   "trends": [
@@ -15,7 +15,7 @@
       "yoy_growth": null,
       "mom_growth": 500.0,
       "rolling_12m_change": null,
-      "skill_share": 12.048192771084338,
+      "skill_share": 11.904761904761903,
       "share_change": null,
       "emerging_score": 0.9183,
       "confidence": "medium",
@@ -25,11 +25,11 @@
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
-      "mom_growth": null,
+      "mom_growth": 75.0,
       "rolling_12m_change": null,
-      "skill_share": 15.66265060240964,
+      "skill_share": 15.476190476190476,
       "share_change": null,
-      "emerging_score": 0.6751,
+      "emerging_score": 0.6541,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -39,7 +39,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.457831325301203,
+      "skill_share": 14.285714285714285,
       "share_change": null,
       "emerging_score": 0.6421,
       "confidence": "high",
@@ -51,9 +51,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.433734939759036,
+      "skill_share": 9.523809523809524,
       "share_change": null,
-      "emerging_score": 0.629,
+      "emerging_score": 0.6331,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -63,7 +63,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.228915662650602,
+      "skill_share": 7.142857142857142,
       "share_change": null,
       "emerging_score": 0.6156,
       "confidence": "medium",
@@ -75,7 +75,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.843373493975903,
+      "skill_share": 10.714285714285714,
       "share_change": null,
       "emerging_score": 0.6003,
       "confidence": "high",
@@ -87,7 +87,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 6.024096385542169,
+      "skill_share": 5.952380952380952,
       "share_change": null,
       "emerging_score": 0.5999,
       "confidence": "high",
@@ -99,7 +99,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.63855421686747,
+      "skill_share": 9.523809523809524,
       "share_change": null,
       "emerging_score": 0.564,
       "confidence": "high",
@@ -111,7 +111,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.819277108433735,
+      "skill_share": 4.761904761904762,
       "share_change": null,
       "emerging_score": 0.5124,
       "confidence": "high",
@@ -123,7 +123,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.2048192771084338,
+      "skill_share": 1.1904761904761905,
       "share_change": null,
       "emerging_score": 0.2542,
       "confidence": "medium",
@@ -135,7 +135,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.4096385542168677,
+      "skill_share": 2.380952380952381,
       "share_change": null,
       "emerging_score": 0.234,
       "confidence": "low",
@@ -147,7 +147,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.4096385542168677,
+      "skill_share": 2.380952380952381,
       "share_change": null,
       "emerging_score": 0.1266,
       "confidence": "medium",
@@ -245,6 +245,10 @@
       "skill": "Leadership",
       "series": [
         {
+          "month": "2026-06",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-08",
           "demand_index": 5.0
         },
@@ -271,12 +275,16 @@
       "skill": "Collaboration",
       "series": [
         {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-07",
           "demand_index": 4.0
         },
         {
           "month": "2026-08",
-          "demand_index": 8.0
+          "demand_index": 7.0
         },
         {
           "month": "2026-09",
@@ -320,27 +328,27 @@
     {
       "industry": "general",
       "count": 19,
-      "percentage": 22.9
+      "percentage": 22.6
     },
     {
       "industry": "education",
       "count": 19,
-      "percentage": 22.9
+      "percentage": 22.6
     },
     {
       "industry": "technology",
       "count": 17,
-      "percentage": 20.5
+      "percentage": 20.2
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 9.6
+      "percentage": 9.5
     },
     {
       "industry": "healthcare",
       "count": 7,
-      "percentage": 8.4
+      "percentage": 8.3
     },
     {
       "industry": "consulting",
@@ -348,12 +356,12 @@
       "percentage": 6.0
     },
     {
-      "industry": "retail",
-      "count": 3,
-      "percentage": 3.6
+      "industry": "finance",
+      "count": 4,
+      "percentage": 4.8
     },
     {
-      "industry": "finance",
+      "industry": "retail",
       "count": 3,
       "percentage": 3.6
     },
