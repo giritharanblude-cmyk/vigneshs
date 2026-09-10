@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-10T12:35:35.933820",
+  "generated_at": "2026-09-10T09:07:13.130662",
   "total_skills": 31,
   "emerging_skills": 10,
   "increasing_skills": 10,
-  "declining_skills": 3,
-  "new_evidence_items": 86,
-  "sources_analyzed": 135,
+  "declining_skills": 2,
+  "new_evidence_items": 84,
+  "sources_analyzed": 120,
   "industries_tracked": 9,
   "countries_tracked": 2,
   "trends": [
@@ -15,21 +15,9 @@
       "yoy_growth": null,
       "mom_growth": 500.0,
       "rolling_12m_change": null,
-      "skill_share": 9.278350515463918,
+      "skill_share": 10.227272727272728,
       "share_change": null,
       "emerging_score": 0.9169,
-      "confidence": "medium",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "communication",
-      "skill_name": "Communication",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 16.49484536082474,
-      "share_change": null,
-      "emerging_score": 0.6405,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -39,10 +27,22 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.309278350515463,
+      "skill_share": 12.5,
       "share_change": null,
-      "emerging_score": 0.6358,
+      "emerging_score": 0.6611,
       "confidence": "medium",
+      "evidence_type": "calculated"
+    },
+    {
+      "skill_id": "communication",
+      "skill_name": "Communication",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 17.045454545454543,
+      "share_change": null,
+      "emerging_score": 0.6426,
+      "confidence": "high",
       "evidence_type": "calculated"
     },
     {
@@ -51,21 +51,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.24742268041237,
+      "skill_share": 7.954545454545454,
       "share_change": null,
-      "emerging_score": 0.6338,
-      "confidence": "medium",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "decision_making",
-      "skill_name": "Decision-Making",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 9.278350515463918,
-      "share_change": null,
-      "emerging_score": 0.6282,
+      "emerging_score": 0.6239,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -73,11 +61,11 @@
       "skill_id": "leadership",
       "skill_name": "Leadership",
       "yoy_growth": null,
-      "mom_growth": 400.0,
+      "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.216494845360824,
+      "skill_share": 7.954545454545454,
       "share_change": null,
-      "emerging_score": 0.6268,
+      "emerging_score": 0.6068,
       "confidence": "medium",
       "evidence_type": "calculated"
     },
@@ -87,7 +75,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.278350515463918,
+      "skill_share": 10.227272727272728,
       "share_change": null,
       "emerging_score": 0.5999,
       "confidence": "high",
@@ -99,9 +87,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.154639175257731,
+      "skill_share": 5.681818181818182,
       "share_change": null,
       "emerging_score": 0.5995,
+      "confidence": "high",
+      "evidence_type": "calculated"
+    },
+    {
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.090909090909092,
+      "share_change": null,
+      "emerging_score": 0.5936,
       "confidence": "high",
       "evidence_type": "calculated"
     },
@@ -111,7 +111,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.154639175257731,
+      "skill_share": 5.681818181818182,
       "share_change": null,
       "emerging_score": 0.5338,
       "confidence": "high",
@@ -123,22 +123,10 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.123711340206185,
+      "skill_share": 4.545454545454546,
       "share_change": null,
       "emerging_score": 0.512,
       "confidence": "high",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "creativity",
-      "skill_name": "Creativity",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.0309278350515463,
-      "share_change": null,
-      "emerging_score": 0.1645,
-      "confidence": "low",
       "evidence_type": "calculated"
     },
     {
@@ -147,9 +135,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.0309278350515463,
+      "skill_share": 2.272727272727273,
       "share_change": null,
-      "emerging_score": 0.1603,
+      "emerging_score": 0.2336,
       "confidence": "low",
       "evidence_type": "calculated"
     },
@@ -159,7 +147,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.0618556701030926,
+      "skill_share": 2.272727272727273,
       "share_change": null,
       "emerging_score": 0.1262,
       "confidence": "medium",
@@ -171,8 +159,12 @@
       "skill": "AI Literacy",
       "series": [
         {
+          "month": "2026-02",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-09",
-          "demand_index": 8.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -193,10 +185,6 @@
           "demand_index": 34.6968384349829
         },
         {
-          "month": "2026-06",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-08",
           "demand_index": 7.0
         },
@@ -212,15 +200,6 @@
         {
           "month": "2026-09",
           "demand_index": 5.0
-        }
-      ]
-    },
-    {
-      "skill": "Creativity",
-      "series": [
-        {
-          "month": "2026-08",
-          "demand_index": 1.0
         }
       ]
     },
@@ -283,6 +262,10 @@
       "skill": "Teamwork",
       "series": [
         {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-07",
           "demand_index": 1.0
         }
@@ -293,7 +276,7 @@
       "series": [
         {
           "month": "2026-08",
-          "demand_index": 7.0
+          "demand_index": 8.0
         },
         {
           "month": "2026-09",
@@ -306,7 +289,7 @@
       "series": [
         {
           "month": "2026-08",
-          "demand_index": 6.0
+          "demand_index": 5.0
         },
         {
           "month": "2026-09",
@@ -335,55 +318,55 @@
   ],
   "industry_comparison": [
     {
-      "industry": "general",
-      "count": 27,
-      "percentage": 27.8
+      "industry": "education",
+      "count": 23,
+      "percentage": 26.1
     },
     {
-      "industry": "education",
-      "count": 22,
+      "industry": "general",
+      "count": 20,
       "percentage": 22.7
     },
     {
       "industry": "technology",
-      "count": 20,
-      "percentage": 20.6
+      "count": 17,
+      "percentage": 19.3
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 8.2
+      "percentage": 9.1
     },
     {
       "industry": "healthcare",
       "count": 6,
-      "percentage": 6.2
+      "percentage": 6.8
     },
     {
       "industry": "consulting",
       "count": 5,
-      "percentage": 5.2
+      "percentage": 5.7
     },
     {
       "industry": "finance",
       "count": 4,
-      "percentage": 4.1
+      "percentage": 4.5
     },
     {
       "industry": "retail",
       "count": 3,
-      "percentage": 3.1
+      "percentage": 3.4
     },
     {
       "industry": "manufacturing",
       "count": 2,
-      "percentage": 2.1
+      "percentage": 2.3
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 4,
-    "medium": 7,
+    "high": 6,
+    "medium": 5,
     "low": 20
   }
 }
