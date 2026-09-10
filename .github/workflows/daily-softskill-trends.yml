@@ -42,6 +42,7 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: python main.py
 

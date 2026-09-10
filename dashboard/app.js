@@ -16,9 +16,15 @@ async function loadData() {
             const res = await fetch("data/processed/dashboard_data.json");
             DASHBOARD = await res.json();
         } catch (e2) {
-            document.body.innerHTML = "<div style='padding:40px;text-align:center'>" +
-                "<h2>No dashboard data found</h2><p>Run the pipeline to generate data.</p></div>";
-            return;
+            // Try absolute path for GitHub Pages
+            try {
+                const res = await fetch("/vigneshs/data/processed/dashboard_data.json");
+                DASHBOARD = await res.json();
+            } catch (e3) {
+                document.body.innerHTML = "<div style='padding:40px;text-align:center'>" +
+                    "<h2>No dashboard data found</h2><p>Run the pipeline to generate data.</p></div>";
+                return;
+            }
         }
     }
     populateFilters();
@@ -35,7 +41,7 @@ function populateFilters() {
 
     const skills = DASHBOARD.trends.map(t => t.skill_name).filter(Boolean);
     const industries = DASHBOARD.industry_comparison.map(i => i.industry);
-    const countries = DASHBOARD.trends ? [] : [];
+    const countries = [...new Set(DASHBOARD.trends.map(t => t.country).filter(Boolean))];
 
     const skillSel = document.getElementById("filter-skill");
     [...skills].sort().forEach(s => {
@@ -49,6 +55,13 @@ function populateFilters() {
         const opt = document.createElement("option");
         opt.value = i; opt.textContent = i;
         indSel.appendChild(opt);
+    });
+
+    const geoSel = document.getElementById("filter-geography");
+    [...countries].sort().forEach(c => {
+        const opt = document.createElement("option");
+        opt.value = c; opt.textContent = c;
+        geoSel.appendChild(opt);
     });
 }
 
@@ -81,7 +94,7 @@ function renderKPIs() {
 
 function renderCharts() {
     if (!DASHBOARD) return;
-    const trends = [...DASHBOARD.trends].sort((a, b) => b.emerging_score - a.emerging_score);
+    const trends = [...currentTrends()].sort((a, b) => b.emerging_score - a.emerging_score);
     const top = trends.slice(0, 10);
 
     // 1. Top emerging skills
@@ -341,6 +354,7 @@ function sortTable(colIdx) {
 
 function applyFilters() {
     renderTable();
+    renderCharts();
 }
 
 function exportCSV() {

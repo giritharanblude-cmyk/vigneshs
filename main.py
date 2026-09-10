@@ -117,8 +117,9 @@ def run_pipeline(send_email: bool = True) -> dict:
         # Step 10: Notify
         if send_email:
             from src.reporting.emailer import send_daily_email
-            recipient = config.pipeline.get("pipeline", {}).get("email", {}).get("recipient",
-                        "shrivigneshr15@gmail.com")
+            recipient = os.getenv("RECIPIENT_EMAIL",
+                        config.pipeline.get("pipeline", {}).get("email", {}).get("recipient",
+                        "vksk416@gmail.com"))
             send_daily_email(today, report_path, recipient)
 
         completed = datetime.now(timezone.utc)

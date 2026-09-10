@@ -104,4 +104,7 @@ def send_daily_email(date_str: str, report_path: Path, recipient: str) -> bool:
     subject = f"Daily AI Soft-Skills Intelligence — {date_str}"
     html = build_email_html(date_str, report_lines, dashboard_url)
 
-    return send_email(subject, html, recipient, smtp_host, smtp_port, username, password)
+    result = send_email(subject, html, recipient, smtp_host, smtp_port, username, password)
+    if result:
+        print(f"[email] Daily report sent to {recipient}")
+    return result

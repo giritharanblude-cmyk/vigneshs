@@ -1,0 +1,98 @@
+skill,industry,geography,period,metric,value,unit,evidence_type,source,source_tier
+AI Literacy,technology,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+AI Literacy,healthcare,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+AI Literacy,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+AI Literacy,government,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,technology,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,finance,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,retail,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,technology,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,finance,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,retail,United States,2026-09,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,healthcare,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Decision-Making,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Decision-Making,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Problem Solving,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Problem Solving,healthcare,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Problem Solving,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Problem Solving,consulting,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Problem Solving,government,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,healthcare,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,consulting,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Communication,government,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Adaptability,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Adaptability,healthcare,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Adaptability,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Adaptability,consulting,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Adaptability,government,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Leadership,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Leadership,healthcare,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Leadership,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Leadership,consulting,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Leadership,government,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Decision-Making,manufacturing,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,finance,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Negotiation,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Negotiation,retail,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Negotiation,consulting,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Negotiation,government,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,manufacturing,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Resilience,government,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Collaboration,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Decision-Making,technology,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Decision-Making,education,United States,2026-08,mention_frequency,1.0,mention,qualitative,IEEE Spectrum AI,2
+Decision-Making,finance,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Decision-Making,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Communication,general,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Presentation,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Decision-Making,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Presentation,education,Global,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Collaboration,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Collaboration,government,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Presentation,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Communication,technology,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Communication,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Presentation,technology,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Presentation,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,arXiv CS.AI,2
+Adaptability,general,United States,2026-07,mention_frequency,1.0,mention,qualitative,Microsoft Work Lab,3
+Learning Agility,general,Global,2024-12,tertiary_enrollment_rate,35.0803985595703,percent,observed,World Bank,1
+Learning Agility,general,Global,2024-12,labor_force_advanced_education,80.0841388060593,percent,observed,World Bank,1
+Analytical Thinking,general,Global,2023-12,research_output,3271296.24439727,count,observed,World Bank,1
+Digital Literacy,general,Global,2025-12,internet_users,30.4,percent,observed,World Bank,1
+Digital Literacy,general,Global,2025-12,mobile_subscriptions,93.1,per100,observed,World Bank,1
+Communication,general,Global,2025-12,services_employment_share,34.6968384349829,percent,observed,World Bank,1
+Adaptability,general,Global,2024-12,high_tech_exports,5.80004415840251,percent,observed,World Bank,1
+Resilience,general,Global,2025-12,unemployment_rate,7.53923324035891,percent,observed,World Bank,1
+Adaptability,general,Global,2025-12,labor_force_participation,68.8697192431851,percent,observed,World Bank,1
+Adaptability,general,United States,2026-08,employment_level,159075.0,thousands,observed,U.S. Bureau of Labor Statistics,1
+AI Collaboration,general,United States,2023-12,mention_frequency,1.0,mention,qualitative,Bing,4
+Collaboration,general,United States,2023-12,mention_frequency,1.0,mention,qualitative,Bing,4
+Human-AI Collaboration,general,United States,2023-12,mention_frequency,1.0,mention,qualitative,Bing,4
+Communication,general,Global,2026-06,mention_frequency,1.0,mention,qualitative,Bing,4
+Leadership,general,Global,2026-06,mention_frequency,1.0,mention,qualitative,Bing,4
+AI Collaboration,general,Global,2023-12,mention_frequency,1.0,mention,qualitative,Bing,4
+Collaboration,general,Global,2023-12,mention_frequency,1.0,mention,qualitative,Bing,4
+Human-AI Collaboration,general,Global,2023-12,mention_frequency,1.0,mention,qualitative,Bing,4
+Adaptability,general,United States,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+Leadership,general,United States,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+Collaboration,general,United States,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+Teamwork,general,United States,2026-07,mention_frequency,1.0,mention,qualitative,Bing,4
+AI Literacy,education,United States,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+AI Literacy,general,United States,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+AI Literacy,technology,Global,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+AI Literacy,technology,United States,2026-09,mention_frequency,1.0,mention,qualitative,Bing,4
+Leadership,technology,Global,2025-07,mention_frequency,1.0,mention,qualitative,Bing,4
+Creativity,general,United States,2026-08,mention_frequency,1.0,mention,qualitative,Bing,4
+Decision-Making,general,United States,2026-08,mention_frequency,1.0,mention,qualitative,Bing,4
