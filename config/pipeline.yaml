@@ -27,7 +27,7 @@ pipeline:
     emerging_skill_threshold: 0.5
 
   email:
-    recipient: shrivigneshr15@gmail.com
+    recipient: vksk416@gmail.com
     subject_template: "Daily AI Soft-Skills Intelligence — {date}"
 
   dashboard:

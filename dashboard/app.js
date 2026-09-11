@@ -32,6 +32,7 @@ async function loadData() {
     renderCharts();
     renderTable();
     renderNewSkills();
+    renderSources();
     document.getElementById("generated-at").textContent =
         DASHBOARD.generated_at ? new Date(DASHBOARD.generated_at).toLocaleString() : "--";
 }
@@ -303,9 +304,13 @@ function renderTable() {
     if (!DASHBOARD) return;
 
     const rows = currentTrends().sort((a, b) => b.emerging_score - a.emerging_score);
-    rows.forEach(t => {
+    rows.forEach((t, idx) => {
         const tr = document.createElement("tr");
         const fmt = v => (v != null && !isNaN(v)) ? v.toFixed(1) + "%" : "--";
+        const nSrc = t.source_count != null ? t.source_count : (t.sources ? t.sources.length : 0);
+        const srcCell = nSrc
+            ? `${nSrc} <a href="#" onclick="showSkillSources(${idx}); return false;">view</a>`
+            : "--";
         tr.innerHTML = `
             <td>${escapeHtml(t.skill_name)}</td>
             <td>${t.emerging_score != null ? t.emerging_score.toFixed(3) : "--"}</td>
@@ -315,6 +320,7 @@ function renderTable() {
             <td>${(t.skill_share != null && !isNaN(t.skill_share)) ? t.skill_share.toFixed(1) + "%" : "--"}</td>
             <td><span class="badge badge-${t.confidence || "low"}">${escapeHtml(t.confidence || "low")}</span></td>
             <td>${escapeHtml(t.evidence_type || "qualitative")}</td>
+            <td class="src-cell">${srcCell}</td>
         `;
         tbody.appendChild(tr);
     });
@@ -336,6 +342,26 @@ function renderNewSkills() {
     }
 }
 
+function renderSources() {
+    const container = document.getElementById("sources-list");
+    const countEl = document.getElementById("sources-count");
+    const empty = document.getElementById("sources-empty");
+    if (!container) return;
+    if (!DASHBOARD || !DASHBOARD.sources || !DASHBOARD.sources.length) {
+        countEl.textContent = "0";
+        container.innerHTML = "";
+        empty.style.display = "block";
+        return;
+    }
+    const fSkill = document.getElementById("filter-skill").value;
+    const list = fSkill === "all"
+        ? DASHBOARD.sources
+        : DASHBOARD.sources.filter(s => s.skills && s.skills.includes(fSkill));
+    countEl.textContent = list.length;
+    empty.style.display = "none";
+    container.innerHTML = list.map(s => citationHtml(s, true)).join("");
+}
+
 let sortDirection = 1;
 function sortTable(colIdx) {
     sortDirection *= -1;
@@ -355,6 +381,7 @@ function sortTable(colIdx) {
 function applyFilters() {
     renderTable();
     renderCharts();
+    renderSources();
 }
 
 function exportCSV() {
@@ -374,9 +401,7 @@ function exportCSV() {
 }
 
 function showSources() {
-    const modal = document.getElementById("source-modal");
-    const content = document.getElementById("source-modal-content");
-    content.innerHTML = `
+    openSourcesModal("Source Methodology", `
         <p><strong>Data provenance:</strong></p>
         <p>Skills are scored via a weighted Emerging Skill Score model with weights:
         demand growth (30%), hiring frequency (25%), cross-industry (15%), cross-country (10%),
@@ -389,7 +414,57 @@ function showSources() {
             <li><strong>Qualitative</strong> — text/research supported</li>
         </ul>
         <p>Report window: rolling 12 months. Numbers are never fabricated from insufficient data.</p>
-    `;
+        <p><strong>Source tiers:</strong></p>
+        <ul>
+            <li><strong>Tier 1</strong> — Primary/official (OECD, ILO, WEF, World Bank, BLS, ...)</li>
+            <li><strong>Tier 2</strong> — High-quality research (Nature, IEEE, ACM, arXiv, ...)</li>
+            <li><strong>Tier 3</strong> — Structured market evidence (LinkedIn, Coursera, ...)</li>
+            <li><strong>Tier 4</strong> — Discovery-only (news, blogs, magazines)</li>
+        </ul>`);
+}
+
+function tierLabel(tier) {
+    const map = {
+        1: "Tier 1 · Official",
+        2: "Tier 2 · Research",
+        3: "Tier 3 · Market evidence",
+        4: "Tier 4 · Discovery"
+    };
+    return map[tier] || ("Tier " + tier);
+}
+
+function citationHtml(s, showSkills) {
+    const link = s.url
+        ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.title || s.organization || "Untitled source")}</a>`
+        : escapeHtml(s.title || s.organization || "Untitled source");
+    const skills = (showSkills && s.skills && s.skills.length)
+        ? `<div class="citation-skills">${s.skills.map(k => `<span class="skill-tag">${escapeHtml(k)}</span>`).join("")}</div>`
+        : "";
+    return `
+        <div class="citation">
+            <div class="citation-title">${link}</div>
+            <div class="citation-meta">${escapeHtml(s.organization || "")} · <span class="tier tier-${s.source_tier || 4}">${tierLabel(s.source_tier || 4)}</span>${s.publication_date ? " · " + escapeHtml(s.publication_date) : ""}</div>
+            ${s.url ? `<div class="citation-url">${escapeHtml(s.url)}</div>` : ""}
+            ${skills}
+        </div>`;
+}
+
+function listSourcesHtml(sources) {
+    if (!sources || !sources.length) return "<p>No source links recorded for this skill.</p>";
+    return sources.map(s => citationHtml(s, false)).join("");
+}
+
+function showSkillSources(idx) {
+    const rows = currentTrends().sort((a, b) => b.emerging_score - a.emerging_score);
+    const t = rows[idx];
+    if (!t) return;
+    openSourcesModal(`Sources for ${t.skill_name} (${t.source_count || 0})`, listSourcesHtml(t.sources));
+}
+
+function openSourcesModal(title, bodyHtml) {
+    const modal = document.getElementById("source-modal");
+    document.getElementById("source-modal-title").textContent = title || "Sources";
+    document.getElementById("source-modal-content").innerHTML = bodyHtml;
     modal.style.display = "block";
 }
 
@@ -402,6 +477,10 @@ function escapeHtml(s) {
     const div = document.createElement("div");
     div.textContent = s;
     return div.innerHTML;
+}
+
+function escapeAttr(s) {
+    return escapeHtml(s).replace(/"/g, "&quot;");
 }
 
 window.onclick = function(e) {

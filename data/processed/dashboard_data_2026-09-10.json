@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-10T13:43:59.366386",
+  "generated_at": "2026-09-11T12:24:31.140328",
   "total_skills": 31,
   "emerging_skills": 10,
   "increasing_skills": 10,
-  "declining_skills": 2,
-  "new_evidence_items": 82,
-  "sources_analyzed": 120,
+  "declining_skills": 3,
+  "new_evidence_items": 86,
+  "sources_analyzed": 135,
   "industries_tracked": 9,
   "countries_tracked": 2,
   "trends": [
@@ -15,11 +15,62 @@
       "yoy_growth": null,
       "mom_growth": 500.0,
       "rolling_12m_change": null,
-      "skill_share": 10.465116279069768,
+      "skill_share": 9.278350515463918,
       "share_change": null,
-      "emerging_score": 0.9169,
+      "emerging_score": 0.9168,
       "confidence": "medium",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 6,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "4152ae8a32c29445",
+          "organization": "IEEE Spectrum AI",
+          "title": "What It Takes to Be an Adaptable Engineer",
+          "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+          "publication_date": "2026-08-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "bfdd49c142b9efdf",
+          "organization": "Microsoft Work Lab",
+          "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+          "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+          "publication_date": "2026-07-13",
+          "source_tier": 3
+        },
+        {
+          "source_id": "83c4918451fff09a",
+          "organization": "Bing",
+          "title": "EY offers bonuses of up to $25,000 for skills AI can't replace",
+          "url": "https://www.peoplematters.in/news/ai-and-emerging-tech/ey-offers-bonuses-of-up-to-dollar25000-for-skills-ai-cant-replace-51828",
+          "publication_date": "2026-09-01",
+          "source_tier": 4
+        }
+      ]
     },
     {
       "skill_id": "communication",
@@ -27,11 +78,70 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.441860465116278,
+      "skill_share": 16.49484536082474,
       "share_change": null,
-      "emerging_score": 0.6426,
-      "confidence": "high",
-      "evidence_type": "calculated"
+      "emerging_score": 0.6404,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 7,
+      "sources": [
+        {
+          "source_id": "7d321100ff62c45c",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "2bebe46945d08cfa",
+          "organization": "arXiv CS.AI",
+          "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+          "url": "https://arxiv.org/abs/2609.09233",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c3806159ceac9b52",
+          "organization": "arXiv CS.AI",
+          "title": "From State Synchronization to Cognitive Self-Evolution: An Operational Architecture for Cognitive Digital Twins",
+          "url": "https://arxiv.org/abs/2609.09625",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "3c21ebd8e6ff72da",
+          "organization": "IEEE Spectrum AI",
+          "title": "Cash In on the AI Boom by Renting Out Your Spare Compute",
+          "url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
+          "publication_date": "2026-09-01",
+          "source_tier": 2
+        },
+        {
+          "source_id": "eb6e2811ce512e06",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+          "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+          "publication_date": "2026-08-25",
+          "source_tier": 2
+        },
+        {
+          "source_id": "4152ae8a32c29445",
+          "organization": "IEEE Spectrum AI",
+          "title": "What It Takes to Be an Adaptable Engineer",
+          "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+          "publication_date": "2026-08-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "0c28cad3568c62fa",
+          "organization": "Bing",
+          "title": "AI replaces some entry-level jobs, but employers say communication, leadership and professionalism will decide who gets hired: Survey",
+          "url": "https://timesofindia.indiatimes.com/education/news/ai-replaces-some-entry-level-jobs-but-employers-say-communication-leadership-and-professionalism-will-decide-who-gets-hired-survey/articleshow/132047255.cms",
+          "publication_date": "2026-06-28",
+          "source_tier": 4
+        }
+      ]
     },
     {
       "skill_id": "collaboration",
@@ -39,59 +149,70 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 11.627906976744185,
+      "skill_share": 10.309278350515463,
       "share_change": null,
-      "emerging_score": 0.6358,
+      "emerging_score": 0.6357,
       "confidence": "medium",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "leadership",
-      "skill_name": "Leadership",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 8.13953488372093,
-      "share_change": null,
-      "emerging_score": 0.6068,
-      "confidence": "medium",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "resilience",
-      "skill_name": "Resilience",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 10.465116279069768,
-      "share_change": null,
-      "emerging_score": 0.5999,
-      "confidence": "high",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "problem_solving",
-      "skill_name": "Problem Solving",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.813953488372093,
-      "share_change": null,
-      "emerging_score": 0.5995,
-      "confidence": "high",
-      "evidence_type": "calculated"
-    },
-    {
-      "skill_id": "decision_making",
-      "skill_name": "Decision-Making",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 9.30232558139535,
-      "share_change": null,
-      "emerging_score": 0.5936,
-      "confidence": "high",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 7,
+      "sources": [
+        {
+          "source_id": "73a18228c57e427e",
+          "organization": "arXiv CS.AI",
+          "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+          "url": "https://arxiv.org/abs/2609.09565",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "a0b001d3f2c95076",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Used to Verify Toughest Mathematics Proof Yet",
+          "url": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
+          "publication_date": "2026-08-17",
+          "source_tier": 2
+        },
+        {
+          "source_id": "d048e893068846f5",
+          "organization": "IEEE Spectrum AI",
+          "title": "Pakistani Judges Give Their Verdict on JudgeGPT",
+          "url": "https://spectrum.ieee.org/judgegpt-experiment",
+          "publication_date": "2026-08-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ce32b33e64bb5710",
+          "organization": "IEEE Spectrum AI",
+          "title": "Should Researchers Write Papers for AI Instead of People?",
+          "url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
+          "publication_date": "2026-08-05",
+          "source_tier": 2
+        },
+        {
+          "source_id": "83c4918451fff09a",
+          "organization": "Bing",
+          "title": "EY offers bonuses of up to $25,000 for skills AI can't replace",
+          "url": "https://www.peoplematters.in/news/ai-and-emerging-tech/ey-offers-bonuses-of-up-to-dollar25000-for-skills-ai-cant-replace-51828",
+          "publication_date": "2026-09-01",
+          "source_tier": 4
+        },
+        {
+          "source_id": "2375a5a28c2c0cef",
+          "organization": "Bing",
+          "title": "37% of employers want to increase human-AI collaboration: Survey",
+          "url": "https://www.financialexpress.com/business/digital-transformation-37-of-employers-want-to-increase-human-ai-collaboration-survey-3348647/",
+          "publication_date": "2023-12-27",
+          "source_tier": 4
+        },
+        {
+          "source_id": "014ad02fd944bd81",
+          "organization": "Bing",
+          "title": "37% employers aim to increase human-AI collaboration by 2024; align with GenZ expectations: Indeed survey",
+          "url": "https://www.businesstoday.in/latest/trends/story/37-employers-aim-to-increase-human-ai-collaboration-by-2024-align-with-genz-expectations-indeed-survey-410946-2023-12-27",
+          "publication_date": "2023-12-27",
+          "source_tier": 4
+        }
+      ]
     },
     {
       "skill_id": "ai_literacy",
@@ -99,11 +220,226 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 6.976744186046512,
+      "skill_share": 8.24742268041237,
       "share_change": null,
-      "emerging_score": 0.5901,
+      "emerging_score": 0.6336,
       "confidence": "medium",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 5,
+      "sources": [
+        {
+          "source_id": "2051083e9979c0bd",
+          "organization": "IEEE Spectrum AI",
+          "title": "China\u2019s Regulators Take Aim at \u201cAI Boyfriends\u201d",
+          "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+          "publication_date": "2026-09-09",
+          "source_tier": 2
+        },
+        {
+          "source_id": "b332113a88ca1500",
+          "organization": "Bing",
+          "title": "Education Technology Trends 2027: AI Tutors, Skills, Digital Learning",
+          "url": "https://www.analyticsinsight.net/education/education-technology-trends-2027-ai-tutors-skills-digital-learning",
+          "publication_date": "2026-09-09",
+          "source_tier": 4
+        },
+        {
+          "source_id": "6f948fbe4ade1969",
+          "organization": "Bing",
+          "title": "TP in the Philippines integrates AI literacy training into TP Skills Training to Employment Program (STEP)",
+          "url": "http://www.mindanaotimes.com.ph/tp-in-the-philippines-integrates-ai-literacy-training-into-tp-skills-training-to-employment-program-step/",
+          "publication_date": "2026-09-09",
+          "source_tier": 4
+        },
+        {
+          "source_id": "1267f890b9180767",
+          "organization": "Bing",
+          "title": "Missouri education agencies partner with Google to provide free AI training",
+          "url": "https://www.dailyjournalonline.com/news/mdhewd-launches-nations-first-usdol-aligned-ai-literacy-course-collection-in-partnership-with-coursera-55d9ae47",
+          "publication_date": "2026-09-08",
+          "source_tier": 4
+        },
+        {
+          "source_id": "904b88d81e1fa7e4",
+          "organization": "Bing",
+          "title": "AI literacy: As AI goes mainstream, India's workforce faces new skills test",
+          "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-literacy-as-ai-goes-mainstream-india-s-workforce-faces-new-skills-test-126090100909_1.html",
+          "publication_date": "2026-09-01",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.278350515463918,
+      "share_change": null,
+      "emerging_score": 0.628,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 6,
+      "sources": [
+        {
+          "source_id": "4b116050a07b7cca",
+          "organization": "arXiv CS.AI",
+          "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+          "url": "https://arxiv.org/abs/2609.09226",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c9b0fe5c286ba268",
+          "organization": "arXiv CS.AI",
+          "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+          "url": "https://arxiv.org/abs/2609.09418",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "8909956e7b6528bf",
+          "organization": "IEEE Spectrum AI",
+          "title": "Self-Driving Cars Could Someday Take Requests",
+          "url": "https://spectrum.ieee.org/autonomous-vehicles-motion-planner-llm",
+          "publication_date": "2026-08-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "249211fd409c639a",
+          "organization": "IEEE Spectrum AI",
+          "title": "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
+          "url": "https://event.on24.com/wcc/r/5460332/DAFEFF7A68EE900DEA7A14356089B553?utm_source=IEEE&utm_medium=site&utm_campaign=922",
+          "publication_date": "2026-08-21",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ce32b33e64bb5710",
+          "organization": "IEEE Spectrum AI",
+          "title": "Should Researchers Write Papers for AI Instead of People?",
+          "url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
+          "publication_date": "2026-08-05",
+          "source_tier": 2
+        },
+        {
+          "source_id": "cfe4b345c25359a4",
+          "organization": "Bing",
+          "title": "Why AI is Increasing Demand for Strategic Marketing Skills While Automating Routine Tasks",
+          "url": "https://www.analyticsinsight.net/artificial-intelligence/why-ai-is-increasing-demand-for-strategic-marketing-skills-while-automating-routine-tasks",
+          "publication_date": "2026-08-29",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "leadership",
+      "skill_name": "Leadership",
+      "yoy_growth": null,
+      "mom_growth": 400.0,
+      "rolling_12m_change": null,
+      "skill_share": 7.216494845360824,
+      "share_change": null,
+      "emerging_score": 0.6267,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "4152ae8a32c29445",
+          "organization": "IEEE Spectrum AI",
+          "title": "What It Takes to Be an Adaptable Engineer",
+          "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+          "publication_date": "2026-08-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "83c4918451fff09a",
+          "organization": "Bing",
+          "title": "EY offers bonuses of up to $25,000 for skills AI can't replace",
+          "url": "https://www.peoplematters.in/news/ai-and-emerging-tech/ey-offers-bonuses-of-up-to-dollar25000-for-skills-ai-cant-replace-51828",
+          "publication_date": "2026-09-01",
+          "source_tier": 4
+        },
+        {
+          "source_id": "0c28cad3568c62fa",
+          "organization": "Bing",
+          "title": "AI replaces some entry-level jobs, but employers say communication, leadership and professionalism will decide who gets hired: Survey",
+          "url": "https://timesofindia.indiatimes.com/education/news/ai-replaces-some-entry-level-jobs-but-employers-say-communication-leadership-and-professionalism-will-decide-who-gets-hired-survey/articleshow/132047255.cms",
+          "publication_date": "2026-06-28",
+          "source_tier": 4
+        },
+        {
+          "source_id": "59f2aecabc948ccd",
+          "organization": "Bing",
+          "title": "Are you leading with intelligence, or artificial intelligence? 7 skills that matter now",
+          "url": "https://timesofindia.indiatimes.com/education/news/are-you-leading-with-intelligence-or-artificial-intelligence-7-skills-that-matter-now/articleshow/122813861.cms",
+          "publication_date": "2025-07-21",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "resilience",
+      "skill_name": "Resilience",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.278350515463918,
+      "share_change": null,
+      "emerging_score": 0.5998,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "78a961e368730149",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "3c21ebd8e6ff72da",
+          "organization": "IEEE Spectrum AI",
+          "title": "Cash In on the AI Boom by Renting Out Your Spare Compute",
+          "url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
+          "publication_date": "2026-09-01",
+          "source_tier": 2
+        },
+        {
+          "source_id": "13488ad5517a99dc",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+          "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+          "publication_date": "2026-08-05",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "problem_solving",
+      "skill_name": "Problem Solving",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 5.154639175257731,
+      "share_change": null,
+      "emerging_score": 0.5994,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "4152ae8a32c29445",
+          "organization": "IEEE Spectrum AI",
+          "title": "What It Takes to Be an Adaptable Engineer",
+          "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+          "publication_date": "2026-08-24",
+          "source_tier": 2
+        }
+      ]
     },
     {
       "skill_id": "presentation",
@@ -111,11 +447,46 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.813953488372093,
+      "skill_share": 5.154639175257731,
       "share_change": null,
-      "emerging_score": 0.5338,
+      "emerging_score": 0.5336,
       "confidence": "high",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "c9b0fe5c286ba268",
+          "organization": "arXiv CS.AI",
+          "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+          "url": "https://arxiv.org/abs/2609.09418",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "f31c071688fb5f6e",
+          "organization": "arXiv CS.AI",
+          "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+          "url": "https://arxiv.org/abs/2609.09448",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "b80786a4d0384b5f",
+          "organization": "arXiv CS.AI",
+          "title": "CityPlanner: A Sandbox Agent for Executable Urban Planning",
+          "url": "https://arxiv.org/abs/2609.09578",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c3806159ceac9b52",
+          "organization": "arXiv CS.AI",
+          "title": "From State Synchronization to Cognitive Self-Evolution: An Operational Architecture for Cognitive Digital Twins",
+          "url": "https://arxiv.org/abs/2609.09625",
+          "publication_date": "2026-09-10",
+          "source_tier": 2
+        }
+      ]
     },
     {
       "skill_id": "negotiation",
@@ -123,11 +494,45 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.651162790697675,
+      "skill_share": 4.123711340206185,
       "share_change": null,
-      "emerging_score": 0.512,
+      "emerging_score": 0.5119,
       "confidence": "high",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "56df82c970bbfb56",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Safety Regulations in the U.S. Could Give Hackers an Edge",
+          "url": "https://spectrum.ieee.org/hugging-face-openai-cyberattack",
+          "publication_date": "2026-08-06",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "creativity",
+      "skill_name": "Creativity",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.0309278350515463,
+      "share_change": null,
+      "emerging_score": 0.1644,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "cfe4b345c25359a4",
+          "organization": "Bing",
+          "title": "Why AI is Increasing Demand for Strategic Marketing Skills While Automating Routine Tasks",
+          "url": "https://www.analyticsinsight.net/artificial-intelligence/why-ai-is-increasing-demand-for-strategic-marketing-skills-while-automating-routine-tasks",
+          "publication_date": "2026-08-29",
+          "source_tier": 4
+        }
+      ]
     },
     {
       "skill_id": "teamwork",
@@ -135,11 +540,22 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.3255813953488373,
+      "skill_share": 1.0309278350515463,
       "share_change": null,
-      "emerging_score": 0.2336,
+      "emerging_score": 0.1601,
       "confidence": "low",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "a10d71013abba3bc",
+          "organization": "Bing",
+          "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+          "publication_date": "2026-07-08",
+          "source_tier": 4
+        }
+      ]
     },
     {
       "skill_id": "digital_literacy",
@@ -147,11 +563,30 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.3255813953488373,
+      "skill_share": 2.0618556701030926,
       "share_change": null,
-      "emerging_score": 0.1262,
+      "emerging_score": 0.1261,
       "confidence": "medium",
-      "evidence_type": "calculated"
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "9aabeb9fcbb13fb8",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+          "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "9303d612853f978f",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+          "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        }
+      ]
     }
   ],
   "monthly_data": [
@@ -159,12 +594,8 @@
       "skill": "AI Literacy",
       "series": [
         {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-09",
-          "demand_index": 5.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -185,6 +616,10 @@
           "demand_index": 34.6968384349829
         },
         {
+          "month": "2026-06",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-08",
           "demand_index": 7.0
         },
@@ -200,6 +635,15 @@
         {
           "month": "2026-09",
           "demand_index": 5.0
+        }
+      ]
+    },
+    {
+      "skill": "Creativity",
+      "series": [
+        {
+          "month": "2026-08",
+          "demand_index": 1.0
         }
       ]
     },
@@ -262,10 +706,6 @@
       "skill": "Teamwork",
       "series": [
         {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-07",
           "demand_index": 1.0
         }
@@ -289,7 +729,7 @@
       "series": [
         {
           "month": "2026-08",
-          "demand_index": 5.0
+          "demand_index": 6.0
         },
         {
           "month": "2026-09",
@@ -318,55 +758,512 @@
   ],
   "industry_comparison": [
     {
-      "industry": "education",
-      "count": 23,
-      "percentage": 26.7
+      "industry": "general",
+      "count": 27,
+      "percentage": 27.8
     },
     {
-      "industry": "general",
-      "count": 18,
-      "percentage": 20.9
+      "industry": "education",
+      "count": 22,
+      "percentage": 22.7
     },
     {
       "industry": "technology",
-      "count": 17,
-      "percentage": 19.8
+      "count": 20,
+      "percentage": 20.6
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 9.3
+      "percentage": 8.2
     },
     {
       "industry": "healthcare",
       "count": 6,
-      "percentage": 7.0
+      "percentage": 6.2
     },
     {
       "industry": "consulting",
       "count": 5,
-      "percentage": 5.8
+      "percentage": 5.2
     },
     {
       "industry": "finance",
       "count": 4,
-      "percentage": 4.7
+      "percentage": 4.1
     },
     {
       "industry": "retail",
       "count": 3,
-      "percentage": 3.5
+      "percentage": 3.1
     },
     {
       "industry": "manufacturing",
       "count": 2,
-      "percentage": 2.3
+      "percentage": 2.1
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 6,
-    "medium": 5,
+    "high": 4,
+    "medium": 7,
     "low": 20
-  }
+  },
+  "sources": [
+    {
+      "source_id": "c18a7b729bc1a00c",
+      "organization": "U.S. Bureau of Labor Statistics",
+      "title": "BLS Employment Data (CES0000000001)",
+      "url": "https://data.bls.gov/timeseries/CES0000000001",
+      "publication_date": "2026-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "7220b394d96e71b9",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+      "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9aabeb9fcbb13fb8",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+      "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "40119199f99cb3cf",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_advanced_education (SL.TLF.ADVN.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.ADVN.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "f6615c9f50d92d4b",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9303d612853f978f",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+      "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "c560179944135ecb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 research_output (IP.JRN.ARTC.SC)",
+      "url": "https://data.worldbank.org/indicator/IP.JRN.ARTC.SC",
+      "publication_date": "2023-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Analytical Thinking"
+      ]
+    },
+    {
+      "source_id": "7d321100ff62c45c",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "185972c0b1cb5cbb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 tertiary_enrollment_rate (SE.TER.ENRR)",
+      "url": "https://data.worldbank.org/indicator/SE.TER.ENRR",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "78a961e368730149",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "eb6e2811ce512e06",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+      "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+      "publication_date": "2026-08-25",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "56df82c970bbfb56",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Safety Regulations in the U.S. Could Give Hackers an Edge",
+      "url": "https://spectrum.ieee.org/hugging-face-openai-cyberattack",
+      "publication_date": "2026-08-06",
+      "source_tier": 2,
+      "skills": [
+        "Negotiation"
+      ]
+    },
+    {
+      "source_id": "a0b001d3f2c95076",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Used to Verify Toughest Mathematics Proof Yet",
+      "url": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
+      "publication_date": "2026-08-17",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "4b116050a07b7cca",
+      "organization": "arXiv CS.AI",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "3c21ebd8e6ff72da",
+      "organization": "IEEE Spectrum AI",
+      "title": "Cash In on the AI Boom by Renting Out Your Spare Compute",
+      "url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
+      "publication_date": "2026-09-01",
+      "source_tier": 2,
+      "skills": [
+        "Communication",
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "2051083e9979c0bd",
+      "organization": "IEEE Spectrum AI",
+      "title": "China\u2019s Regulators Take Aim at \u201cAI Boyfriends\u201d",
+      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+      "publication_date": "2026-09-09",
+      "source_tier": 2,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "b80786a4d0384b5f",
+      "organization": "arXiv CS.AI",
+      "title": "CityPlanner: A Sandbox Agent for Executable Urban Planning",
+      "url": "https://arxiv.org/abs/2609.09578",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "f31c071688fb5f6e",
+      "organization": "arXiv CS.AI",
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "url": "https://arxiv.org/abs/2609.09448",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "c3806159ceac9b52",
+      "organization": "arXiv CS.AI",
+      "title": "From State Synchronization to Cognitive Self-Evolution: An Operational Architecture for Cognitive Digital Twins",
+      "url": "https://arxiv.org/abs/2609.09625",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Communication",
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "13488ad5517a99dc",
+      "organization": "IEEE Spectrum AI",
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "publication_date": "2026-08-05",
+      "source_tier": 2,
+      "skills": [
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "73a18228c57e427e",
+      "organization": "arXiv CS.AI",
+      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+      "url": "https://arxiv.org/abs/2609.09565",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "d048e893068846f5",
+      "organization": "IEEE Spectrum AI",
+      "title": "Pakistani Judges Give Their Verdict on JudgeGPT",
+      "url": "https://spectrum.ieee.org/judgegpt-experiment",
+      "publication_date": "2026-08-12",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "8909956e7b6528bf",
+      "organization": "IEEE Spectrum AI",
+      "title": "Self-Driving Cars Could Someday Take Requests",
+      "url": "https://spectrum.ieee.org/autonomous-vehicles-motion-planner-llm",
+      "publication_date": "2026-08-24",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "ce32b33e64bb5710",
+      "organization": "IEEE Spectrum AI",
+      "title": "Should Researchers Write Papers for AI Instead of People?",
+      "url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
+      "publication_date": "2026-08-05",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "249211fd409c639a",
+      "organization": "IEEE Spectrum AI",
+      "title": "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
+      "url": "https://event.on24.com/wcc/r/5460332/DAFEFF7A68EE900DEA7A14356089B553?utm_source=IEEE&utm_medium=site&utm_campaign=922",
+      "publication_date": "2026-08-21",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "2bebe46945d08cfa",
+      "organization": "arXiv CS.AI",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "c9b0fe5c286ba268",
+      "organization": "arXiv CS.AI",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "url": "https://arxiv.org/abs/2609.09418",
+      "publication_date": "2026-09-10",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making",
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "4152ae8a32c29445",
+      "organization": "IEEE Spectrum AI",
+      "title": "What It Takes to Be an Adaptable Engineer",
+      "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+      "publication_date": "2026-08-24",
+      "source_tier": 2,
+      "skills": [
+        "Adaptability",
+        "Communication",
+        "Leadership",
+        "Problem Solving"
+      ]
+    },
+    {
+      "source_id": "bfdd49c142b9efdf",
+      "organization": "Microsoft Work Lab",
+      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+      "publication_date": "2026-07-13",
+      "source_tier": 3,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "014ad02fd944bd81",
+      "organization": "Bing",
+      "title": "37% employers aim to increase human-AI collaboration by 2024; align with GenZ expectations: Indeed survey",
+      "url": "https://www.businesstoday.in/latest/trends/story/37-employers-aim-to-increase-human-ai-collaboration-by-2024-align-with-genz-expectations-indeed-survey-410946-2023-12-27",
+      "publication_date": "2023-12-27",
+      "source_tier": 4,
+      "skills": [
+        "AI Collaboration",
+        "Collaboration",
+        "Human-AI Collaboration"
+      ]
+    },
+    {
+      "source_id": "2375a5a28c2c0cef",
+      "organization": "Bing",
+      "title": "37% of employers want to increase human-AI collaboration: Survey",
+      "url": "https://www.financialexpress.com/business/digital-transformation-37-of-employers-want-to-increase-human-ai-collaboration-survey-3348647/",
+      "publication_date": "2023-12-27",
+      "source_tier": 4,
+      "skills": [
+        "AI Collaboration",
+        "Collaboration",
+        "Human-AI Collaboration"
+      ]
+    },
+    {
+      "source_id": "904b88d81e1fa7e4",
+      "organization": "Bing",
+      "title": "AI literacy: As AI goes mainstream, India's workforce faces new skills test",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-literacy-as-ai-goes-mainstream-india-s-workforce-faces-new-skills-test-126090100909_1.html",
+      "publication_date": "2026-09-01",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "0c28cad3568c62fa",
+      "organization": "Bing",
+      "title": "AI replaces some entry-level jobs, but employers say communication, leadership and professionalism will decide who gets hired: Survey",
+      "url": "https://timesofindia.indiatimes.com/education/news/ai-replaces-some-entry-level-jobs-but-employers-say-communication-leadership-and-professionalism-will-decide-who-gets-hired-survey/articleshow/132047255.cms",
+      "publication_date": "2026-06-28",
+      "source_tier": 4,
+      "skills": [
+        "Communication",
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "59f2aecabc948ccd",
+      "organization": "Bing",
+      "title": "Are you leading with intelligence, or artificial intelligence? 7 skills that matter now",
+      "url": "https://timesofindia.indiatimes.com/education/news/are-you-leading-with-intelligence-or-artificial-intelligence-7-skills-that-matter-now/articleshow/122813861.cms",
+      "publication_date": "2025-07-21",
+      "source_tier": 4,
+      "skills": [
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "a10d71013abba3bc",
+      "organization": "Bing",
+      "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+      "publication_date": "2026-07-08",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "83c4918451fff09a",
+      "organization": "Bing",
+      "title": "EY offers bonuses of up to $25,000 for skills AI can't replace",
+      "url": "https://www.peoplematters.in/news/ai-and-emerging-tech/ey-offers-bonuses-of-up-to-dollar25000-for-skills-ai-cant-replace-51828",
+      "publication_date": "2026-09-01",
+      "source_tier": 4,
+      "skills": [
+        "Adaptability",
+        "Collaboration",
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "b332113a88ca1500",
+      "organization": "Bing",
+      "title": "Education Technology Trends 2027: AI Tutors, Skills, Digital Learning",
+      "url": "https://www.analyticsinsight.net/education/education-technology-trends-2027-ai-tutors-skills-digital-learning",
+      "publication_date": "2026-09-09",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "1267f890b9180767",
+      "organization": "Bing",
+      "title": "Missouri education agencies partner with Google to provide free AI training",
+      "url": "https://www.dailyjournalonline.com/news/mdhewd-launches-nations-first-usdol-aligned-ai-literacy-course-collection-in-partnership-with-coursera-55d9ae47",
+      "publication_date": "2026-09-08",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "6f948fbe4ade1969",
+      "organization": "Bing",
+      "title": "TP in the Philippines integrates AI literacy training into TP Skills Training to Employment Program (STEP)",
+      "url": "http://www.mindanaotimes.com.ph/tp-in-the-philippines-integrates-ai-literacy-training-into-tp-skills-training-to-employment-program-step/",
+      "publication_date": "2026-09-09",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "cfe4b345c25359a4",
+      "organization": "Bing",
+      "title": "Why AI is Increasing Demand for Strategic Marketing Skills While Automating Routine Tasks",
+      "url": "https://www.analyticsinsight.net/artificial-intelligence/why-ai-is-increasing-demand-for-strategic-marketing-skills-while-automating-routine-tasks",
+      "publication_date": "2026-08-29",
+      "source_tier": 4,
+      "skills": [
+        "Creativity",
+        "Decision-Making"
+      ]
+    }
+  ]
 }

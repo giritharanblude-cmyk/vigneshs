@@ -134,6 +134,7 @@
                         <th onclick="sortTable(5)">Skill Share %</th>
                         <th>Confidence</th>
                         <th>Evidence Type</th>
+                        <th>Sources</th>
                     </tr>
                 </thead>
                 <tbody id="skills-table-body"></tbody>
@@ -145,6 +146,17 @@
             <div id="new-skills-list" class="tag-cloud"></div>
             <p class="empty-hint" id="new-skills-empty">No new skills in this period.</p>
         </section>
+
+        <section id="sources-section">
+            <div class="sources-header">
+                <h2>Sources &amp; References</h2>
+                <span class="sources-count" id="sources-count">0</span>
+            </div>
+            <p class="chart-note">Papers, articles, magazines and official data cited on this dashboard.
+                Use the Skill filter above to narrow to a single skill.</p>
+            <div id="sources-list" class="sources-list"></div>
+            <p class="empty-hint" id="sources-empty" style="display:none;">No sources recorded yet.</p>
+        </section>
     </main>
 
     <footer>
@@ -155,7 +167,7 @@
     <div id="source-modal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
-            <h2>Source Methodology</h2>
+            <h2 id="source-modal-title" style="margin-bottom:12px;">Source Methodology</h2>
             <div id="source-modal-content"></div>
         </div>
     </div>

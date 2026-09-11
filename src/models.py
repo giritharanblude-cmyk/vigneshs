@@ -82,6 +82,8 @@ class TrendResult(BaseModel):
     emerging_score: float = 0.0
     confidence: str = "low"
     evidence_type: EvidenceType = EvidenceType.QUALITATIVE
+    source_count: int = 0
+    sources: list[dict] = Field(default_factory=list)
 
 
 class DashboardData(BaseModel):
@@ -99,3 +101,4 @@ class DashboardData(BaseModel):
     industry_comparison: list[dict] = Field(default_factory=list)
     new_skills_detected: list[str] = Field(default_factory=list)
     evidence_confidence: dict = Field(default_factory=dict)
+    sources: list[dict] = Field(default_factory=list)

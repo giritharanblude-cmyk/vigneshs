@@ -301,3 +301,114 @@ footer {
         margin-left: 0;
     }
 }
+
+#sources-section {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+
+.sources-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sources-section h2 {
+    color: var(--primary);
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.sources-count {
+    background: var(--primary-light);
+    color: white;
+    border-radius: 16px;
+    padding: 2px 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.sources-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.citation {
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary-light);
+    border-radius: 6px;
+    padding: 10px 12px;
+    background: #fbfdff;
+}
+
+.citation-title {
+    font-size: 0.92rem;
+}
+
+.citation-title a {
+    color: var(--primary-light);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.citation-title a:hover {
+    text-decoration: underline;
+}
+
+.citation-meta {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 2px;
+}
+
+.citation-url {
+    font-size: 0.72rem;
+    color: #a0aec0;
+    word-break: break-all;
+    margin-top: 2px;
+}
+
+.tier {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.tier-1 { background: #bee3f8; color: #2b6cb0; }
+.tier-2 { background: #e9d8fd; color: #6b46c1; }
+.tier-3 { background: #c6f6d5; color: #276749; }
+.tier-4 { background: #e2e8f0; color: #4a5568; }
+
+.citation-skills {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.skill-tag {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    border-radius: 10px;
+    padding: 1px 8px;
+    font-size: 0.7rem;
+}
+
+.src-cell a {
+    color: var(--primary-light);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.src-cell a:hover {
+    text-decoration: underline;
+}

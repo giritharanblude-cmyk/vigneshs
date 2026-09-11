@@ -14,6 +14,22 @@ REPORTS_DIR = Path(__file__).parent.parent.parent / "reports" / "daily"
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
 
+def canonicalize_url(url: str) -> str:
+    """Resolve Bing news apiclick redirect URLs to the real destination article URL."""
+    if not url:
+        return ""
+    try:
+        from urllib.parse import parse_qs, unquote, urlparse
+        p = urlparse(url)
+        if p.netloc.endswith(".bing.com") and p.path.startswith("/news/apiclick"):
+            target = parse_qs(p.query).get("url", [""])[0]
+            if target:
+                return unquote(target)
+    except Exception:
+        pass
+    return url
+
+
 def generate_daily_report(conn, date_str: str) -> Path:
     """Generate the daily markdown report."""
     from src.analyzers.analyzer import compute_longitudinal_trend
@@ -87,6 +103,21 @@ def generate_daily_report(conn, date_str: str) -> Path:
             lines.append(f"* {skill['skill_name']}: {skill['evidence_count']} evidence records, "
                          f"{skill['confidence']} confidence")
 
+    lines += ["", "CITED SOURCES", "-" * 12]
+    sources = conn.execute("""
+        SELECT DISTINCT s.title, s.url, s.organization, s.source_tier, s.publication_date
+        FROM sources s
+        ORDER BY s.source_tier ASC, s.publication_date DESC
+        LIMIT 25
+    """).fetchall()
+    for s in sources:
+        title = s["title"] or s["organization"] or "Untitled source"
+        url = canonicalize_url(s["url"] or "")
+        pub = s["publication_date"] or "n/a"
+        lines.append(f"* [{title}]({url}) — {s['organization']} (Tier {s['source_tier']}, {pub})")
+    if not sources:
+        lines.append("No sources recorded yet.")
+
     lines += [
         "",
         "TRAINER IMPLICATION",
@@ -149,11 +180,46 @@ def generate_dashboard_data(conn, date_str: str) -> dict:
     for skill in skills:
         long_trends[skill.skill_id] = compute_longitudinal_trend(conn, skill.skill_id, date_str)
 
+    # Citation data: every source that underpins current-period evidence, per skill.
+    source_rows = conn.execute("""
+        SELECT s.source_id, s.organization, s.title, s.url,
+               s.publication_date, s.source_tier, sk.skill_name, sk.skill_id
+        FROM evidence e
+        JOIN sources s ON e.source_id = s.source_id
+        JOIN skills sk ON e.skill_id = sk.skill_id
+        ORDER BY s.source_tier ASC, s.publication_date DESC
+    """).fetchall()
+
+    skill_sources: dict[str, list[dict]] = {}
+    sources_by_id: dict[str, dict] = {}
+    for r in source_rows:
+        src = {
+            "source_id": r["source_id"],
+            "organization": r["organization"],
+            "title": r["title"],
+            "url": canonicalize_url(r["url"] or ""),
+            "publication_date": r["publication_date"] or "",
+            "source_tier": r["source_tier"],
+        }
+        place = skill_sources.setdefault(r["skill_id"], [])
+        if not any(p["source_id"] == src["source_id"] for p in place):
+            place.append(src)
+        existing = sources_by_id.setdefault(src["source_id"], {**src, "skills": set()})
+        existing["skills"].add(r["skill_name"])
+
+    all_sources = []
+    for ref in sources_by_id.values():
+        item = {k: v for k, v in ref.items()}
+        item["skills"] = sorted(item["skills"])
+        all_sources.append(item)
+    all_sources.sort(key=lambda s: (s["source_tier"], s.get("title") or "", s.get("organization") or ""))
+
     trends = []
     for s in score_results.values():
         long = long_trends.get(s["skill_id"], {})
         if s.get("evidence_count", 0) == 0:
             continue
+        srcs = skill_sources.get(s["skill_id"], [])
         trends.append(TrendResult(
             skill_id=s["skill_id"],
             skill_name=s["skill_name"],
@@ -165,6 +231,8 @@ def generate_dashboard_data(conn, date_str: str) -> dict:
             emerging_score=s["score"],
             evidence_type="calculated",
             confidence=s["confidence"],
+            source_count=len(srcs),
+            sources=srcs,
         ))
     trends.sort(key=lambda t: t.emerging_score, reverse=True)
 
@@ -190,6 +258,7 @@ def generate_dashboard_data(conn, date_str: str) -> dict:
             "medium": sum(1 for s in score_results.values() if s["confidence"] == "medium"),
             "low": sum(1 for s in score_results.values() if s["confidence"] == "low"),
         },
+        sources=all_sources,
     ).model_dump()
 
 
@@ -206,7 +275,8 @@ def write_csv_export(conn, date_str: str) -> Path:
     """Write evidence CSV export."""
     rows = conn.execute("""
         SELECT s.skill_name, e.industry, e.geography, e.period, e.metric,
-               e.value, e.unit, e.evidence_type, src.organization, src.source_tier
+               e.value, e.unit, e.evidence_type, src.organization, src.source_tier,
+               src.title, src.url
         FROM evidence e
         JOIN skills s ON e.skill_id = s.skill_id
         JOIN sources src ON e.source_id = src.source_id
@@ -218,11 +288,13 @@ def write_csv_export(conn, date_str: str) -> Path:
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["skill", "industry", "geography", "period", "metric",
-                         "value", "unit", "evidence_type", "source", "source_tier"])
+                         "value", "unit", "evidence_type", "source", "source_tier",
+                         "source_title", "source_url"])
         for r in rows:
             writer.writerow([r["skill_name"], r["industry"], r["geography"], r["period"],
                              r["metric"], r["value"], r["unit"], r["evidence_type"],
-                             r["organization"], r["source_tier"]])
+                             r["organization"], r["source_tier"],
+                             r["title"], canonicalize_url(r["url"] or "")])
     return path
 
 

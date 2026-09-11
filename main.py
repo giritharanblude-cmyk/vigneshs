@@ -120,7 +120,9 @@ def run_pipeline(send_email: bool = True) -> dict:
             recipient = os.getenv("RECIPIENT_EMAIL",
                         config.pipeline.get("pipeline", {}).get("email", {}).get("recipient",
                         "vksk416@gmail.com"))
-            send_daily_email(today, report_path, recipient)
+            email_ok = send_daily_email(today, report_path, recipient)
+            if not email_ok:
+                run_record.errors.append(f"email delivery failed for recipient {recipient}")
 
         completed = datetime.now(timezone.utc)
         run_record.completed_at = completed.isoformat()

@@ -1,17 +1,27 @@
 """Email sender — builds and sends the daily intelligence email."""
+import html
 import os
+import re
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.utils import formataddr, formatdate, make_msgid
 from pathlib import Path
 from typing import Optional
 
 DASHBOARD_URL_ENV = "DASHBOARD_URL"
+SENDER_NAME = "Soft-Skill AI Trends"
 
 
 def _load_dashboard_url() -> str:
     """Load dashboard URL from env or default to placeholder."""
     return os.getenv(DASHBOARD_URL_ENV, "https://YOUR_USERNAME.github.io/softskill-ai-trends/dashboard/")
+
+
+def _render_markdown_links(text: str) -> str:
+    """Convert markdown-style links [title](url) into HTML anchors."""
+    pattern = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
+    return pattern.sub(r'<a href="\2" style="color:#2B6CB0;">\1</a>', text)
 
 
 def build_email_html(date_str: str, report_lines: list[str], dashboard_url: str) -> str:
@@ -24,15 +34,15 @@ def build_email_html(date_str: str, report_lines: list[str], dashboard_url: str)
         elif clean.isupper() and len(clean) > 3:
             components.append(f"<h2 style='color:#1a365d;'>{clean}</h2>")
         elif clean.startswith(("1.", "2.", "3.", "4.", "5.")):
-            components.append(f"<p>{clean}</p>")
-        elif clean.startswith("•"):
-            components.append(f"<p style='margin-left:20px;'>{clean}</p>")
+            components.append(f"<p>{_render_markdown_links(clean)}</p>")
+        elif clean.startswith("•") or clean.startswith("*"):
+            components.append(f"<p style='margin-left:20px;'>{_render_markdown_links(clean)}</p>")
         elif line.startswith("="):
             continue
         elif line.startswith("-"):
             continue
         else:
-            components.append(f"<p>{clean}</p>")
+            components.append(f"<p>{_render_markdown_links(clean)}</p>")
 
     return f"""
     <div style="font-family: Arial, sans-serif; max-width: 700px; margin: auto; padding: 20px;">
@@ -70,17 +80,26 @@ def send_email(
     """Send an HTML email via authenticated SMTP."""
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = username
+    msg["From"] = formataddr((SENDER_NAME, username))
     msg["To"] = recipient
+    msg["Date"] = formatdate(localtime=True)
+    msg["Message-ID"] = make_msgid(domain="softskill-ai-trends")
+    msg["List-Unsubscribe"] = f"<mailto:{username}?subject=unsubscribe>"
 
-    part = MIMEText(html_body, "html")
-    msg.attach(part)
+    plain_text = html.unescape(re.sub(r"<[^>]+>", "", html_body))
+    msg.attach(MIMEText(plain_text, "plain"))
+    msg.attach(MIMEText(html_body, "html"))
 
     try:
-        with smtplib.SMTP(smtp_host, smtp_port) as server:
+        with smtplib.SMTP(smtp_host, smtp_port, timeout=30) as server:
+            server.ehlo()
             server.starttls()
+            server.ehlo()
             server.login(username, password)
-            server.sendmail(username, [recipient], msg.as_string())
+            refused = server.sendmail(username, [recipient], msg.as_string())
+            if refused:
+                print(f"[email] Refused recipients: {refused}")
+                return False
         return True
     except Exception as e:
         print(f"[email] Failed to send: {e}")
@@ -90,13 +109,18 @@ def send_email(
 def send_daily_email(date_str: str, report_path: Path, recipient: str) -> bool:
     """High-level daily email sender using environment credentials."""
     smtp_host = os.getenv("SMTP_HOST")
-    smtp_port = int(os.getenv("SMTP_PORT", "587"))
+    smtp_port = int(os.getenv("SMTP_PORT") or "587")
     username = os.getenv("EMAIL_USERNAME")
     password = os.getenv("EMAIL_PASSWORD")
 
     if not (smtp_host and username and password):
         print("[email] SMTP configuration missing — email not sent.")
         print("[email] Set SMTP_HOST, SMTP_PORT, EMAIL_USERNAME, EMAIL_PASSWORD env vars.")
+        return False
+
+    if not recipient:
+        print("[email] No recipient configured — email not sent.")
+        print("[email] Set RECIPIENT_EMAIL env var or config pipeline.email.recipient.")
         return False
 
     report_lines = report_path.read_text(encoding="utf-8").splitlines()
