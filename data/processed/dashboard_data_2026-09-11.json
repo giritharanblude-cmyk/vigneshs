@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-11T07:07:25.705710",
+  "generated_at": "2026-09-11T13:44:18.553331",
   "total_skills": 31,
   "emerging_skills": 10,
   "increasing_skills": 10,
   "declining_skills": 2,
-  "new_evidence_items": 84,
-  "sources_analyzed": 121,
+  "new_evidence_items": 82,
+  "sources_analyzed": 120,
   "industries_tracked": 9,
   "countries_tracked": 2,
   "trends": [
@@ -15,7 +15,7 @@
       "yoy_growth": null,
       "mom_growth": 500.0,
       "rolling_12m_change": null,
-      "skill_share": 10.227272727272728,
+      "skill_share": 10.465116279069768,
       "share_change": null,
       "emerging_score": 0.9168,
       "confidence": "medium",
@@ -78,7 +78,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.045454545454543,
+      "skill_share": 17.441860465116278,
       "share_change": null,
       "emerging_score": 0.6425,
       "confidence": "high",
@@ -141,7 +141,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 11.363636363636363,
+      "skill_share": 11.627906976744185,
       "share_change": null,
       "emerging_score": 0.6357,
       "confidence": "medium",
@@ -191,64 +191,17 @@
       ]
     },
     {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 7.954545454545454,
-      "share_change": null,
-      "emerging_score": 0.6238,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "2051083e9979c0bd",
-          "organization": "IEEE Spectrum AI",
-          "title": "China\u2019s Regulators Take Aim at \u201cAI Boyfriends\u201d",
-          "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
-          "publication_date": "2026-09-09",
-          "source_tier": 2
-        },
-        {
-          "source_id": "8ad4033dc95b7090",
-          "organization": "Bing",
-          "title": "Ottawa puts $13 million into AI literacy",
-          "url": "https://www.digitaljournal.com/article/ottawa-puts-13-million-into-ai-literacy/",
-          "publication_date": "2026-09-09",
-          "source_tier": 4
-        },
-        {
-          "source_id": "1267f890b9180767",
-          "organization": "Bing",
-          "title": "Missouri education agencies partner with Google to provide free AI training",
-          "url": "https://www.dailyjournalonline.com/news/mdhewd-launches-nations-first-usdol-aligned-ai-literacy-course-collection-in-partnership-with-coursera-55d9ae47",
-          "publication_date": "2026-09-08",
-          "source_tier": 4
-        },
-        {
-          "source_id": "3f9482201a678ae3",
-          "organization": "Bing",
-          "title": "The DOL Just Defined AI Literacy For The Workforce. What\u2019s Next?",
-          "url": "https://www.forbes.com/sites/avivalegatt/2026/02/26/the-dol-just-defined-ai-literacy-for-the-workforce-whats-next/",
-          "publication_date": "2026-02-26",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "leadership",
       "skill_name": "Leadership",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.090909090909092,
+      "skill_share": 8.13953488372093,
       "share_change": null,
-      "emerging_score": 0.6125,
+      "emerging_score": 0.6067,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
         {
           "source_id": "4152ae8a32c29445",
@@ -257,14 +210,6 @@
           "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
           "publication_date": "2026-08-24",
           "source_tier": 2
-        },
-        {
-          "source_id": "0282ed15edb520be",
-          "organization": "Bing",
-          "title": "Workers making increasing use of skills training to boost career paths",
-          "url": "https://www.irishexaminer.com/business/economy/arid-41909338.html",
-          "publication_date": "2026-09-10",
-          "source_tier": 4
         },
         {
           "source_id": "83c4918451fff09a",
@@ -290,7 +235,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.227272727272728,
+      "skill_share": 10.465116279069768,
       "share_change": null,
       "emerging_score": 0.5998,
       "confidence": "high",
@@ -329,7 +274,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.681818181818182,
+      "skill_share": 5.813953488372093,
       "share_change": null,
       "emerging_score": 0.5994,
       "confidence": "high",
@@ -352,7 +297,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.090909090909092,
+      "skill_share": 9.30232558139535,
       "share_change": null,
       "emerging_score": 0.5935,
       "confidence": "high",
@@ -402,12 +347,51 @@
       ]
     },
     {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 6.976744186046512,
+      "share_change": null,
+      "emerging_score": 0.59,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "2051083e9979c0bd",
+          "organization": "IEEE Spectrum AI",
+          "title": "China\u2019s Regulators Take Aim at \u201cAI Boyfriends\u201d",
+          "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+          "publication_date": "2026-09-09",
+          "source_tier": 2
+        },
+        {
+          "source_id": "1267f890b9180767",
+          "organization": "Bing",
+          "title": "Missouri education agencies partner with Google to provide free AI training",
+          "url": "https://www.dailyjournalonline.com/news/mdhewd-launches-nations-first-usdol-aligned-ai-literacy-course-collection-in-partnership-with-coursera-55d9ae47",
+          "publication_date": "2026-09-08",
+          "source_tier": 4
+        },
+        {
+          "source_id": "481e7cc1613be67a",
+          "organization": "Bing",
+          "title": "From AI Policies To AI Literacy In Education",
+          "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
+          "publication_date": "2026-05-20",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "presentation",
       "skill_name": "Presentation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.681818181818182,
+      "skill_share": 5.813953488372093,
       "share_change": null,
       "emerging_score": 0.5336,
       "confidence": "high",
@@ -454,7 +438,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.545454545454546,
+      "skill_share": 4.651162790697675,
       "share_change": null,
       "emerging_score": 0.5119,
       "confidence": "high",
@@ -477,7 +461,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.272727272727273,
+      "skill_share": 2.3255813953488373,
       "share_change": null,
       "emerging_score": 0.2335,
       "confidence": "low",
@@ -488,7 +472,7 @@
           "source_id": "a10d71013abba3bc",
           "organization": "Bing",
           "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
-          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400634.html",
           "publication_date": "2026-07-08",
           "source_tier": 4
         },
@@ -508,7 +492,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.272727272727273,
+      "skill_share": 2.3255813953488373,
       "share_change": null,
       "emerging_score": 0.1261,
       "confidence": "medium",
@@ -539,12 +523,12 @@
       "skill": "AI Literacy",
       "series": [
         {
-          "month": "2026-02",
+          "month": "2026-05",
           "demand_index": 1.0
         },
         {
           "month": "2026-09",
-          "demand_index": 6.0
+          "demand_index": 5.0
         }
       ]
     },
@@ -634,7 +618,7 @@
         },
         {
           "month": "2026-09",
-          "demand_index": 2.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -700,42 +684,42 @@
     {
       "industry": "education",
       "count": 23,
-      "percentage": 26.1
+      "percentage": 26.7
     },
     {
       "industry": "general",
-      "count": 19,
-      "percentage": 21.6
+      "count": 18,
+      "percentage": 20.9
     },
     {
       "industry": "technology",
-      "count": 18,
-      "percentage": 20.5
+      "count": 17,
+      "percentage": 19.8
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 9.1
+      "percentage": 9.3
     },
     {
       "industry": "healthcare",
       "count": 6,
-      "percentage": 6.8
+      "percentage": 7.0
     },
     {
       "industry": "consulting",
       "count": 5,
-      "percentage": 5.7
+      "percentage": 5.8
     },
     {
       "industry": "finance",
       "count": 4,
-      "percentage": 4.5
+      "percentage": 4.7
     },
     {
       "industry": "retail",
       "count": 3,
-      "percentage": 3.4
+      "percentage": 3.5
     },
     {
       "industry": "manufacturing",
@@ -1091,7 +1075,7 @@
       "source_id": "a10d71013abba3bc",
       "organization": "Bing",
       "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
-      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400634.html",
       "publication_date": "2026-07-08",
       "source_tier": 4,
       "skills": [
@@ -1112,33 +1096,22 @@
       ]
     },
     {
+      "source_id": "481e7cc1613be67a",
+      "organization": "Bing",
+      "title": "From AI Policies To AI Literacy In Education",
+      "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
+      "publication_date": "2026-05-20",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
       "source_id": "1267f890b9180767",
       "organization": "Bing",
       "title": "Missouri education agencies partner with Google to provide free AI training",
       "url": "https://www.dailyjournalonline.com/news/mdhewd-launches-nations-first-usdol-aligned-ai-literacy-course-collection-in-partnership-with-coursera-55d9ae47",
       "publication_date": "2026-09-08",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
-      ]
-    },
-    {
-      "source_id": "8ad4033dc95b7090",
-      "organization": "Bing",
-      "title": "Ottawa puts $13 million into AI literacy",
-      "url": "https://www.digitaljournal.com/article/ottawa-puts-13-million-into-ai-literacy/",
-      "publication_date": "2026-09-09",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
-      ]
-    },
-    {
-      "source_id": "3f9482201a678ae3",
-      "organization": "Bing",
-      "title": "The DOL Just Defined AI Literacy For The Workforce. What\u2019s Next?",
-      "url": "https://www.forbes.com/sites/avivalegatt/2026/02/26/the-dol-just-defined-ai-literacy-for-the-workforce-whats-next/",
-      "publication_date": "2026-02-26",
       "source_tier": 4,
       "skills": [
         "AI Literacy"
@@ -1153,17 +1126,6 @@
       "source_tier": 4,
       "skills": [
         "Teamwork"
-      ]
-    },
-    {
-      "source_id": "0282ed15edb520be",
-      "organization": "Bing",
-      "title": "Workers making increasing use of skills training to boost career paths",
-      "url": "https://www.irishexaminer.com/business/economy/arid-41909338.html",
-      "publication_date": "2026-09-10",
-      "source_tier": 4,
-      "skills": [
-        "Leadership"
       ]
     }
   ]

@@ -8,8 +8,8 @@ TOP EMERGING SKILLS
 1. Adaptability - emerging 0.917
 2. Communication - emerging 0.642
 3. Collaboration - emerging 0.636
-4. AI Literacy - emerging 0.624
-5. Leadership - emerging 0.613
+4. Leadership - emerging 0.607
+5. Resilience - emerging 0.600
 
 BIGGEST MOVEMENTS
 -----------------
@@ -18,13 +18,13 @@ Figures will appear as longitudinal data accumulates across daily runs.
 
 KEY EVIDENCE (counting)
 -----------------------
-* AI Literacy: 7 evidence records, medium confidence
+* AI Literacy: 6 evidence records, medium confidence
 * Problem Solving: 5 evidence records, high confidence
 * Communication: 15 evidence records, high confidence
 * Presentation: 5 evidence records, high confidence
 * Adaptability: 9 evidence records, medium confidence
 * Resilience: 9 evidence records, high confidence
-* Leadership: 8 evidence records, medium confidence
+* Leadership: 7 evidence records, medium confidence
 * Teamwork: 2 evidence records, low confidence
 * Collaboration: 10 evidence records, medium confidence
 * Decision-Making: 8 evidence records, high confidence
