@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-10T17:59:34.045117",
+  "generated_at": "2026-10-11T18:25:34.184318",
   "total_skills": 31,
-  "emerging_skills": 5,
-  "increasing_skills": 8,
+  "emerging_skills": 4,
+  "increasing_skills": 9,
   "declining_skills": 6,
-  "new_evidence_items": 52,
-  "sources_analyzed": 105,
+  "new_evidence_items": 51,
+  "sources_analyzed": 98,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,9 +15,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 21.428571428571427,
+      "skill_share": 21.818181818181817,
       "share_change": null,
-      "emerging_score": 0.6825,
+      "emerging_score": 0.6823,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 5,
@@ -65,56 +65,17 @@
       ]
     },
     {
-      "skill_id": "communication",
-      "skill_name": "Communication",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 10.714285714285714,
-      "share_change": null,
-      "emerging_score": 0.6387,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "7d321100ff62c45c",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "a586dd400aafba62",
-          "organization": "arXiv CS.AI",
-          "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
-          "url": "https://arxiv.org/abs/2610.11123",
-          "publication_date": "2026-10-10",
-          "source_tier": 2
-        },
-        {
-          "source_id": "e8877fe566e721a1",
-          "organization": "IEEE Spectrum AI",
-          "title": "How to Stop AI Agents From Secretly Collaborating",
-          "url": "https://spectrum.ieee.org/ai-agent-security",
-          "publication_date": "2026-09-29",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "leadership",
       "skill_name": "Leadership",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.285714285714285,
+      "skill_share": 12.727272727272727,
       "share_change": null,
-      "emerging_score": 0.6211,
-      "confidence": "medium",
+      "emerging_score": 0.6186,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "6fabc3422ddbe707",
@@ -131,69 +92,37 @@
           "url": "https://spectrum.ieee.org/6-guidelines-governing-ai",
           "publication_date": "2026-10-05",
           "source_tier": 2
-        },
-        {
-          "source_id": "1c5f9f6f4c382be2",
-          "organization": "Bing",
-          "title": "AI is rapidly reshaping the skills employers want most from workers",
-          "url": "https://www.msn.com/en-gb/money/technology/ai-is-rapidly-reshaping-the-skills-employers-want-most-from-workers/ar-AA25HDXy",
-          "publication_date": "2026-06-15",
-          "source_tier": 4
         }
       ]
     },
     {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
+      "skill_id": "communication",
+      "skill_name": "Communication",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.714285714285714,
+      "skill_share": 9.090909090909092,
       "share_change": null,
-      "emerging_score": 0.6085,
-      "confidence": "medium",
+      "emerging_score": 0.587,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 2,
       "sources": [
         {
-          "source_id": "3e478b0e05173092",
-          "organization": "arXiv CS.AI",
-          "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-          "url": "https://arxiv.org/abs/2610.10611",
-          "publication_date": "2026-10-10",
-          "source_tier": 2
+          "source_id": "7d321100ff62c45c",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
         },
         {
-          "source_id": "07c4d3d6f66fef97",
-          "organization": "arXiv CS.AI",
-          "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
-          "url": "https://arxiv.org/abs/2610.11005",
-          "publication_date": "2026-10-10",
-          "source_tier": 2
-        },
-        {
-          "source_id": "9d7c030a2996b851",
-          "organization": "arXiv CS.AI",
-          "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
-          "url": "https://arxiv.org/abs/2610.11118",
-          "publication_date": "2026-10-10",
-          "source_tier": 2
-        },
-        {
-          "source_id": "685ae1740e8a18ab",
+          "source_id": "e8877fe566e721a1",
           "organization": "IEEE Spectrum AI",
-          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
-          "url": "https://spectrum.ieee.org/millennium-prize-ai",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        },
-        {
-          "source_id": "0ad8cf2e4e0cb387",
-          "organization": "Microsoft Work Lab",
-          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+          "title": "How to Stop AI Agents From Secretly Collaborating",
+          "url": "https://spectrum.ieee.org/ai-agent-security",
           "publication_date": "2026-09-29",
-          "source_tier": 3
+          "source_tier": 2
         }
       ]
     },
@@ -203,9 +132,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.142857142857142,
+      "skill_share": 7.2727272727272725,
       "share_change": null,
-      "emerging_score": 0.5211,
+      "emerging_score": 0.521,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -237,14 +166,84 @@
       ]
     },
     {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 5.454545454545454,
+      "share_change": null,
+      "emerging_score": 0.4631,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "685ae1740e8a18ab",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+          "url": "https://spectrum.ieee.org/millennium-prize-ai",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
+        },
+        {
+          "source_id": "0ad8cf2e4e0cb387",
+          "organization": "Microsoft Work Lab",
+          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+          "publication_date": "2026-09-29",
+          "source_tier": 3
+        }
+      ]
+    },
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.6363636363636362,
+      "share_change": null,
+      "emerging_score": 0.4458,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
       "skill_id": "ai_collaboration",
       "skill_name": "AI Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.357142857142857,
+      "skill_share": 5.454545454545454,
       "share_change": null,
-      "emerging_score": 0.4288,
+      "emerging_score": 0.4286,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -265,9 +264,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.357142857142857,
+      "skill_share": 5.454545454545454,
       "share_change": null,
-      "emerging_score": 0.4288,
+      "emerging_score": 0.4286,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -288,9 +287,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.571428571428571,
+      "skill_share": 3.6363636363636362,
       "share_change": null,
-      "emerging_score": 0.3413,
+      "emerging_score": 0.3411,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -311,9 +310,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.357142857142857,
+      "skill_share": 5.454545454545454,
       "share_change": null,
-      "emerging_score": 0.2485,
+      "emerging_score": 0.2484,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -350,12 +349,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
+      "skill_share": 3.6363636363636362,
       "share_change": null,
-      "emerging_score": 0.1688,
+      "emerging_score": 0.2461,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "a0d45b32ac9469e9",
@@ -363,6 +362,45 @@
           "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
           "url": "https://www.fibre2fashion.com/industry-article/11848/ai-ready-fashion-student-skills",
           "publication_date": "2026-10-07",
+          "source_tier": 4
+        },
+        {
+          "source_id": "b2f86a31427feced",
+          "organization": "Bing",
+          "title": "Thiel College awarded $1.8 million federal grant to expand AI literacy, student success",
+          "url": "https://www.yahoo.com/news/us/articles/thiel-college-awarded-1-8-035900919.html",
+          "publication_date": "2026-10-06",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "teamwork",
+      "skill_name": "Teamwork",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.6363636363636362,
+      "share_change": null,
+      "emerging_score": 0.2293,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "a10d71013abba3bc",
+          "organization": "Bing",
+          "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+          "publication_date": "2026-07-08",
+          "source_tier": 4
+        },
+        {
+          "source_id": "688f357ed2a1039c",
+          "organization": "Bing",
+          "title": "Will AI destroy teamwork?",
+          "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+          "publication_date": "2026-05-06",
           "source_tier": 4
         }
       ]
@@ -373,9 +411,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
+      "skill_share": 1.8181818181818181,
       "share_change": null,
-      "emerging_score": 0.1688,
+      "emerging_score": 0.1686,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -396,9 +434,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
+      "skill_share": 1.8181818181818181,
       "share_change": null,
-      "emerging_score": 0.1647,
+      "emerging_score": 0.1645,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -414,45 +452,14 @@
       ]
     },
     {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
-      "share_change": null,
-      "emerging_score": 0.1522,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
-        }
-      ]
-    },
-    {
       "skill_id": "resilience",
       "skill_name": "Resilience",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
+      "skill_share": 1.8181818181818181,
       "share_change": null,
-      "emerging_score": 0.1146,
+      "emerging_score": 0.1145,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -474,7 +481,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -497,10 +504,6 @@
         {
           "month": "2026-09",
           "demand_index": 4.0
-        },
-        {
-          "month": "2026-10",
-          "demand_index": 1.0
         }
       ]
     },
@@ -513,7 +516,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 5.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -529,6 +532,10 @@
     {
       "skill": "Adaptability",
       "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 68.8697192431851
+        },
         {
           "month": "2026-09",
           "demand_index": 159044.0
@@ -548,12 +555,21 @@
       "skill": "Leadership",
       "series": [
         {
-          "month": "2026-06",
+          "month": "2026-10",
+          "demand_index": 7.0
+        }
+      ]
+    },
+    {
+      "skill": "Teamwork",
+      "series": [
+        {
+          "month": "2026-05",
           "demand_index": 1.0
         },
         {
-          "month": "2026-10",
-          "demand_index": 7.0
+          "month": "2026-07",
+          "demand_index": 1.0
         }
       ]
     },
@@ -628,22 +644,22 @@
     {
       "industry": "general",
       "count": 17,
-      "percentage": 30.4
-    },
-    {
-      "industry": "education",
-      "count": 13,
-      "percentage": 23.2
+      "percentage": 30.9
     },
     {
       "industry": "technology",
       "count": 12,
-      "percentage": 21.4
+      "percentage": 21.8
+    },
+    {
+      "industry": "education",
+      "count": 12,
+      "percentage": 21.8
     },
     {
       "industry": "government",
       "count": 9,
-      "percentage": 16.1
+      "percentage": 16.4
     },
     {
       "industry": "manufacturing",
@@ -668,8 +684,8 @@
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 4,
-    "medium": 7,
+    "high": 5,
+    "medium": 6,
     "low": 20
   },
   "sources": [
@@ -715,6 +731,17 @@
       "source_tier": 1,
       "skills": [
         "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "f6615c9f50d92d4b",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
       ]
     },
     {
@@ -830,17 +857,6 @@
       ]
     },
     {
-      "source_id": "07c4d3d6f66fef97",
-      "organization": "arXiv CS.AI",
-      "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
-      "url": "https://arxiv.org/abs/2610.11005",
-      "publication_date": "2026-10-10",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
       "source_id": "e8877fe566e721a1",
       "organization": "IEEE Spectrum AI",
       "title": "How to Stop AI Agents From Secretly Collaborating",
@@ -864,17 +880,6 @@
       ]
     },
     {
-      "source_id": "9d7c030a2996b851",
-      "organization": "arXiv CS.AI",
-      "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
-      "url": "https://arxiv.org/abs/2610.11118",
-      "publication_date": "2026-10-10",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
       "source_id": "c4c94d26e8a3650e",
       "organization": "IEEE Spectrum AI",
       "title": "Rethinking Robot Safety in the Age of AI",
@@ -894,28 +899,6 @@
       "source_tier": 2,
       "skills": [
         "Leadership"
-      ]
-    },
-    {
-      "source_id": "3e478b0e05173092",
-      "organization": "arXiv CS.AI",
-      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "url": "https://arxiv.org/abs/2610.10611",
-      "publication_date": "2026-10-10",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "a586dd400aafba62",
-      "organization": "arXiv CS.AI",
-      "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
-      "url": "https://arxiv.org/abs/2610.11123",
-      "publication_date": "2026-10-10",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
       ]
     },
     {
@@ -963,14 +946,14 @@
       ]
     },
     {
-      "source_id": "1c5f9f6f4c382be2",
+      "source_id": "a10d71013abba3bc",
       "organization": "Bing",
-      "title": "AI is rapidly reshaping the skills employers want most from workers",
-      "url": "https://www.msn.com/en-gb/money/technology/ai-is-rapidly-reshaping-the-skills-employers-want-most-from-workers/ar-AA25HDXy",
-      "publication_date": "2026-06-15",
+      "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+      "publication_date": "2026-07-08",
       "source_tier": 4,
       "skills": [
-        "Leadership"
+        "Teamwork"
       ]
     },
     {
@@ -997,6 +980,17 @@
       ]
     },
     {
+      "source_id": "b2f86a31427feced",
+      "organization": "Bing",
+      "title": "Thiel College awarded $1.8 million federal grant to expand AI literacy, student success",
+      "url": "https://www.yahoo.com/news/us/articles/thiel-college-awarded-1-8-035900919.html",
+      "publication_date": "2026-10-06",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
       "source_id": "f48d5cef5f41c77e",
       "organization": "Bing",
       "title": "Vietnam graduates meet employer expectations in only 1 of 7 skills: survey",
@@ -1005,6 +999,17 @@
       "source_tier": 4,
       "skills": [
         "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "688f357ed2a1039c",
+      "organization": "Bing",
+      "title": "Will AI destroy teamwork?",
+      "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+      "publication_date": "2026-05-06",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
       ]
     }
   ]
