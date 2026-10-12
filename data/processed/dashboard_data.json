@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-11T18:25:34.184318",
+  "generated_at": "2026-10-12T21:52:19.458344",
   "total_skills": 31,
-  "emerging_skills": 4,
+  "emerging_skills": 5,
   "increasing_skills": 9,
-  "declining_skills": 6,
-  "new_evidence_items": 51,
-  "sources_analyzed": 98,
+  "declining_skills": 5,
+  "new_evidence_items": 65,
+  "sources_analyzed": 99,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,13 +15,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 21.818181818181817,
+      "skill_share": 20.28985507246377,
       "share_change": null,
-      "emerging_score": 0.6823,
+      "emerging_score": 0.6978,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 6,
       "sources": [
+        {
+          "source_id": "9211e91c1ae2f3cb",
+          "organization": "arXiv CS.AI",
+          "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+          "url": "https://arxiv.org/abs/2610.12872",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
         {
           "source_id": "41b948c348a72e40",
           "organization": "MIT Technology Review AI",
@@ -65,18 +73,97 @@
       ]
     },
     {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 13.043478260869565,
+      "share_change": null,
+      "emerging_score": 0.6616,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 7,
+      "sources": [
+        {
+          "source_id": "cc955b167640939a",
+          "organization": "arXiv CS.AI",
+          "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+          "url": "https://arxiv.org/abs/2610.12762",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "a08d8c42c2a6f07b",
+          "organization": "arXiv CS.AI",
+          "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+          "url": "https://arxiv.org/abs/2610.12781",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2abbe6ecd2c6673f",
+          "organization": "arXiv CS.AI",
+          "title": "Neural networks are more modular than single neurons suggest",
+          "url": "https://arxiv.org/abs/2610.12842",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "73e11d7eab19ec59",
+          "organization": "arXiv CS.AI",
+          "title": "Mitigating Capability Degradation in LLM Self-Improvement via Representation Geometry Regularization",
+          "url": "https://arxiv.org/abs/2610.12855",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "a7c8fe801c2894cc",
+          "organization": "arXiv CS.AI",
+          "title": "One-Step Text Generation by Seq-Drifting",
+          "url": "https://arxiv.org/abs/2610.12879",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "685ae1740e8a18ab",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+          "url": "https://spectrum.ieee.org/millennium-prize-ai",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
+        },
+        {
+          "source_id": "0ad8cf2e4e0cb387",
+          "organization": "Microsoft Work Lab",
+          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+          "publication_date": "2026-09-29",
+          "source_tier": 3
+        }
+      ]
+    },
+    {
       "skill_id": "leadership",
       "skill_name": "Leadership",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 12.727272727272727,
+      "skill_share": 15.942028985507244,
       "share_change": null,
-      "emerging_score": 0.6186,
+      "emerging_score": 0.6485,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
+        {
+          "source_id": "326b9ba5e4d67b24",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
         {
           "source_id": "6fabc3422ddbe707",
           "organization": "IEEE Spectrum AI",
@@ -101,12 +188,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.090909090909092,
+      "skill_share": 13.043478260869565,
       "share_change": null,
-      "emerging_score": 0.587,
+      "emerging_score": 0.6409,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -115,6 +202,14 @@
           "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
           "publication_date": "2025-12-01",
           "source_tier": 1
+        },
+        {
+          "source_id": "326b9ba5e4d67b24",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
         },
         {
           "source_id": "e8877fe566e721a1",
@@ -132,9 +227,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.2727272727272725,
+      "skill_share": 5.797101449275362,
       "share_change": null,
-      "emerging_score": 0.521,
+      "emerging_score": 0.5208,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -166,45 +261,14 @@
       ]
     },
     {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.454545454545454,
-      "share_change": null,
-      "emerging_score": 0.4631,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "685ae1740e8a18ab",
-          "organization": "IEEE Spectrum AI",
-          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
-          "url": "https://spectrum.ieee.org/millennium-prize-ai",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        },
-        {
-          "source_id": "0ad8cf2e4e0cb387",
-          "organization": "Microsoft Work Lab",
-          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-          "publication_date": "2026-09-29",
-          "source_tier": 3
-        }
-      ]
-    },
-    {
       "skill_id": "adaptability",
       "skill_name": "Adaptability",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.6363636363636362,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.4458,
+      "emerging_score": 0.4456,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -241,9 +305,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.454545454545454,
+      "skill_share": 4.3478260869565215,
       "share_change": null,
-      "emerging_score": 0.4286,
+      "emerging_score": 0.4285,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -264,9 +328,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.454545454545454,
+      "skill_share": 4.3478260869565215,
       "share_change": null,
-      "emerging_score": 0.4286,
+      "emerging_score": 0.4285,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -287,9 +351,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.6363636363636362,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.3411,
+      "emerging_score": 0.341,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -305,71 +369,32 @@
       ]
     },
     {
-      "skill_id": "digital_literacy",
-      "skill_name": "Digital Literacy",
+      "skill_id": "creativity",
+      "skill_name": "Creativity",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.454545454545454,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.2484,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "9aabeb9fcbb13fb8",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
-          "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "9303d612853f978f",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
-          "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "f48d5cef5f41c77e",
-          "organization": "Bing",
-          "title": "Vietnam graduates meet employer expectations in only 1 of 7 skills: survey",
-          "url": "https://vietnamnet.vn/en/vietnam-graduates-meet-employer-expectations-in-only-1-of-7-skills-survey-2563438.html",
-          "publication_date": "2026-10-10",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 3.6363636363636362,
-      "share_change": null,
-      "emerging_score": 0.2461,
-      "confidence": "low",
+      "emerging_score": 0.2985,
+      "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
       "sources": [
+        {
+          "source_id": "78d0e1c2a4146d03",
+          "organization": "arXiv CS.AI",
+          "title": "Towards Defining, Measuring, and Leveraging Creativity in AI Applications",
+          "url": "https://arxiv.org/abs/2610.12845",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
         {
           "source_id": "a0d45b32ac9469e9",
           "organization": "Bing",
           "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
           "url": "https://www.fibre2fashion.com/industry-article/11848/ai-ready-fashion-student-skills",
           "publication_date": "2026-10-07",
-          "source_tier": 4
-        },
-        {
-          "source_id": "b2f86a31427feced",
-          "organization": "Bing",
-          "title": "Thiel College awarded $1.8 million federal grant to expand AI literacy, student success",
-          "url": "https://www.yahoo.com/news/us/articles/thiel-college-awarded-1-8-035900919.html",
-          "publication_date": "2026-10-06",
           "source_tier": 4
         }
       ]
@@ -380,9 +405,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.6363636363636362,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.2293,
+      "emerging_score": 0.2292,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -406,14 +431,14 @@
       ]
     },
     {
-      "skill_id": "creativity",
-      "skill_name": "Creativity",
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8181818181818181,
+      "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1686,
+      "emerging_score": 0.1685,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -429,25 +454,33 @@
       ]
     },
     {
-      "skill_id": "coaching",
-      "skill_name": "Coaching",
+      "skill_id": "digital_literacy",
+      "skill_name": "Digital Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8181818181818181,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.1645,
-      "confidence": "low",
+      "emerging_score": 0.1218,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
-          "source_id": "45289b56c01a1541",
-          "organization": "Bing",
-          "title": "Cedarville Combines AI Tools and Human Coaching for Student Career Preparation",
-          "url": "https://www.cedarville.edu/news/2026/cedarville-combines-ai-tools-and-human-coaching-for-student-career-preparation",
-          "publication_date": "2026-09-27",
-          "source_tier": 4
+          "source_id": "9aabeb9fcbb13fb8",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+          "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "9303d612853f978f",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+          "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
         }
       ]
     },
@@ -457,9 +490,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8181818181818181,
+      "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1145,
+      "emerging_score": 0.1143,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -481,7 +514,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 2.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -504,6 +537,10 @@
         {
           "month": "2026-09",
           "demand_index": 4.0
+        },
+        {
+          "month": "2026-10",
+          "demand_index": 4.0
         }
       ]
     },
@@ -516,7 +553,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 2.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -525,7 +562,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -556,7 +593,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 7.0
+          "demand_index": 11.0
         }
       ]
     },
@@ -582,7 +619,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -609,24 +646,11 @@
       ]
     },
     {
-      "skill": "Coaching",
-      "series": [
-        {
-          "month": "2026-09",
-          "demand_index": 1.0
-        }
-      ]
-    },
-    {
       "skill": "Digital Literacy",
       "series": [
         {
           "month": "2025-12",
           "demand_index": 123.5
-        },
-        {
-          "month": "2026-10",
-          "demand_index": 1.0
         }
       ]
     },
@@ -643,50 +667,50 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 17,
-      "percentage": 30.9
-    },
-    {
-      "industry": "technology",
-      "count": 12,
-      "percentage": 21.8
+      "count": 19,
+      "percentage": 27.5
     },
     {
       "industry": "education",
-      "count": 12,
-      "percentage": 21.8
+      "count": 17,
+      "percentage": 24.6
+    },
+    {
+      "industry": "technology",
+      "count": 13,
+      "percentage": 18.8
     },
     {
       "industry": "government",
-      "count": 9,
-      "percentage": 16.4
+      "count": 11,
+      "percentage": 15.9
+    },
+    {
+      "industry": "healthcare",
+      "count": 3,
+      "percentage": 4.3
+    },
+    {
+      "industry": "finance",
+      "count": 3,
+      "percentage": 4.3
     },
     {
       "industry": "manufacturing",
       "count": 2,
-      "percentage": 3.6
+      "percentage": 2.9
     },
     {
       "industry": "retail",
       "count": 1,
-      "percentage": 1.8
-    },
-    {
-      "industry": "healthcare",
-      "count": 1,
-      "percentage": 1.8
-    },
-    {
-      "industry": "finance",
-      "count": 1,
-      "percentage": 1.8
+      "percentage": 1.4
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 5,
-    "medium": 6,
-    "low": 20
+    "high": 4,
+    "medium": 8,
+    "low": 19
   },
   "sources": [
     {
@@ -857,6 +881,28 @@
       ]
     },
     {
+      "source_id": "9211e91c1ae2f3cb",
+      "organization": "arXiv CS.AI",
+      "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+      "url": "https://arxiv.org/abs/2610.12872",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "cc955b167640939a",
+      "organization": "arXiv CS.AI",
+      "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2610.12762",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
       "source_id": "e8877fe566e721a1",
       "organization": "IEEE Spectrum AI",
       "title": "How to Stop AI Agents From Secretly Collaborating",
@@ -880,6 +926,62 @@
       ]
     },
     {
+      "source_id": "326b9ba5e4d67b24",
+      "organization": "IEEE Spectrum AI",
+      "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+      "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Communication",
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "73e11d7eab19ec59",
+      "organization": "arXiv CS.AI",
+      "title": "Mitigating Capability Degradation in LLM Self-Improvement via Representation Geometry Regularization",
+      "url": "https://arxiv.org/abs/2610.12855",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "2abbe6ecd2c6673f",
+      "organization": "arXiv CS.AI",
+      "title": "Neural networks are more modular than single neurons suggest",
+      "url": "https://arxiv.org/abs/2610.12842",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "a7c8fe801c2894cc",
+      "organization": "arXiv CS.AI",
+      "title": "One-Step Text Generation by Seq-Drifting",
+      "url": "https://arxiv.org/abs/2610.12879",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "a08d8c42c2a6f07b",
+      "organization": "arXiv CS.AI",
+      "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+      "url": "https://arxiv.org/abs/2610.12781",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
       "source_id": "c4c94d26e8a3650e",
       "organization": "IEEE Spectrum AI",
       "title": "Rethinking Robot Safety in the Age of AI",
@@ -899,6 +1001,17 @@
       "source_tier": 2,
       "skills": [
         "Leadership"
+      ]
+    },
+    {
+      "source_id": "78d0e1c2a4146d03",
+      "organization": "arXiv CS.AI",
+      "title": "Towards Defining, Measuring, and Leveraging Creativity in AI Applications",
+      "url": "https://arxiv.org/abs/2610.12845",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Creativity"
       ]
     },
     {
@@ -957,17 +1070,6 @@
       ]
     },
     {
-      "source_id": "45289b56c01a1541",
-      "organization": "Bing",
-      "title": "Cedarville Combines AI Tools and Human Coaching for Student Career Preparation",
-      "url": "https://www.cedarville.edu/news/2026/cedarville-combines-ai-tools-and-human-coaching-for-student-career-preparation",
-      "publication_date": "2026-09-27",
-      "source_tier": 4,
-      "skills": [
-        "Coaching"
-      ]
-    },
-    {
       "source_id": "a0d45b32ac9469e9",
       "organization": "Bing",
       "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
@@ -977,28 +1079,6 @@
       "skills": [
         "AI Literacy",
         "Creativity"
-      ]
-    },
-    {
-      "source_id": "b2f86a31427feced",
-      "organization": "Bing",
-      "title": "Thiel College awarded $1.8 million federal grant to expand AI literacy, student success",
-      "url": "https://www.yahoo.com/news/us/articles/thiel-college-awarded-1-8-035900919.html",
-      "publication_date": "2026-10-06",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
-      ]
-    },
-    {
-      "source_id": "f48d5cef5f41c77e",
-      "organization": "Bing",
-      "title": "Vietnam graduates meet employer expectations in only 1 of 7 skills: survey",
-      "url": "https://vietnamnet.vn/en/vietnam-graduates-meet-employer-expectations-in-only-1-of-7-skills-survey-2563438.html",
-      "publication_date": "2026-10-10",
-      "source_tier": 4,
-      "skills": [
-        "Digital Literacy"
       ]
     },
     {
