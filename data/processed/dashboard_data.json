@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T18:08:46.666953",
+  "generated_at": "2026-10-15T17:51:38.004158",
   "total_skills": 31,
   "emerging_skills": 6,
   "increasing_skills": 10,
-  "declining_skills": 5,
-  "new_evidence_items": 70,
-  "sources_analyzed": 120,
+  "declining_skills": 4,
+  "new_evidence_items": 67,
+  "sources_analyzed": 98,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,9 +15,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.56756756756757,
+      "skill_share": 18.30985915492958,
       "share_change": null,
-      "emerging_score": 0.7197,
+      "emerging_score": 0.7196,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 6,
@@ -27,7 +27,7 @@
           "organization": "arXiv CS.AI",
           "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
           "url": "https://arxiv.org/abs/2610.14149",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         },
         {
@@ -78,9 +78,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.864864864864865,
+      "skill_share": 15.492957746478872,
       "share_change": null,
-      "emerging_score": 0.6482,
+      "emerging_score": 0.6481,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -117,12 +117,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.56756756756757,
+      "skill_share": 16.901408450704224,
       "share_change": null,
-      "emerging_score": 0.6403,
-      "confidence": "medium",
+      "emerging_score": 0.6418,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 7,
+      "source_count": 6,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -137,7 +137,7 @@
           "organization": "arXiv CS.AI",
           "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
           "url": "https://arxiv.org/abs/2610.14277",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         },
         {
@@ -145,7 +145,7 @@
           "organization": "arXiv CS.AI",
           "title": "When Pleasing the User Compromises Care: AI Sycophancy in Caregiver-Mediated Healthcare",
           "url": "https://arxiv.org/abs/2610.14360",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         },
         {
@@ -153,7 +153,7 @@
           "organization": "arXiv CS.AI",
           "title": "ANASSA: From High-Level Framework to Low-Level Architecture for Spatial Agentic AI",
           "url": "https://arxiv.org/abs/2610.14382",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         },
         {
@@ -171,14 +171,6 @@
           "url": "https://spectrum.ieee.org/ai-agent-security",
           "publication_date": "2026-09-29",
           "source_tier": 2
-        },
-        {
-          "source_id": "d5e95482c62feffe",
-          "organization": "Bing",
-          "title": "TJ Newsflash 14 October \u2013 Managers\u2019 time, training trends, workplace thinking and AI\u2019s billion-dollar opportunity",
-          "url": "https://www.trainingjournal.com/2026/content-type/news/tj-newsflash-14-october-managers-time-training-trends-workplace-thinking-and-ais-billion-dollar-opportunity/",
-          "publication_date": "2026-10-13",
-          "source_tier": 4
         }
       ]
     },
@@ -188,9 +180,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.45945945945946,
+      "skill_share": 9.859154929577464,
       "share_change": null,
-      "emerging_score": 0.6146,
+      "emerging_score": 0.6145,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -200,13 +192,13 @@
           "organization": "arXiv CS.AI",
           "title": "The Silent Failures in Agentic Data Science",
           "url": "https://arxiv.org/abs/2610.14115",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         },
         {
-          "source_id": "72ca5851efe31fbc",
+          "source_id": "d0e76f5d44b3746a",
           "organization": "IEEE Spectrum AI",
-          "title": "Google Deepmind\u2019s New Resident Philosopher Tackles AI Ethics",
+          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
           "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
           "publication_date": "2026-10-13",
           "source_tier": 2
@@ -227,9 +219,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.405405405405405,
+      "skill_share": 5.633802816901409,
       "share_change": null,
-      "emerging_score": 0.5216,
+      "emerging_score": 0.5214,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -239,7 +231,7 @@
           "organization": "arXiv CS.AI",
           "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
           "url": "https://arxiv.org/abs/2610.14005",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         },
         {
@@ -266,9 +258,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.405405405405405,
+      "skill_share": 5.633802816901409,
       "share_change": null,
-      "emerging_score": 0.5205,
+      "emerging_score": 0.5204,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -305,9 +297,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.4453,
+      "emerging_score": 0.4452,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -344,9 +336,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.054054054054054,
+      "skill_share": 4.225352112676056,
       "share_change": null,
-      "emerging_score": 0.4282,
+      "emerging_score": 0.4281,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -367,9 +359,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.054054054054054,
+      "skill_share": 4.225352112676056,
       "share_change": null,
-      "emerging_score": 0.4282,
+      "emerging_score": 0.4281,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -390,9 +382,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.3407,
+      "emerging_score": 0.3406,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -413,9 +405,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.3513513513513513,
+      "skill_share": 1.4084507042253522,
       "share_change": null,
-      "emerging_score": 0.2532,
+      "emerging_score": 0.2531,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -425,7 +417,7 @@
           "organization": "arXiv CS.AI",
           "title": "The Silent Failures in Agentic Data Science",
           "url": "https://arxiv.org/abs/2610.14115",
-          "publication_date": "2026-10-14",
+          "publication_date": "2026-10-15",
           "source_tier": 2
         }
       ]
@@ -436,9 +428,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.054054054054054,
+      "skill_share": 4.225352112676056,
       "share_change": null,
-      "emerging_score": 0.248,
+      "emerging_score": 0.2478,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -470,45 +462,14 @@
       ]
     },
     {
-      "skill_id": "teamwork",
-      "skill_name": "Teamwork",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
-      "share_change": null,
-      "emerging_score": 0.2289,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "a10d71013abba3bc",
-          "organization": "Bing",
-          "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
-          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
-          "publication_date": "2026-07-08",
-          "source_tier": 4
-        },
-        {
-          "source_id": "688f357ed2a1039c",
-          "organization": "Bing",
-          "title": "Will AI destroy teamwork?",
-          "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
-          "publication_date": "2026-05-06",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "ai_literacy",
       "skill_name": "AI Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.3513513513513513,
+      "skill_share": 1.4084507042253522,
       "share_change": null,
-      "emerging_score": 0.1682,
+      "emerging_score": 0.1681,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -529,9 +490,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.3513513513513513,
+      "skill_share": 1.4084507042253522,
       "share_change": null,
-      "emerging_score": 0.1141,
+      "emerging_score": 0.1139,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -588,7 +549,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 8.0
+          "demand_index": 7.0
         }
       ]
     },
@@ -642,19 +603,6 @@
         {
           "month": "2026-10",
           "demand_index": 11.0
-        }
-      ]
-    },
-    {
-      "skill": "Teamwork",
-      "series": [
-        {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
-        {
-          "month": "2026-07",
-          "demand_index": 1.0
         }
       ]
     },
@@ -719,38 +667,38 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 20,
-      "percentage": 27.0
+      "count": 18,
+      "percentage": 25.4
     },
     {
       "industry": "technology",
       "count": 16,
-      "percentage": 21.6
+      "percentage": 22.5
     },
     {
       "industry": "education",
-      "count": 16,
-      "percentage": 21.6
+      "count": 15,
+      "percentage": 21.1
     },
     {
       "industry": "government",
       "count": 9,
-      "percentage": 12.2
+      "percentage": 12.7
     },
     {
       "industry": "healthcare",
       "count": 5,
-      "percentage": 6.8
+      "percentage": 7.0
     },
     {
       "industry": "finance",
       "count": 4,
-      "percentage": 5.4
+      "percentage": 5.6
     },
     {
       "industry": "manufacturing",
       "count": 3,
-      "percentage": 4.1
+      "percentage": 4.2
     },
     {
       "industry": "retail",
@@ -760,8 +708,8 @@
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 4,
-    "medium": 9,
+    "high": 5,
+    "medium": 8,
     "low": 18
   },
   "sources": [
@@ -913,7 +861,7 @@
       "organization": "arXiv CS.AI",
       "title": "ANASSA: From High-Level Framework to Low-Level Architecture for Spatial Agentic AI",
       "url": "https://arxiv.org/abs/2610.14382",
-      "publication_date": "2026-10-14",
+      "publication_date": "2026-10-15",
       "source_tier": 2,
       "skills": [
         "Communication"
@@ -924,7 +872,7 @@
       "organization": "arXiv CS.AI",
       "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
       "url": "https://arxiv.org/abs/2610.14005",
-      "publication_date": "2026-10-14",
+      "publication_date": "2026-10-15",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -959,16 +907,16 @@
       "organization": "arXiv CS.AI",
       "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
       "url": "https://arxiv.org/abs/2610.14277",
-      "publication_date": "2026-10-14",
+      "publication_date": "2026-10-15",
       "source_tier": 2,
       "skills": [
         "Communication"
       ]
     },
     {
-      "source_id": "72ca5851efe31fbc",
+      "source_id": "d0e76f5d44b3746a",
       "organization": "IEEE Spectrum AI",
-      "title": "Google Deepmind\u2019s New Resident Philosopher Tackles AI Ethics",
+      "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
       "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
       "publication_date": "2026-10-13",
       "source_tier": 2,
@@ -1027,7 +975,7 @@
       "organization": "arXiv CS.AI",
       "title": "The Silent Failures in Agentic Data Science",
       "url": "https://arxiv.org/abs/2610.14115",
-      "publication_date": "2026-10-14",
+      "publication_date": "2026-10-15",
       "source_tier": 2,
       "skills": [
         "Creativity",
@@ -1050,7 +998,7 @@
       "organization": "arXiv CS.AI",
       "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
       "url": "https://arxiv.org/abs/2610.14149",
-      "publication_date": "2026-10-14",
+      "publication_date": "2026-10-15",
       "source_tier": 2,
       "skills": [
         "Collaboration"
@@ -1061,7 +1009,7 @@
       "organization": "arXiv CS.AI",
       "title": "When Pleasing the User Compromises Care: AI Sycophancy in Caregiver-Mediated Healthcare",
       "url": "https://arxiv.org/abs/2610.14360",
-      "publication_date": "2026-10-14",
+      "publication_date": "2026-10-15",
       "source_tier": 2,
       "skills": [
         "Communication"
@@ -1112,28 +1060,6 @@
       ]
     },
     {
-      "source_id": "a10d71013abba3bc",
-      "organization": "Bing",
-      "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
-      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
-      "publication_date": "2026-07-08",
-      "source_tier": 4,
-      "skills": [
-        "Teamwork"
-      ]
-    },
-    {
-      "source_id": "d5e95482c62feffe",
-      "organization": "Bing",
-      "title": "TJ Newsflash 14 October \u2013 Managers\u2019 time, training trends, workplace thinking and AI\u2019s billion-dollar opportunity",
-      "url": "https://www.trainingjournal.com/2026/content-type/news/tj-newsflash-14-october-managers-time-training-trends-workplace-thinking-and-ais-billion-dollar-opportunity/",
-      "publication_date": "2026-10-13",
-      "source_tier": 4,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
       "source_id": "a0d45b32ac9469e9",
       "organization": "Bing",
       "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
@@ -1154,17 +1080,6 @@
       "source_tier": 4,
       "skills": [
         "Digital Literacy"
-      ]
-    },
-    {
-      "source_id": "688f357ed2a1039c",
-      "organization": "Bing",
-      "title": "Will AI destroy teamwork?",
-      "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
-      "publication_date": "2026-05-06",
-      "source_tier": 4,
-      "skills": [
-        "Teamwork"
       ]
     }
   ]
