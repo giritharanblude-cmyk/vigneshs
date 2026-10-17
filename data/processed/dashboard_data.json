@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T17:39:21.572096",
+  "generated_at": "2026-10-17T16:37:37.676949",
   "total_skills": 31,
   "emerging_skills": 6,
   "increasing_skills": 10,
-  "declining_skills": 5,
+  "declining_skills": 4,
   "new_evidence_items": 65,
-  "sources_analyzed": 117,
+  "sources_analyzed": 118,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,12 +15,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.391304347826086,
+      "skill_share": 18.84057971014493,
       "share_change": null,
-      "emerging_score": 0.6817,
+      "emerging_score": 0.6874,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 6,
       "sources": [
         {
           "source_id": "41b948c348a72e40",
@@ -61,6 +61,14 @@
           "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
           "publication_date": "2026-09-28",
           "source_tier": 3
+        },
+        {
+          "source_id": "ba1772b37d40fcbf",
+          "organization": "Bing",
+          "title": "SA grapples with growing demand for AI and cyber security skills",
+          "url": "https://www.itweb.co.za/article/sa-grapples-with-growing-demand-for-ai-and-cyber-security-skills/PmxVE7KE48jqQY85",
+          "publication_date": "2026-10-15",
+          "source_tier": 4
         }
       ]
     },
@@ -72,7 +80,7 @@
       "rolling_12m_change": null,
       "skill_share": 15.942028985507244,
       "share_change": null,
-      "emerging_score": 0.6479,
+      "emerging_score": 0.6478,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -107,14 +115,14 @@
       "skill_id": "communication",
       "skill_name": "Communication",
       "yoy_growth": null,
-      "mom_growth": 300.0,
+      "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 15.942028985507244,
+      "skill_share": 14.492753623188406,
       "share_change": null,
-      "emerging_score": 0.6352,
+      "emerging_score": 0.6383,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -147,14 +155,6 @@
           "url": "https://www.trainingjournal.com/2026/content-type/news/tj-newsflash-14-october-managers-time-training-trends-workplace-thinking-and-ais-billion-dollar-opportunity/",
           "publication_date": "2026-10-13",
           "source_tier": 4
-        },
-        {
-          "source_id": "c3dad6dd29034df4",
-          "organization": "Bing",
-          "title": "The AI Literacy Gap No One Expected",
-          "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-          "publication_date": "2026-06-15",
-          "source_tier": 4
         }
       ]
     },
@@ -164,12 +164,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.246376811594203,
+      "skill_share": 8.695652173913043,
       "share_change": null,
-      "emerging_score": 0.6029,
-      "confidence": "high",
+      "emerging_score": 0.6061,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "d0e76f5d44b3746a",
@@ -178,6 +178,14 @@
           "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
           "publication_date": "2026-10-13",
           "source_tier": 2
+        },
+        {
+          "source_id": "a0d45b32ac9469e9",
+          "organization": "Bing",
+          "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
+          "url": "https://www.fibre2fashion.com/industry-article/11848/ai-ready-fashion-student-skills",
+          "publication_date": "2026-10-07",
+          "source_tier": 4
         }
       ]
     },
@@ -189,7 +197,7 @@
       "rolling_12m_change": null,
       "skill_share": 7.246376811594203,
       "share_change": null,
-      "emerging_score": 0.5796,
+      "emerging_score": 0.5795,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -199,7 +207,7 @@
           "organization": "arXiv CS.AI",
           "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
           "url": "https://arxiv.org/abs/2610.20679",
-          "publication_date": "2026-10-16",
+          "publication_date": "2026-10-17",
           "source_tier": 2
         },
         {
@@ -207,7 +215,7 @@
           "organization": "arXiv CS.AI",
           "title": "Open-world AI: a Tale of Three Requirements",
           "url": "https://arxiv.org/abs/2610.20782",
-          "publication_date": "2026-10-16",
+          "publication_date": "2026-10-17",
           "source_tier": 2
         },
         {
@@ -236,7 +244,7 @@
       "rolling_12m_change": null,
       "skill_share": 5.797101449275362,
       "share_change": null,
-      "emerging_score": 0.5203,
+      "emerging_score": 0.5201,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -275,7 +283,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.4451,
+      "emerging_score": 0.4449,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -314,7 +322,7 @@
       "rolling_12m_change": null,
       "skill_share": 4.3478260869565215,
       "share_change": null,
-      "emerging_score": 0.4279,
+      "emerging_score": 0.4278,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -337,7 +345,7 @@
       "rolling_12m_change": null,
       "skill_share": 4.3478260869565215,
       "share_change": null,
-      "emerging_score": 0.4279,
+      "emerging_score": 0.4278,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -360,7 +368,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.3404,
+      "emerging_score": 0.3403,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -383,7 +391,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.2287,
+      "emerging_score": 0.2285,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -414,40 +422,17 @@
       "rolling_12m_change": null,
       "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1512,
+      "emerging_score": 0.1678,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "c3dad6dd29034df4",
+          "source_id": "a0d45b32ac9469e9",
           "organization": "Bing",
-          "title": "The AI Literacy Gap No One Expected",
-          "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-          "publication_date": "2026-06-15",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "critical_thinking",
-      "skill_name": "Critical Thinking",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.4492753623188406,
-      "share_change": null,
-      "emerging_score": 0.1512,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "c3dad6dd29034df4",
-          "organization": "Bing",
-          "title": "The AI Literacy Gap No One Expected",
-          "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-          "publication_date": "2026-06-15",
+          "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
+          "url": "https://www.fibre2fashion.com/industry-article/11848/ai-ready-fashion-student-skills",
+          "publication_date": "2026-10-07",
           "source_tier": 4
         }
       ]
@@ -460,7 +445,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.1213,
+      "emerging_score": 0.1212,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -491,7 +476,7 @@
       "rolling_12m_change": null,
       "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1138,
+      "emerging_score": 0.1137,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -512,7 +497,7 @@
       "skill": "AI Literacy",
       "series": [
         {
-          "month": "2026-06",
+          "month": "2026-10",
           "demand_index": 1.0
         }
       ]
@@ -527,24 +512,11 @@
       ]
     },
     {
-      "skill": "Critical Thinking",
-      "series": [
-        {
-          "month": "2026-06",
-          "demand_index": 1.0
-        }
-      ]
-    },
-    {
       "skill": "Communication",
       "series": [
         {
           "month": "2025-12",
           "demand_index": 34.6968384349829
-        },
-        {
-          "month": "2026-06",
-          "demand_index": 1.0
         },
         {
           "month": "2026-09",
@@ -574,7 +546,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 5.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -631,7 +603,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 5.0
         }
       ]
     },
@@ -678,14 +650,14 @@
   ],
   "industry_comparison": [
     {
-      "industry": "general",
-      "count": 17,
-      "percentage": 24.6
+      "industry": "education",
+      "count": 18,
+      "percentage": 26.1
     },
     {
-      "industry": "education",
-      "count": 17,
-      "percentage": 24.6
+      "industry": "general",
+      "count": 16,
+      "percentage": 23.2
     },
     {
       "industry": "technology",
@@ -720,8 +692,8 @@
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 4,
-    "medium": 8,
+    "high": 3,
+    "medium": 9,
     "low": 19
   },
   "sources": [
@@ -897,7 +869,7 @@
       "organization": "arXiv CS.AI",
       "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
       "url": "https://arxiv.org/abs/2610.20679",
-      "publication_date": "2026-10-16",
+      "publication_date": "2026-10-17",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -954,7 +926,7 @@
       "organization": "arXiv CS.AI",
       "title": "Open-world AI: a Tale of Three Requirements",
       "url": "https://arxiv.org/abs/2610.20782",
-      "publication_date": "2026-10-16",
+      "publication_date": "2026-10-17",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -1038,6 +1010,17 @@
       ]
     },
     {
+      "source_id": "ba1772b37d40fcbf",
+      "organization": "Bing",
+      "title": "SA grapples with growing demand for AI and cyber security skills",
+      "url": "https://www.itweb.co.za/article/sa-grapples-with-growing-demand-for-ai-and-cyber-security-skills/PmxVE7KE48jqQY85",
+      "publication_date": "2026-10-15",
+      "source_tier": 4,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
       "source_id": "d5e95482c62feffe",
       "organization": "Bing",
       "title": "TJ Newsflash 14 October \u2013 Managers\u2019 time, training trends, workplace thinking and AI\u2019s billion-dollar opportunity",
@@ -1049,16 +1032,15 @@
       ]
     },
     {
-      "source_id": "c3dad6dd29034df4",
+      "source_id": "a0d45b32ac9469e9",
       "organization": "Bing",
-      "title": "The AI Literacy Gap No One Expected",
-      "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-      "publication_date": "2026-06-15",
+      "title": "The AI-Ready Fashion Professional: Skills Students must Have Before Entering the Industry",
+      "url": "https://www.fibre2fashion.com/industry-article/11848/ai-ready-fashion-student-skills",
+      "publication_date": "2026-10-07",
       "source_tier": 4,
       "skills": [
         "AI Literacy",
-        "Communication",
-        "Critical Thinking"
+        "Creativity"
       ]
     },
     {
