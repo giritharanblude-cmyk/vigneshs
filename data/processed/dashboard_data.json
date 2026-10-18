@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T16:37:37.676949",
+  "generated_at": "2026-10-18T16:46:20.235773",
   "total_skills": 31,
-  "emerging_skills": 6,
+  "emerging_skills": 5,
   "increasing_skills": 10,
-  "declining_skills": 4,
+  "declining_skills": 5,
   "new_evidence_items": 65,
-  "sources_analyzed": 118,
+  "sources_analyzed": 99,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -17,7 +17,7 @@
       "rolling_12m_change": null,
       "skill_share": 18.84057971014493,
       "share_change": null,
-      "emerging_score": 0.6874,
+      "emerging_score": 0.6873,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 6,
@@ -80,7 +80,7 @@
       "rolling_12m_change": null,
       "skill_share": 15.942028985507244,
       "share_change": null,
-      "emerging_score": 0.6478,
+      "emerging_score": 0.6477,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -119,7 +119,7 @@
       "rolling_12m_change": null,
       "skill_share": 14.492753623188406,
       "share_change": null,
-      "emerging_score": 0.6383,
+      "emerging_score": 0.6381,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -166,7 +166,7 @@
       "rolling_12m_change": null,
       "skill_share": 8.695652173913043,
       "share_change": null,
-      "emerging_score": 0.6061,
+      "emerging_score": 0.606,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -190,64 +190,17 @@
       ]
     },
     {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 7.246376811594203,
-      "share_change": null,
-      "emerging_score": 0.5795,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "3da2f9f6db3af242",
-          "organization": "arXiv CS.AI",
-          "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
-          "url": "https://arxiv.org/abs/2610.20679",
-          "publication_date": "2026-10-17",
-          "source_tier": 2
-        },
-        {
-          "source_id": "68ae39788fb61c9f",
-          "organization": "arXiv CS.AI",
-          "title": "Open-world AI: a Tale of Three Requirements",
-          "url": "https://arxiv.org/abs/2610.20782",
-          "publication_date": "2026-10-17",
-          "source_tier": 2
-        },
-        {
-          "source_id": "685ae1740e8a18ab",
-          "organization": "IEEE Spectrum AI",
-          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
-          "url": "https://spectrum.ieee.org/millennium-prize-ai",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        },
-        {
-          "source_id": "0ad8cf2e4e0cb387",
-          "organization": "Microsoft Work Lab",
-          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-          "publication_date": "2026-09-29",
-          "source_tier": 3
-        }
-      ]
-    },
-    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.797101449275362,
+      "skill_share": 7.246376811594203,
       "share_change": null,
-      "emerging_score": 0.5201,
+      "emerging_score": 0.6035,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "c040684b258373b5",
@@ -272,6 +225,45 @@
           "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
           "publication_date": "2026-10-07",
           "source_tier": 3
+        },
+        {
+          "source_id": "a6165b10bcf88a7f",
+          "organization": "Bing",
+          "title": "Q&A: ACP updates guidance on ethical AI use",
+          "url": "https://www.healio.com/news/primary-care/20261008/qa-acp-updates-guidance-on-ethical-ai-use",
+          "publication_date": "2026-10-07",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 4.3478260869565215,
+      "share_change": null,
+      "emerging_score": 0.4621,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "685ae1740e8a18ab",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+          "url": "https://spectrum.ieee.org/millennium-prize-ai",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
+        },
+        {
+          "source_id": "0ad8cf2e4e0cb387",
+          "organization": "Microsoft Work Lab",
+          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+          "publication_date": "2026-09-29",
+          "source_tier": 3
         }
       ]
     },
@@ -283,7 +275,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.4449,
+      "emerging_score": 0.4448,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -322,7 +314,7 @@
       "rolling_12m_change": null,
       "skill_share": 4.3478260869565215,
       "share_change": null,
-      "emerging_score": 0.4278,
+      "emerging_score": 0.4277,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -345,7 +337,7 @@
       "rolling_12m_change": null,
       "skill_share": 4.3478260869565215,
       "share_change": null,
-      "emerging_score": 0.4278,
+      "emerging_score": 0.4277,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -368,7 +360,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.3403,
+      "emerging_score": 0.3402,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -391,7 +383,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.2285,
+      "emerging_score": 0.2284,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -422,7 +414,7 @@
       "rolling_12m_change": null,
       "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1678,
+      "emerging_score": 0.1677,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -438,6 +430,29 @@
       ]
     },
     {
+      "skill_id": "responsible_ai_use",
+      "skill_name": "Responsible AI Use",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.4492753623188406,
+      "share_change": null,
+      "emerging_score": 0.1677,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "a6165b10bcf88a7f",
+          "organization": "Bing",
+          "title": "Q&A: ACP updates guidance on ethical AI use",
+          "url": "https://www.healio.com/news/primary-care/20261008/qa-acp-updates-guidance-on-ethical-ai-use",
+          "publication_date": "2026-10-07",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "digital_literacy",
       "skill_name": "Digital Literacy",
       "yoy_growth": null,
@@ -445,7 +460,7 @@
       "rolling_12m_change": null,
       "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.1212,
+      "emerging_score": 0.121,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -476,7 +491,7 @@
       "rolling_12m_change": null,
       "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1137,
+      "emerging_score": 0.1135,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -537,7 +552,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -616,7 +631,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 2.0
+          "demand_index": 3.0
         }
       ]
     },
@@ -646,16 +661,25 @@
           "demand_index": 3.0
         }
       ]
+    },
+    {
+      "skill": "Responsible AI Use",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 1.0
+        }
+      ]
     }
   ],
   "industry_comparison": [
     {
-      "industry": "education",
-      "count": 18,
-      "percentage": 26.1
+      "industry": "general",
+      "count": 16,
+      "percentage": 23.2
     },
     {
-      "industry": "general",
+      "industry": "education",
       "count": 16,
       "percentage": 23.2
     },
@@ -671,8 +695,8 @@
     },
     {
       "industry": "healthcare",
-      "count": 4,
-      "percentage": 5.8
+      "count": 6,
+      "percentage": 8.7
     },
     {
       "industry": "finance",
@@ -865,17 +889,6 @@
       ]
     },
     {
-      "source_id": "3da2f9f6db3af242",
-      "organization": "arXiv CS.AI",
-      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
-      "url": "https://arxiv.org/abs/2610.20679",
-      "publication_date": "2026-10-17",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
       "source_id": "d0e76f5d44b3746a",
       "organization": "IEEE Spectrum AI",
       "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
@@ -919,17 +932,6 @@
       "skills": [
         "Communication",
         "Leadership"
-      ]
-    },
-    {
-      "source_id": "68ae39788fb61c9f",
-      "organization": "arXiv CS.AI",
-      "title": "Open-world AI: a Tale of Three Requirements",
-      "url": "https://arxiv.org/abs/2610.20782",
-      "publication_date": "2026-10-17",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
       ]
     },
     {
@@ -1007,6 +1009,18 @@
       "source_tier": 4,
       "skills": [
         "Teamwork"
+      ]
+    },
+    {
+      "source_id": "a6165b10bcf88a7f",
+      "organization": "Bing",
+      "title": "Q&A: ACP updates guidance on ethical AI use",
+      "url": "https://www.healio.com/news/primary-care/20261008/qa-acp-updates-guidance-on-ethical-ai-use",
+      "publication_date": "2026-10-07",
+      "source_tier": 4,
+      "skills": [
+        "Decision-Making",
+        "Responsible AI Use"
       ]
     },
     {
