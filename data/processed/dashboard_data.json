@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T16:52:39.549463",
+  "generated_at": "2026-10-25T17:11:38.927931",
   "total_skills": 31,
   "emerging_skills": 5,
-  "increasing_skills": 8,
-  "declining_skills": 7,
-  "new_evidence_items": 60,
-  "sources_analyzed": 100,
+  "increasing_skills": 9,
+  "declining_skills": 6,
+  "new_evidence_items": 63,
+  "sources_analyzed": 101,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,9 +15,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.1875,
+      "skill_share": 16.417910447761194,
       "share_change": null,
-      "emerging_score": 0.6527,
+      "emerging_score": 0.6526,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -62,9 +62,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.1875,
+      "skill_share": 16.417910447761194,
       "share_change": null,
-      "emerging_score": 0.6468,
+      "emerging_score": 0.6467,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -101,9 +101,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.1875,
+      "skill_share": 16.417910447761194,
       "share_change": null,
-      "emerging_score": 0.6402,
+      "emerging_score": 0.6401,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -148,9 +148,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.8125,
+      "skill_share": 7.462686567164178,
       "share_change": null,
-      "emerging_score": 0.6018,
+      "emerging_score": 0.6017,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -171,9 +171,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.8125,
+      "skill_share": 7.462686567164178,
       "share_change": null,
-      "emerging_score": 0.5785,
+      "emerging_score": 0.5784,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -205,14 +205,53 @@
       ]
     },
     {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.9850746268656714,
+      "share_change": null,
+      "emerging_score": 0.4438,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
       "skill_id": "ai_collaboration",
       "skill_name": "AI Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.6875,
+      "skill_share": 4.477611940298507,
       "share_change": null,
-      "emerging_score": 0.4268,
+      "emerging_score": 0.4267,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -233,9 +272,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.6875,
+      "skill_share": 4.477611940298507,
       "share_change": null,
-      "emerging_score": 0.4268,
+      "emerging_score": 0.4267,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -256,9 +295,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.125,
+      "skill_share": 2.9850746268656714,
       "share_change": null,
-      "emerging_score": 0.3393,
+      "emerging_score": 0.3392,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -279,9 +318,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.5625,
+      "skill_share": 1.4925373134328357,
       "share_change": null,
-      "emerging_score": 0.2793,
+      "emerging_score": 0.2792,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -297,14 +336,45 @@
       ]
     },
     {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.9850746268656714,
+      "share_change": null,
+      "emerging_score": 0.2679,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "4a515bd120ee5270",
+          "organization": "Bing",
+          "title": "Fashion schools need their own AI literacy, review argues",
+          "url": "https://bioengineer.org/fashion-schools-need-their-own-ai-literacy-review-argues/",
+          "publication_date": "2026-10-23",
+          "source_tier": 4
+        },
+        {
+          "source_id": "453dd89f78710e42",
+          "organization": "Bing",
+          "title": "How Sentara Health built an enterprise AI literacy program",
+          "url": "https://www.healthcareitnews.com/news/how-sentara-health-built-enterprise-ai-literacy-program",
+          "publication_date": "2026-07-23",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "teamwork",
       "skill_name": "Teamwork",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.125,
+      "skill_share": 2.9850746268656714,
       "share_change": null,
-      "emerging_score": 0.2276,
+      "emerging_score": 0.2274,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -328,41 +398,26 @@
       ]
     },
     {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.5625,
-      "share_change": null,
-      "emerging_score": 0.1668,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "4a515bd120ee5270",
-          "organization": "Bing",
-          "title": "Fashion schools need their own AI literacy, review argues",
-          "url": "https://bioengineer.org/fashion-schools-need-their-own-ai-literacy-review-argues/",
-          "publication_date": "2026-10-23",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "critical_thinking",
       "skill_name": "Critical Thinking",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.5625,
+      "skill_share": 2.9850746268656714,
       "share_change": null,
-      "emerging_score": 0.1668,
+      "emerging_score": 0.2242,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {
+          "source_id": "de8739e204ac9e6f",
+          "organization": "Bing",
+          "title": "NCERT develops AI module for Classes 9-12: Data privacy, ethical use and critical thinking in focus",
+          "url": "https://www.msn.com/en-in/news/other/ncert-develops-ai-module-for-classes-9-12-data-privacy-ethical-use-and-critical-thinking-in-focus/ar-AA2g1Cox",
+          "publication_date": "2026-10-25",
+          "source_tier": 4
+        },
         {
           "source_id": "16281a9fadd7f8df",
           "organization": "Bing",
@@ -379,9 +434,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.125,
+      "skill_share": 2.9850746268656714,
       "share_change": null,
-      "emerging_score": 0.1202,
+      "emerging_score": 0.1201,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -405,45 +460,14 @@
       ]
     },
     {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.5625,
-      "share_change": null,
-      "emerging_score": 0.1127,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "f6615c9f50d92d4b",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
-        }
-      ]
-    },
-    {
       "skill_id": "resilience",
       "skill_name": "Resilience",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.5625,
+      "skill_share": 1.4925373134328357,
       "share_change": null,
-      "emerging_score": 0.1127,
+      "emerging_score": 0.1126,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -464,6 +488,10 @@
       "skill": "AI Literacy",
       "series": [
         {
+          "month": "2026-07",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-10",
           "demand_index": 1.0
         }
@@ -483,7 +511,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -532,6 +560,10 @@
         {
           "month": "2025-12",
           "demand_index": 68.8697192431851
+        },
+        {
+          "month": "2026-09",
+          "demand_index": 159044.0
         }
       ]
     },
@@ -619,43 +651,43 @@
   "industry_comparison": [
     {
       "industry": "education",
-      "count": 17,
-      "percentage": 26.6
+      "count": 18,
+      "percentage": 26.9
     },
     {
       "industry": "technology",
       "count": 15,
-      "percentage": 23.4
+      "percentage": 22.4
     },
     {
       "industry": "general",
-      "count": 12,
-      "percentage": 18.8
+      "count": 13,
+      "percentage": 19.4
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 12.5
+      "percentage": 11.9
     },
     {
       "industry": "healthcare",
-      "count": 4,
-      "percentage": 6.2
+      "count": 5,
+      "percentage": 7.5
     },
     {
       "industry": "finance",
       "count": 4,
-      "percentage": 6.2
+      "percentage": 6.0
     },
     {
       "industry": "manufacturing",
       "count": 3,
-      "percentage": 4.7
+      "percentage": 4.5
     },
     {
       "industry": "retail",
       "count": 1,
-      "percentage": 1.6
+      "percentage": 1.5
     }
   ],
   "new_skills_detected": [],
@@ -665,6 +697,17 @@
     "low": 19
   },
   "sources": [
+    {
+      "source_id": "c18a7b729bc1a00c",
+      "organization": "U.S. Bureau of Labor Statistics",
+      "title": "BLS Employment Data (CES0000000001)",
+      "url": "https://data.bls.gov/timeseries/CES0000000001",
+      "publication_date": "2026-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
     {
       "source_id": "7220b394d96e71b9",
       "organization": "World Bank",
@@ -953,6 +996,28 @@
       "source_tier": 4,
       "skills": [
         "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "453dd89f78710e42",
+      "organization": "Bing",
+      "title": "How Sentara Health built an enterprise AI literacy program",
+      "url": "https://www.healthcareitnews.com/news/how-sentara-health-built-enterprise-ai-literacy-program",
+      "publication_date": "2026-07-23",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "de8739e204ac9e6f",
+      "organization": "Bing",
+      "title": "NCERT develops AI module for Classes 9-12: Data privacy, ethical use and critical thinking in focus",
+      "url": "https://www.msn.com/en-in/news/other/ncert-develops-ai-module-for-classes-9-12-data-privacy-ethical-use-and-critical-thinking-in-focus/ar-AA2g1Cox",
+      "publication_date": "2026-10-25",
+      "source_tier": 4,
+      "skills": [
+        "Critical Thinking"
       ]
     },
     {
