@@ -1,73 +1,26 @@
 {
-  "generated_at": "2026-10-25T17:11:38.927931",
+  "generated_at": "2026-10-26T19:31:42.423701",
   "total_skills": 31,
   "emerging_skills": 5,
-  "increasing_skills": 9,
-  "declining_skills": 6,
-  "new_evidence_items": 63,
-  "sources_analyzed": 101,
+  "increasing_skills": 10,
+  "declining_skills": 5,
+  "new_evidence_items": 67,
+  "sources_analyzed": 120,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
-    {
-      "skill_id": "collaboration",
-      "skill_name": "Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 16.417910447761194,
-      "share_change": null,
-      "emerging_score": 0.6526,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        },
-        {
-          "source_id": "e8877fe566e721a1",
-          "organization": "IEEE Spectrum AI",
-          "title": "How to Stop AI Agents From Secretly Collaborating",
-          "url": "https://spectrum.ieee.org/ai-agent-security",
-          "publication_date": "2026-09-29",
-          "source_tier": 2
-        },
-        {
-          "source_id": "b8bda405bb415344",
-          "organization": "IEEE Spectrum AI",
-          "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
-          "url": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
-          "publication_date": "2026-09-22",
-          "source_tier": 2
-        },
-        {
-          "source_id": "bd5fa94080cd798b",
-          "organization": "Microsoft Work Lab",
-          "title": "One year in: How Microsoft Research Asia \u2013 Singapore is advancing research, partnership and talent for real-world impact",
-          "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
-          "publication_date": "2026-09-28",
-          "source_tier": 3
-        }
-      ]
-    },
     {
       "skill_id": "leadership",
       "skill_name": "Leadership",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 16.417910447761194,
+      "skill_share": 16.901408450704224,
       "share_change": null,
-      "emerging_score": 0.6467,
-      "confidence": "high",
+      "emerging_score": 0.6713,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "326b9ba5e4d67b24",
@@ -92,6 +45,14 @@
           "url": "https://spectrum.ieee.org/6-guidelines-governing-ai",
           "publication_date": "2026-10-05",
           "source_tier": 2
+        },
+        {
+          "source_id": "8eea0a4e96faa5f9",
+          "organization": "Bing",
+          "title": "Three Human Capabilities Emerging Economies Need To Leverage AI",
+          "url": "https://www.forbes.com/sites/michaeledmondson/2026/08/18/three-human-capabilities-emerging-economies-need-to-leverage-ai/",
+          "publication_date": "2026-08-18",
+          "source_tier": 4
         }
       ]
     },
@@ -101,12 +62,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 16.417910447761194,
+      "skill_share": 18.30985915492958,
       "share_change": null,
-      "emerging_score": 0.6401,
+      "emerging_score": 0.6406,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -115,6 +76,14 @@
           "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
           "publication_date": "2025-12-01",
           "source_tier": 1
+        },
+        {
+          "source_id": "8bf8f0701d524917",
+          "organization": "arXiv CS.AI",
+          "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+          "url": "https://arxiv.org/abs/2610.32060",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
         },
         {
           "source_id": "179f1170580464cf",
@@ -143,25 +112,49 @@
       ]
     },
     {
-      "skill_id": "creativity",
-      "skill_name": "Creativity",
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.462686567164178,
+      "skill_share": 12.676056338028168,
       "share_change": null,
-      "emerging_score": 0.6017,
-      "confidence": "high",
+      "emerging_score": 0.6379,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 4,
       "sources": [
         {
-          "source_id": "d0e76f5d44b3746a",
+          "source_id": "ff901306ac33508f",
           "organization": "IEEE Spectrum AI",
-          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
-          "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
-          "publication_date": "2026-10-13",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
           "source_tier": 2
+        },
+        {
+          "source_id": "bd82fba29c863764",
+          "organization": "IEEE Spectrum AI",
+          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
+          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
+        },
+        {
+          "source_id": "e8877fe566e721a1",
+          "organization": "IEEE Spectrum AI",
+          "title": "How to Stop AI Agents From Secretly Collaborating",
+          "url": "https://spectrum.ieee.org/ai-agent-security",
+          "publication_date": "2026-09-29",
+          "source_tier": 2
+        },
+        {
+          "source_id": "bd5fa94080cd798b",
+          "organization": "Microsoft Work Lab",
+          "title": "One year in: How Microsoft Research Asia \u2013 Singapore is advancing research, partnership and talent for real-world impact",
+          "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+          "publication_date": "2026-09-28",
+          "source_tier": 3
         }
       ]
     },
@@ -171,13 +164,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.462686567164178,
+      "skill_share": 9.859154929577464,
       "share_change": null,
-      "emerging_score": 0.5784,
+      "emerging_score": 0.6242,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
+        {
+          "source_id": "7e05283c8cf1b651",
+          "organization": "arXiv CS.AI",
+          "title": "PPO vs. SAC: A Comparative Study for Cooperative Motion Control of Dual-Arm Space Robots",
+          "url": "https://arxiv.org/abs/2610.32034",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        },
         {
           "source_id": "0e5671290a77e192",
           "organization": "IEEE Spectrum AI",
@@ -205,14 +206,37 @@
       ]
     },
     {
+      "skill_id": "creativity",
+      "skill_name": "Creativity",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 7.042253521126761,
+      "share_change": null,
+      "emerging_score": 0.6016,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "d0e76f5d44b3746a",
+          "organization": "IEEE Spectrum AI",
+          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
+          "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+          "publication_date": "2026-10-13",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
       "skill_id": "adaptability",
       "skill_name": "Adaptability",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.9850746268656714,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.4438,
+      "emerging_score": 0.4437,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -249,32 +273,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.477611940298507,
+      "skill_share": 4.225352112676056,
       "share_change": null,
-      "emerging_score": 0.4267,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "human_ai_collaboration",
-      "skill_name": "Human-AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 4.477611940298507,
-      "share_change": null,
-      "emerging_score": 0.4267,
+      "emerging_score": 0.4266,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -295,13 +296,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.9850746268656714,
+      "skill_share": 4.225352112676056,
       "share_change": null,
-      "emerging_score": 0.3392,
-      "confidence": "medium",
+      "emerging_score": 0.4266,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {
+          "source_id": "2292bab5eeed3371",
+          "organization": "arXiv CS.AI",
+          "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+          "url": "https://arxiv.org/abs/2610.31971",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        },
         {
           "source_id": "999d3fd2165b15b7",
           "organization": "IEEE Spectrum AI",
@@ -313,18 +322,49 @@
       ]
     },
     {
+      "skill_id": "human_ai_collaboration",
+      "skill_name": "Human-AI Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 4.225352112676056,
+      "share_change": null,
+      "emerging_score": 0.4266,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "bd82fba29c863764",
+          "organization": "IEEE Spectrum AI",
+          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
+          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.4925373134328357,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.2792,
+      "emerging_score": 0.3728,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        },
         {
           "source_id": "a7485bd3f16c7cc2",
           "organization": "Microsoft Work Lab",
@@ -341,9 +381,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.9850746268656714,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.2679,
+      "emerging_score": 0.2441,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -357,11 +397,11 @@
           "source_tier": 4
         },
         {
-          "source_id": "453dd89f78710e42",
+          "source_id": "64510c0e15fd6a5b",
           "organization": "Bing",
-          "title": "How Sentara Health built an enterprise AI literacy program",
-          "url": "https://www.healthcareitnews.com/news/how-sentara-health-built-enterprise-ai-literacy-program",
-          "publication_date": "2026-07-23",
+          "title": "Defining The Meaning Of The Ethical Use Of AI At Educational Institutions Is The Most Important Issue Of Our Time",
+          "url": "https://www.freepressjournal.in/education/defining-the-meaning-of-the-ethical-use-of-ai-at-educational-institutions-is-the-most-important-issue-of-our-time",
+          "publication_date": "2026-10-19",
           "source_tier": 4
         }
       ]
@@ -372,9 +412,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.9850746268656714,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.2274,
+      "emerging_score": 0.2273,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -403,21 +443,13 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.9850746268656714,
+      "skill_share": 1.4084507042253522,
       "share_change": null,
-      "emerging_score": 0.2242,
+      "emerging_score": 0.1666,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        {
-          "source_id": "de8739e204ac9e6f",
-          "organization": "Bing",
-          "title": "NCERT develops AI module for Classes 9-12: Data privacy, ethical use and critical thinking in focus",
-          "url": "https://www.msn.com/en-in/news/other/ncert-develops-ai-module-for-classes-9-12-data-privacy-ethical-use-and-critical-thinking-in-focus/ar-AA2g1Cox",
-          "publication_date": "2026-10-25",
-          "source_tier": 4
-        },
         {
           "source_id": "16281a9fadd7f8df",
           "organization": "Bing",
@@ -434,9 +466,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.9850746268656714,
+      "skill_share": 2.8169014084507045,
       "share_change": null,
-      "emerging_score": 0.1201,
+      "emerging_score": 0.1199,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -465,9 +497,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.4925373134328357,
+      "skill_share": 1.4084507042253522,
       "share_change": null,
-      "emerging_score": 0.1126,
+      "emerging_score": 0.1124,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -488,12 +520,8 @@
       "skill": "AI Literacy",
       "series": [
         {
-          "month": "2026-07",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-10",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -511,7 +539,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 2.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -528,7 +556,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 6.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -541,7 +569,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -580,6 +608,10 @@
       "skill": "Leadership",
       "series": [
         {
+          "month": "2026-08",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-10",
           "demand_index": 11.0
         }
@@ -603,11 +635,11 @@
       "series": [
         {
           "month": "2026-09",
-          "demand_index": 8.0
+          "demand_index": 5.0
         },
         {
           "month": "2026-10",
-          "demand_index": 3.0
+          "demand_index": 4.0
         }
       ]
     },
@@ -616,7 +648,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -625,7 +657,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 2.0
+          "demand_index": 3.0
         }
       ]
     },
@@ -652,42 +684,42 @@
     {
       "industry": "education",
       "count": 18,
-      "percentage": 26.9
+      "percentage": 25.4
     },
     {
       "industry": "technology",
-      "count": 15,
-      "percentage": 22.4
+      "count": 16,
+      "percentage": 22.5
     },
     {
       "industry": "general",
-      "count": 13,
-      "percentage": 19.4
+      "count": 15,
+      "percentage": 21.1
     },
     {
       "industry": "government",
       "count": 8,
-      "percentage": 11.9
+      "percentage": 11.3
     },
     {
       "industry": "healthcare",
       "count": 5,
-      "percentage": 7.5
+      "percentage": 7.0
     },
     {
       "industry": "finance",
-      "count": 4,
-      "percentage": 6.0
+      "count": 5,
+      "percentage": 7.0
     },
     {
       "industry": "manufacturing",
       "count": 3,
-      "percentage": 4.5
+      "percentage": 4.2
     },
     {
       "industry": "retail",
       "count": 1,
-      "percentage": 1.5
+      "percentage": 1.4
     }
   ],
   "new_skills_detected": [],
@@ -888,6 +920,29 @@
       ]
     },
     {
+      "source_id": "ff901306ac33508f",
+      "organization": "IEEE Spectrum AI",
+      "title": "IEEE Xplore Digital Library Adds AI Assistant",
+      "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+      "publication_date": "2026-10-26",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "2292bab5eeed3371",
+      "organization": "arXiv CS.AI",
+      "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+      "url": "https://arxiv.org/abs/2610.31971",
+      "publication_date": "2026-10-26",
+      "source_tier": 2,
+      "skills": [
+        "Negotiation"
+      ]
+    },
+    {
       "source_id": "999d3fd2165b15b7",
       "organization": "IEEE Spectrum AI",
       "title": "Master AI Chip Principles With New IEEE Design Program",
@@ -911,6 +966,17 @@
       ]
     },
     {
+      "source_id": "7e05283c8cf1b651",
+      "organization": "arXiv CS.AI",
+      "title": "PPO vs. SAC: A Comparative Study for Cooperative Motion Control of Dual-Arm Space Robots",
+      "url": "https://arxiv.org/abs/2610.32034",
+      "publication_date": "2026-10-26",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
       "source_id": "6fabc3422ddbe707",
       "organization": "IEEE Spectrum AI",
       "title": "The U.S. Nuclear Plant Fleet Is Leaning Into AI",
@@ -922,14 +988,14 @@
       ]
     },
     {
-      "source_id": "b8bda405bb415344",
-      "organization": "IEEE Spectrum AI",
-      "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
-      "url": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
-      "publication_date": "2026-09-22",
+      "source_id": "8bf8f0701d524917",
+      "organization": "arXiv CS.AI",
+      "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2610.32060",
+      "publication_date": "2026-10-26",
       "source_tier": 2,
       "skills": [
-        "Collaboration"
+        "Communication"
       ]
     },
     {
@@ -988,6 +1054,17 @@
       ]
     },
     {
+      "source_id": "64510c0e15fd6a5b",
+      "organization": "Bing",
+      "title": "Defining The Meaning Of The Ethical Use Of AI At Educational Institutions Is The Most Important Issue Of Our Time",
+      "url": "https://www.freepressjournal.in/education/defining-the-meaning-of-the-ethical-use-of-ai-at-educational-institutions-is-the-most-important-issue-of-our-time",
+      "publication_date": "2026-10-19",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
       "source_id": "4a515bd120ee5270",
       "organization": "Bing",
       "title": "Fashion schools need their own AI literacy, review argues",
@@ -999,25 +1076,14 @@
       ]
     },
     {
-      "source_id": "453dd89f78710e42",
+      "source_id": "8eea0a4e96faa5f9",
       "organization": "Bing",
-      "title": "How Sentara Health built an enterprise AI literacy program",
-      "url": "https://www.healthcareitnews.com/news/how-sentara-health-built-enterprise-ai-literacy-program",
-      "publication_date": "2026-07-23",
+      "title": "Three Human Capabilities Emerging Economies Need To Leverage AI",
+      "url": "https://www.forbes.com/sites/michaeledmondson/2026/08/18/three-human-capabilities-emerging-economies-need-to-leverage-ai/",
+      "publication_date": "2026-08-18",
       "source_tier": 4,
       "skills": [
-        "AI Literacy"
-      ]
-    },
-    {
-      "source_id": "de8739e204ac9e6f",
-      "organization": "Bing",
-      "title": "NCERT develops AI module for Classes 9-12: Data privacy, ethical use and critical thinking in focus",
-      "url": "https://www.msn.com/en-in/news/other/ncert-develops-ai-module-for-classes-9-12-data-privacy-ethical-use-and-critical-thinking-in-focus/ar-AA2g1Cox",
-      "publication_date": "2026-10-25",
-      "source_tier": 4,
-      "skills": [
-        "Critical Thinking"
+        "Leadership"
       ]
     },
     {
