@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T18:52:29.308699",
+  "generated_at": "2026-10-28T19:03:38.334260",
   "total_skills": 31,
-  "emerging_skills": 5,
+  "emerging_skills": 6,
   "increasing_skills": 10,
   "declining_skills": 5,
-  "new_evidence_items": 73,
-  "sources_analyzed": 115,
+  "new_evidence_items": 76,
+  "sources_analyzed": 108,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,9 +15,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 15.584415584415584,
+      "skill_share": 15.0,
       "share_change": null,
-      "emerging_score": 0.6712,
+      "emerging_score": 0.671,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -57,65 +57,96 @@
       ]
     },
     {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.285714285714285,
+      "skill_share": 5.0,
       "share_change": null,
-      "emerging_score": 0.6549,
-      "confidence": "medium",
+      "emerging_score": 0.6686,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 6,
+      "source_count": 4,
       "sources": [
         {
-          "source_id": "2712a693a98c9fd8",
-          "organization": "IEEE Spectrum AI",
-          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
-          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
         },
         {
-          "source_id": "dd599bb0c347672f",
-          "organization": "IEEE Spectrum AI",
-          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
         },
         {
-          "source_id": "7e05283c8cf1b651",
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "e207fbe9a2f7c52d",
           "organization": "arXiv CS.AI",
-          "title": "PPO vs. SAC: A Comparative Study for Cooperative Motion Control of Dual-Arm Space Robots",
-          "url": "https://arxiv.org/abs/2610.32034",
-          "publication_date": "2026-10-27",
+          "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
+          "url": "https://arxiv.org/abs/2610.35984",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 16.25,
+      "share_change": null,
+      "emerging_score": 0.66,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "c373df9e2eb76bad",
+          "organization": "IEEE Spectrum AI",
+          "title": "Systems Thinking Is Vital in the Age of AI",
+          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+          "publication_date": "2026-10-28",
           "source_tier": 2
         },
         {
-          "source_id": "0e5671290a77e192",
+          "source_id": "ff901306ac33508f",
           "organization": "IEEE Spectrum AI",
-          "title": "Could Treating AI as Conscious Make It More Dangerous?",
-          "url": "https://spectrum.ieee.org/ai-model-welfare",
-          "publication_date": "2026-10-21",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
           "source_tier": 2
         },
         {
-          "source_id": "685ae1740e8a18ab",
+          "source_id": "bd82fba29c863764",
           "organization": "IEEE Spectrum AI",
-          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
-          "url": "https://spectrum.ieee.org/millennium-prize-ai",
+          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
+          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
           "publication_date": "2026-10-05",
           "source_tier": 2
         },
         {
-          "source_id": "0ad8cf2e4e0cb387",
-          "organization": "Microsoft Work Lab",
-          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+          "source_id": "e8877fe566e721a1",
+          "organization": "IEEE Spectrum AI",
+          "title": "How to Stop AI Agents From Secretly Collaborating",
+          "url": "https://spectrum.ieee.org/ai-agent-security",
           "publication_date": "2026-09-29",
-          "source_tier": 3
+          "source_tier": 2
         }
       ]
     },
@@ -125,9 +156,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 19.480519480519483,
+      "skill_share": 18.75,
       "share_change": null,
-      "emerging_score": 0.6409,
+      "emerging_score": 0.6408,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 6,
@@ -141,18 +172,18 @@
           "source_tier": 1
         },
         {
+          "source_id": "bdfcf1d85c302c9e",
+          "organization": "arXiv CS.AI",
+          "title": "Plenty of Room in the Middle: Revealing Opportunities on a GPU Cluster via Fine-Grained Monitoring",
+          "url": "https://arxiv.org/abs/2610.36329",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        },
+        {
           "source_id": "dd599bb0c347672f",
           "organization": "IEEE Spectrum AI",
           "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
           "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        },
-        {
-          "source_id": "8bf8f0701d524917",
-          "organization": "arXiv CS.AI",
-          "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
-          "url": "https://arxiv.org/abs/2610.32060",
           "publication_date": "2026-10-27",
           "source_tier": 2
         },
@@ -183,61 +214,14 @@
       ]
     },
     {
-      "skill_id": "collaboration",
-      "skill_name": "Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 11.688311688311687,
-      "share_change": null,
-      "emerging_score": 0.6378,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        },
-        {
-          "source_id": "e8877fe566e721a1",
-          "organization": "IEEE Spectrum AI",
-          "title": "How to Stop AI Agents From Secretly Collaborating",
-          "url": "https://spectrum.ieee.org/ai-agent-security",
-          "publication_date": "2026-09-29",
-          "source_tier": 2
-        },
-        {
-          "source_id": "bd5fa94080cd798b",
-          "organization": "Microsoft Work Lab",
-          "title": "One year in: How Microsoft Research Asia \u2013 Singapore is advancing research, partnership and talent for real-world impact",
-          "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
-          "publication_date": "2026-09-28",
-          "source_tier": 3
-        }
-      ]
-    },
-    {
       "skill_id": "creativity",
       "skill_name": "Creativity",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 6.493506493506493,
+      "skill_share": 6.25,
       "share_change": null,
-      "emerging_score": 0.6014,
+      "emerging_score": 0.6013,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -253,41 +237,57 @@
       ]
     },
     {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.5974025974025974,
+      "skill_share": 12.5,
       "share_change": null,
-      "emerging_score": 0.4436,
-      "confidence": "medium",
+      "emerging_score": 0.5788,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 5,
       "sources": [
         {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
-          "source_tier": 1
+          "source_id": "c7a8cbff32521254",
+          "organization": "arXiv CS.AI",
+          "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
+          "url": "https://arxiv.org/abs/2610.36146",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
         },
         {
-          "source_id": "f6615c9f50d92d4b",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
+          "source_id": "2712a693a98c9fd8",
+          "organization": "IEEE Spectrum AI",
+          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
+          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
         },
         {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
+          "source_id": "dd599bb0c347672f",
+          "organization": "IEEE Spectrum AI",
+          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "0e5671290a77e192",
+          "organization": "IEEE Spectrum AI",
+          "title": "Could Treating AI as Conscious Make It More Dangerous?",
+          "url": "https://spectrum.ieee.org/ai-model-welfare",
+          "publication_date": "2026-10-21",
+          "source_tier": 2
+        },
+        {
+          "source_id": "685ae1740e8a18ab",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+          "url": "https://spectrum.ieee.org/millennium-prize-ai",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
         }
       ]
     },
@@ -297,9 +297,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.896103896103896,
+      "skill_share": 3.75,
       "share_change": null,
-      "emerging_score": 0.4264,
+      "emerging_score": 0.4263,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -315,26 +315,72 @@
       ]
     },
     {
+      "skill_id": "human_ai_collaboration",
+      "skill_name": "Human-AI Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.75,
+      "share_change": null,
+      "emerging_score": 0.4263,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "bd82fba29c863764",
+          "organization": "IEEE Spectrum AI",
+          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
+          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+          "publication_date": "2026-10-05",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "resilience",
+      "skill_name": "Resilience",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.5,
+      "share_change": null,
+      "emerging_score": 0.3392,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "78a961e368730149",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "4fa9d32cd801f6eb",
+          "organization": "arXiv CS.AI",
+          "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks",
+          "url": "https://arxiv.org/abs/2610.36298",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
       "skill_id": "negotiation",
       "skill_name": "Negotiation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.896103896103896,
+      "skill_share": 2.5,
       "share_change": null,
-      "emerging_score": 0.4264,
-      "confidence": "high",
+      "emerging_score": 0.3388,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        {
-          "source_id": "2292bab5eeed3371",
-          "organization": "arXiv CS.AI",
-          "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
-          "url": "https://arxiv.org/abs/2610.31971",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        },
         {
           "source_id": "999d3fd2165b15b7",
           "organization": "IEEE Spectrum AI",
@@ -346,40 +392,17 @@
       ]
     },
     {
-      "skill_id": "human_ai_collaboration",
-      "skill_name": "Human-AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 3.896103896103896,
-      "share_change": null,
-      "emerging_score": 0.4264,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.5974025974025974,
+      "skill_share": 1.25,
       "share_change": null,
-      "emerging_score": 0.3727,
+      "emerging_score": 0.2513,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source_id": "ff901306ac33508f",
@@ -388,45 +411,6 @@
           "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
           "publication_date": "2026-10-26",
           "source_tier": 2
-        },
-        {
-          "source_id": "a7485bd3f16c7cc2",
-          "organization": "Microsoft Work Lab",
-          "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-          "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-          "publication_date": "2026-10-07",
-          "source_tier": 3
-        }
-      ]
-    },
-    {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.5974025974025974,
-      "share_change": null,
-      "emerging_score": 0.2676,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "4a515bd120ee5270",
-          "organization": "Bing",
-          "title": "Fashion schools need their own AI literacy, review argues",
-          "url": "https://bioengineer.org/fashion-schools-need-their-own-ai-literacy-review-argues/",
-          "publication_date": "2026-10-23",
-          "source_tier": 4
-        },
-        {
-          "source_id": "453dd89f78710e42",
-          "organization": "Bing",
-          "title": "How Sentara Health built an enterprise AI literacy program",
-          "url": "https://www.healthcareitnews.com/news/how-sentara-health-built-enterprise-ai-literacy-program",
-          "publication_date": "2026-07-23",
-          "source_tier": 4
         }
       ]
     },
@@ -436,9 +420,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.5974025974025974,
+      "skill_share": 2.5,
       "share_change": null,
-      "emerging_score": 0.2272,
+      "emerging_score": 0.227,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -467,9 +451,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.2987012987012987,
+      "skill_share": 1.25,
       "share_change": null,
-      "emerging_score": 0.1664,
+      "emerging_score": 0.1663,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -485,14 +469,37 @@
       ]
     },
     {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.25,
+      "share_change": null,
+      "emerging_score": 0.1537,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "453dd89f78710e42",
+          "organization": "Bing",
+          "title": "How Sentara Health built an enterprise AI literacy program",
+          "url": "https://www.healthcareitnews.com/news/how-sentara-health-built-enterprise-ai-literacy-program",
+          "publication_date": "2026-07-23",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "digital_literacy",
       "skill_name": "Digital Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.5974025974025974,
+      "skill_share": 2.5,
       "share_change": null,
-      "emerging_score": 0.1198,
+      "emerging_score": 0.1197,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -514,29 +521,6 @@
           "source_tier": 1
         }
       ]
-    },
-    {
-      "skill_id": "resilience",
-      "skill_name": "Resilience",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.2987012987012987,
-      "share_change": null,
-      "emerging_score": 0.1123,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "78a961e368730149",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        }
-      ]
     }
   ],
   "monthly_data": [
@@ -545,10 +529,6 @@
       "series": [
         {
           "month": "2026-07",
-          "demand_index": 1.0
-        },
-        {
-          "month": "2026-10",
           "demand_index": 1.0
         }
       ]
@@ -592,10 +572,6 @@
       "skill": "Presentation",
       "series": [
         {
-          "month": "2026-09",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-10",
           "demand_index": 10.0
         }
@@ -620,6 +596,10 @@
         {
           "month": "2026-09",
           "demand_index": 159044.0
+        },
+        {
+          "month": "2026-10",
+          "demand_index": 2.0
         }
       ]
     },
@@ -629,6 +609,10 @@
         {
           "month": "2025-12",
           "demand_index": 7.53923324035891
+        },
+        {
+          "month": "2026-10",
+          "demand_index": 1.0
         }
       ]
     },
@@ -663,11 +647,11 @@
       "series": [
         {
           "month": "2026-09",
-          "demand_index": 5.0
+          "demand_index": 4.0
         },
         {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 9.0
         }
       ]
     },
@@ -676,7 +660,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 2.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -685,7 +669,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 3.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -711,49 +695,49 @@
   "industry_comparison": [
     {
       "industry": "technology",
-      "count": 19,
-      "percentage": 24.7
+      "count": 22,
+      "percentage": 27.5
     },
     {
       "industry": "education",
-      "count": 19,
-      "percentage": 24.7
+      "count": 21,
+      "percentage": 26.2
     },
     {
       "industry": "general",
-      "count": 15,
-      "percentage": 19.5
+      "count": 13,
+      "percentage": 16.2
     },
     {
       "industry": "government",
       "count": 9,
-      "percentage": 11.7
+      "percentage": 11.2
     },
     {
       "industry": "healthcare",
       "count": 6,
-      "percentage": 7.8
-    },
-    {
-      "industry": "finance",
-      "count": 5,
-      "percentage": 6.5
+      "percentage": 7.5
     },
     {
       "industry": "manufacturing",
-      "count": 3,
-      "percentage": 3.9
+      "count": 4,
+      "percentage": 5.0
+    },
+    {
+      "industry": "finance",
+      "count": 4,
+      "percentage": 5.0
     },
     {
       "industry": "retail",
       "count": 1,
-      "percentage": 1.3
+      "percentage": 1.2
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 5,
-    "medium": 7,
+    "high": 7,
+    "medium": 5,
     "low": 19
   },
   "sources": [
@@ -914,6 +898,28 @@
       ]
     },
     {
+      "source_id": "e207fbe9a2f7c52d",
+      "organization": "arXiv CS.AI",
+      "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
+      "url": "https://arxiv.org/abs/2610.35984",
+      "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "c7a8cbff32521254",
+      "organization": "arXiv CS.AI",
+      "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
+      "url": "https://arxiv.org/abs/2610.36146",
+      "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
       "source_id": "d0e76f5d44b3746a",
       "organization": "IEEE Spectrum AI",
       "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
@@ -972,17 +978,6 @@
       ]
     },
     {
-      "source_id": "2292bab5eeed3371",
-      "organization": "arXiv CS.AI",
-      "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
-      "url": "https://arxiv.org/abs/2610.31971",
-      "publication_date": "2026-10-27",
-      "source_tier": 2,
-      "skills": [
-        "Negotiation"
-      ]
-    },
-    {
       "source_id": "999d3fd2165b15b7",
       "organization": "IEEE Spectrum AI",
       "title": "Master AI Chip Principles With New IEEE Design Program",
@@ -1006,14 +1001,36 @@
       ]
     },
     {
-      "source_id": "7e05283c8cf1b651",
+      "source_id": "bdfcf1d85c302c9e",
       "organization": "arXiv CS.AI",
-      "title": "PPO vs. SAC: A Comparative Study for Cooperative Motion Control of Dual-Arm Space Robots",
-      "url": "https://arxiv.org/abs/2610.32034",
-      "publication_date": "2026-10-27",
+      "title": "Plenty of Room in the Middle: Revealing Opportunities on a GPU Cluster via Fine-Grained Monitoring",
+      "url": "https://arxiv.org/abs/2610.36329",
+      "publication_date": "2026-10-28",
       "source_tier": 2,
       "skills": [
-        "Presentation"
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "4fa9d32cd801f6eb",
+      "organization": "arXiv CS.AI",
+      "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks",
+      "url": "https://arxiv.org/abs/2610.36298",
+      "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "c373df9e2eb76bad",
+      "organization": "IEEE Spectrum AI",
+      "title": "Systems Thinking Is Vital in the Age of AI",
+      "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+      "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
       ]
     },
     {
@@ -1028,17 +1045,6 @@
       ]
     },
     {
-      "source_id": "8bf8f0701d524917",
-      "organization": "arXiv CS.AI",
-      "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
-      "url": "https://arxiv.org/abs/2610.32060",
-      "publication_date": "2026-10-27",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
       "source_id": "2712a693a98c9fd8",
       "organization": "IEEE Spectrum AI",
       "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
@@ -1047,39 +1053,6 @@
       "source_tier": 2,
       "skills": [
         "Presentation"
-      ]
-    },
-    {
-      "source_id": "a7485bd3f16c7cc2",
-      "organization": "Microsoft Work Lab",
-      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-      "publication_date": "2026-10-07",
-      "source_tier": 3,
-      "skills": [
-        "Decision-Making"
-      ]
-    },
-    {
-      "source_id": "0ad8cf2e4e0cb387",
-      "organization": "Microsoft Work Lab",
-      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-      "publication_date": "2026-09-29",
-      "source_tier": 3,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "bd5fa94080cd798b",
-      "organization": "Microsoft Work Lab",
-      "title": "One year in: How Microsoft Research Asia \u2013 Singapore is advancing research, partnership and talent for real-world impact",
-      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
-      "publication_date": "2026-09-28",
-      "source_tier": 3,
-      "skills": [
-        "Collaboration"
       ]
     },
     {
@@ -1102,17 +1075,6 @@
       "source_tier": 4,
       "skills": [
         "Teamwork"
-      ]
-    },
-    {
-      "source_id": "4a515bd120ee5270",
-      "organization": "Bing",
-      "title": "Fashion schools need their own AI literacy, review argues",
-      "url": "https://bioengineer.org/fashion-schools-need-their-own-ai-literacy-review-argues/",
-      "publication_date": "2026-10-23",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
       ]
     },
     {
