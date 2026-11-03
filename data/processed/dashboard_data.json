@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-02T22:26:55.973440",
+  "generated_at": "2026-11-03T20:14:57.019593",
   "total_skills": 31,
   "emerging_skills": 5,
-  "increasing_skills": 10,
+  "increasing_skills": 12,
   "declining_skills": 2,
-  "new_evidence_items": 56,
-  "sources_analyzed": 76,
+  "new_evidence_items": 70,
+  "sources_analyzed": 120,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,12 +15,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 18.333333333333332,
+      "skill_share": 16.216216216216218,
       "share_change": null,
-      "emerging_score": 0.6456,
-      "confidence": "high",
+      "emerging_score": 0.6923,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "326b9ba5e4d67b24",
@@ -45,123 +45,14 @@
           "url": "https://spectrum.ieee.org/6-guidelines-governing-ai",
           "publication_date": "2026-10-05",
           "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "communication",
-      "skill_name": "Communication",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 16.666666666666664,
-      "share_change": null,
-      "emerging_score": 0.6406,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 5,
-      "sources": [
-        {
-          "source_id": "7d321100ff62c45c",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
         },
         {
-          "source_id": "a6045ea48630a74f",
-          "organization": "arXiv CS.AI",
-          "title": "Consensus Within, Competition Between: Decentralized LLM Teams for Perimeter Defense",
-          "url": "https://arxiv.org/abs/2610.41044",
-          "publication_date": "2026-11-02",
-          "source_tier": 2
-        },
-        {
-          "source_id": "dd599bb0c347672f",
-          "organization": "IEEE Spectrum AI",
-          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        },
-        {
-          "source_id": "179f1170580464cf",
-          "organization": "IEEE Spectrum AI",
-          "title": "How Wikipedia\u2019s Editors Keep the Online Encyclopedia Human-Written",
-          "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-          "publication_date": "2026-10-21",
-          "source_tier": 2
-        },
-        {
-          "source_id": "326b9ba5e4d67b24",
-          "organization": "IEEE Spectrum AI",
-          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
-          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
-          "publication_date": "2026-10-12",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "collaboration",
-      "skill_name": "Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 15.0,
-      "share_change": null,
-      "emerging_score": 0.6306,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "c373df9e2eb76bad",
-          "organization": "IEEE Spectrum AI",
-          "title": "Systems Thinking Is Vital in the Age of AI",
-          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
-          "publication_date": "2026-10-28",
-          "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "creativity",
-      "skill_name": "Creativity",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 8.333333333333332,
-      "share_change": null,
-      "emerging_score": 0.6006,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "d0e76f5d44b3746a",
-          "organization": "IEEE Spectrum AI",
-          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
-          "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
-          "publication_date": "2026-10-13",
-          "source_tier": 2
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
         }
       ]
     },
@@ -171,13 +62,37 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.0,
+      "skill_share": 20.27027027027027,
       "share_change": null,
-      "emerging_score": 0.5481,
+      "emerging_score": 0.678,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 6,
       "sources": [
+        {
+          "source_id": "3ece93459cb08836",
+          "organization": "IEEE Spectrum AI",
+          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "228c2a8b74fa6e18",
+          "organization": "arXiv CS.AI",
+          "title": "A generative foundation model for computational brain imaging",
+          "url": "https://arxiv.org/abs/2611.00265",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "bba98c117a222458",
+          "organization": "arXiv CS.AI",
+          "title": "Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation",
+          "url": "https://arxiv.org/abs/2611.00323",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
         {
           "source_id": "2712a693a98c9fd8",
           "organization": "IEEE Spectrum AI",
@@ -205,14 +120,186 @@
       ]
     },
     {
+      "skill_id": "communication",
+      "skill_name": "Communication",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 14.864864864864865,
+      "share_change": null,
+      "emerging_score": 0.6384,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 6,
+      "sources": [
+        {
+          "source_id": "7d321100ff62c45c",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "39d5f530dd825276",
+          "organization": "arXiv CS.AI",
+          "title": "Decentralized Multi-Agent Coordination and Communication in Shared Codebases",
+          "url": "https://arxiv.org/abs/2611.00314",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "dd599bb0c347672f",
+          "organization": "IEEE Spectrum AI",
+          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "179f1170580464cf",
+          "organization": "IEEE Spectrum AI",
+          "title": "How Wikipedia\u2019s Editors Keep the Online Encyclopedia Human-Written",
+          "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+          "publication_date": "2026-10-21",
+          "source_tier": 2
+        },
+        {
+          "source_id": "326b9ba5e4d67b24",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "a5e4be2161dcc731",
+          "organization": "Bing",
+          "title": "Not just AI: How soft skills are becoming key to getting hired",
+          "url": "https://www.msn.com/en-in/news/other/not-just-ai-how-soft-skills-are-becoming-key-to-getting-hired/ar-AA2gqewM",
+          "publication_date": "2026-10-30",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 10.81081081081081,
+      "share_change": null,
+      "emerging_score": 0.624,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "228c2a8b74fa6e18",
+          "organization": "arXiv CS.AI",
+          "title": "A generative foundation model for computational brain imaging",
+          "url": "https://arxiv.org/abs/2611.00265",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c373df9e2eb76bad",
+          "organization": "IEEE Spectrum AI",
+          "title": "Systems Thinking Is Vital in the Age of AI",
+          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "creativity",
+      "skill_name": "Creativity",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 6.756756756756757,
+      "share_change": null,
+      "emerging_score": 0.6005,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "d0e76f5d44b3746a",
+          "organization": "IEEE Spectrum AI",
+          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
+          "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+          "publication_date": "2026-10-13",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "teamwork",
+      "skill_name": "Teamwork",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 5.405405405405405,
+      "share_change": null,
+      "emerging_score": 0.4538,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        },
+        {
+          "source_id": "a5e4be2161dcc731",
+          "organization": "Bing",
+          "title": "Not just AI: How soft skills are becoming key to getting hired",
+          "url": "https://www.msn.com/en-in/news/other/not-just-ai-how-soft-skills-are-becoming-key-to-getting-hired/ar-AA2gqewM",
+          "publication_date": "2026-10-30",
+          "source_tier": 4
+        },
+        {
+          "source_id": "a10d71013abba3bc",
+          "organization": "Bing",
+          "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+          "publication_date": "2026-07-08",
+          "source_tier": 4
+        },
+        {
+          "source_id": "688f357ed2a1039c",
+          "organization": "Bing",
+          "title": "Will AI destroy teamwork?",
+          "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+          "publication_date": "2026-05-06",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "adaptability",
       "skill_name": "Adaptability",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.3333333333333335,
+      "skill_share": 2.7027027027027026,
       "share_change": null,
-      "emerging_score": 0.4427,
+      "emerging_score": 0.4426,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -244,60 +331,14 @@
       ]
     },
     {
-      "skill_id": "ai_collaboration",
-      "skill_name": "AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.0,
-      "share_change": null,
-      "emerging_score": 0.4256,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "human_ai_collaboration",
-      "skill_name": "Human-AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.0,
-      "share_change": null,
-      "emerging_score": 0.4256,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "bd82fba29c863764",
-          "organization": "IEEE Spectrum AI",
-          "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-          "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-          "publication_date": "2026-10-05",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.3333333333333335,
+      "skill_share": 2.7027027027027026,
       "share_change": null,
-      "emerging_score": 0.3719,
+      "emerging_score": 0.3717,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -321,14 +362,60 @@
       ]
     },
     {
+      "skill_id": "ai_collaboration",
+      "skill_name": "AI Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.7027027027027026,
+      "share_change": null,
+      "emerging_score": 0.3422,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "228c2a8b74fa6e18",
+          "organization": "arXiv CS.AI",
+          "title": "A generative foundation model for computational brain imaging",
+          "url": "https://arxiv.org/abs/2611.00265",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "human_ai_collaboration",
+      "skill_name": "Human-AI Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.7027027027027026,
+      "share_change": null,
+      "emerging_score": 0.3422,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "228c2a8b74fa6e18",
+          "organization": "arXiv CS.AI",
+          "title": "A generative foundation model for computational brain imaging",
+          "url": "https://arxiv.org/abs/2611.00265",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
       "skill_id": "negotiation",
       "skill_name": "Negotiation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.3333333333333335,
+      "skill_share": 2.7027027027027026,
       "share_change": null,
-      "emerging_score": 0.3381,
+      "emerging_score": 0.338,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -344,14 +431,68 @@
       ]
     },
     {
+      "skill_id": "resilience",
+      "skill_name": "Resilience",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.7027027027027026,
+      "share_change": null,
+      "emerging_score": 0.3105,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "78a961e368730149",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "db1e235636da02ae",
+          "organization": "arXiv CS.AI",
+          "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
+          "url": "https://arxiv.org/abs/2611.00159",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "critical_thinking",
+      "skill_name": "Critical Thinking",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.3513513513513513,
+      "share_change": null,
+      "emerging_score": 0.1655,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "a5e4be2161dcc731",
+          "organization": "Bing",
+          "title": "Not just AI: How soft skills are becoming key to getting hired",
+          "url": "https://www.msn.com/en-in/news/other/not-just-ai-how-soft-skills-are-becoming-key-to-getting-hired/ar-AA2gqewM",
+          "publication_date": "2026-10-30",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "digital_literacy",
       "skill_name": "Digital Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.3333333333333335,
+      "skill_share": 2.7027027027027026,
       "share_change": null,
-      "emerging_score": 0.119,
+      "emerging_score": 0.1188,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -373,29 +514,6 @@
           "source_tier": 1
         }
       ]
-    },
-    {
-      "skill_id": "resilience",
-      "skill_name": "Resilience",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.6666666666666667,
-      "share_change": null,
-      "emerging_score": 0.1115,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "78a961e368730149",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        }
-      ]
     }
   ],
   "monthly_data": [
@@ -403,8 +521,17 @@
       "skill": "AI Collaboration",
       "series": [
         {
+          "month": "2026-11",
+          "demand_index": 2.0
+        }
+      ]
+    },
+    {
+      "skill": "Critical Thinking",
+      "series": [
+        {
           "month": "2026-10",
-          "demand_index": 3.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -417,7 +544,7 @@
         },
         {
           "month": "2026-10",
-          "demand_index": 8.0
+          "demand_index": 9.0
         },
         {
           "month": "2026-11",
@@ -431,6 +558,10 @@
         {
           "month": "2026-10",
           "demand_index": 6.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 9.0
         }
       ]
     },
@@ -462,6 +593,10 @@
         {
           "month": "2025-12",
           "demand_index": 7.53923324035891
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
         }
       ]
     },
@@ -471,6 +606,31 @@
         {
           "month": "2026-10",
           "demand_index": 11.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
+        }
+      ]
+    },
+    {
+      "skill": "Teamwork",
+      "series": [
+        {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-07",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-10",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
         }
       ]
     },
@@ -479,7 +639,11 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 9.0
+          "demand_index": 6.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 2.0
         }
       ]
     },
@@ -514,58 +678,58 @@
       "skill": "Human-AI Collaboration",
       "series": [
         {
-          "month": "2026-10",
-          "demand_index": 3.0
+          "month": "2026-11",
+          "demand_index": 2.0
         }
       ]
     }
   ],
   "industry_comparison": [
     {
-      "industry": "technology",
-      "count": 17,
-      "percentage": 28.3
+      "industry": "general",
+      "count": 19,
+      "percentage": 25.7
     },
     {
       "industry": "education",
-      "count": 14,
-      "percentage": 23.3
+      "count": 17,
+      "percentage": 23.0
     },
     {
-      "industry": "general",
-      "count": 11,
-      "percentage": 18.3
-    },
-    {
-      "industry": "government",
-      "count": 6,
-      "percentage": 10.0
+      "industry": "technology",
+      "count": 15,
+      "percentage": 20.3
     },
     {
       "industry": "healthcare",
-      "count": 5,
-      "percentage": 8.3
+      "count": 10,
+      "percentage": 13.5
     },
     {
       "industry": "finance",
-      "count": 4,
-      "percentage": 6.7
+      "count": 5,
+      "percentage": 6.8
     },
     {
       "industry": "manufacturing",
-      "count": 2,
-      "percentage": 3.3
+      "count": 4,
+      "percentage": 5.4
+    },
+    {
+      "industry": "government",
+      "count": 3,
+      "percentage": 4.1
     },
     {
       "industry": "retail",
       "count": 1,
-      "percentage": 1.7
+      "percentage": 1.4
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 7,
-    "medium": 5,
+    "high": 3,
+    "medium": 9,
     "low": 19
   },
   "sources": [
@@ -691,27 +855,39 @@
       ]
     },
     {
-      "source_id": "bd82fba29c863764",
-      "organization": "IEEE Spectrum AI",
-      "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
-      "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
-      "publication_date": "2026-10-05",
+      "source_id": "db1e235636da02ae",
+      "organization": "arXiv CS.AI",
+      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
+      "url": "https://arxiv.org/abs/2611.00159",
+      "publication_date": "2026-11-03",
+      "source_tier": 2,
+      "skills": [
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "228c2a8b74fa6e18",
+      "organization": "arXiv CS.AI",
+      "title": "A generative foundation model for computational brain imaging",
+      "url": "https://arxiv.org/abs/2611.00265",
+      "publication_date": "2026-11-03",
       "source_tier": 2,
       "skills": [
         "AI Collaboration",
         "Collaboration",
-        "Human-AI Collaboration"
+        "Human-AI Collaboration",
+        "Presentation"
       ]
     },
     {
-      "source_id": "a6045ea48630a74f",
+      "source_id": "bba98c117a222458",
       "organization": "arXiv CS.AI",
-      "title": "Consensus Within, Competition Between: Decentralized LLM Teams for Perimeter Defense",
-      "url": "https://arxiv.org/abs/2610.41044",
-      "publication_date": "2026-11-02",
+      "title": "Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation",
+      "url": "https://arxiv.org/abs/2611.00323",
+      "publication_date": "2026-11-03",
       "source_tier": 2,
       "skills": [
-        "Communication"
+        "Presentation"
       ]
     },
     {
@@ -723,6 +899,17 @@
       "source_tier": 2,
       "skills": [
         "Presentation"
+      ]
+    },
+    {
+      "source_id": "39d5f530dd825276",
+      "organization": "arXiv CS.AI",
+      "title": "Decentralized Multi-Agent Coordination and Communication in Shared Codebases",
+      "url": "https://arxiv.org/abs/2611.00314",
+      "publication_date": "2026-11-03",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
       ]
     },
     {
@@ -745,6 +932,17 @@
       "source_tier": 2,
       "skills": [
         "Communication"
+      ]
+    },
+    {
+      "source_id": "3ece93459cb08836",
+      "organization": "IEEE Spectrum AI",
+      "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+      "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+      "publication_date": "2026-11-03",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
       ]
     },
     {
@@ -836,6 +1034,53 @@
       "source_tier": 3,
       "skills": [
         "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "2b2103e4aa6ad1ad",
+      "organization": "Microsoft Work Lab",
+      "title": "Learn the rules: The hacker mindset",
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+      "publication_date": "2026-11-03",
+      "source_tier": 3,
+      "skills": [
+        "Leadership",
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "a10d71013abba3bc",
+      "organization": "Bing",
+      "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+      "publication_date": "2026-07-08",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "a5e4be2161dcc731",
+      "organization": "Bing",
+      "title": "Not just AI: How soft skills are becoming key to getting hired",
+      "url": "https://www.msn.com/en-in/news/other/not-just-ai-how-soft-skills-are-becoming-key-to-getting-hired/ar-AA2gqewM",
+      "publication_date": "2026-10-30",
+      "source_tier": 4,
+      "skills": [
+        "Communication",
+        "Critical Thinking",
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "688f357ed2a1039c",
+      "organization": "Bing",
+      "title": "Will AI destroy teamwork?",
+      "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+      "publication_date": "2026-05-06",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
       ]
     }
   ]
