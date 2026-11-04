@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T20:14:57.019593",
+  "generated_at": "2026-11-04T20:31:09.423584",
   "total_skills": 31,
-  "emerging_skills": 5,
-  "increasing_skills": 12,
-  "declining_skills": 2,
-  "new_evidence_items": 70,
-  "sources_analyzed": 120,
+  "emerging_skills": 6,
+  "increasing_skills": 9,
+  "declining_skills": 3,
+  "new_evidence_items": 65,
+  "sources_analyzed": 117,
   "industries_tracked": 8,
   "countries_tracked": 2,
   "trends": [
@@ -15,9 +15,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 16.216216216216218,
+      "skill_share": 17.391304347826086,
       "share_change": null,
-      "emerging_score": 0.6923,
+      "emerging_score": 0.6922,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -62,34 +62,26 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 20.27027027027027,
+      "skill_share": 17.391304347826086,
       "share_change": null,
-      "emerging_score": 0.678,
+      "emerging_score": 0.655,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 6,
+      "source_count": 5,
       "sources": [
+        {
+          "source_id": "636a836a2e3aeeb0",
+          "organization": "arXiv CS.AI",
+          "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+          "url": "https://arxiv.org/abs/2611.03684",
+          "publication_date": "2026-11-04",
+          "source_tier": 2
+        },
         {
           "source_id": "3ece93459cb08836",
           "organization": "IEEE Spectrum AI",
           "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
           "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        },
-        {
-          "source_id": "228c2a8b74fa6e18",
-          "organization": "arXiv CS.AI",
-          "title": "A generative foundation model for computational brain imaging",
-          "url": "https://arxiv.org/abs/2611.00265",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        },
-        {
-          "source_id": "bba98c117a222458",
-          "organization": "arXiv CS.AI",
-          "title": "Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation",
-          "url": "https://arxiv.org/abs/2611.00323",
           "publication_date": "2026-11-03",
           "source_tier": 2
         },
@@ -125,12 +117,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.864864864864865,
+      "skill_share": 17.391304347826086,
       "share_change": null,
-      "emerging_score": 0.6384,
+      "emerging_score": 0.639,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 6,
+      "source_count": 7,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -141,11 +133,19 @@
           "source_tier": 1
         },
         {
-          "source_id": "39d5f530dd825276",
+          "source_id": "2bbdc2c96694e02f",
+          "organization": "MIT Technology Review AI",
+          "title": "Securing the agentic enterprise with data lineage",
+          "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+          "publication_date": "2026-11-04",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c0b5a1999f2670ab",
           "organization": "arXiv CS.AI",
-          "title": "Decentralized Multi-Agent Coordination and Communication in Shared Codebases",
-          "url": "https://arxiv.org/abs/2611.00314",
-          "publication_date": "2026-11-03",
+          "title": "VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions",
+          "url": "https://arxiv.org/abs/2611.03765",
+          "publication_date": "2026-11-04",
           "source_tier": 2
         },
         {
@@ -188,19 +188,19 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.81081081081081,
+      "skill_share": 10.144927536231885,
       "share_change": null,
-      "emerging_score": 0.624,
+      "emerging_score": 0.6159,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
       "sources": [
         {
-          "source_id": "228c2a8b74fa6e18",
+          "source_id": "859858fd6e772ee2",
           "organization": "arXiv CS.AI",
-          "title": "A generative foundation model for computational brain imaging",
-          "url": "https://arxiv.org/abs/2611.00265",
-          "publication_date": "2026-11-03",
+          "title": "We Ran a Research Sprint With AI. The AI Worked. The Research Didn't",
+          "url": "https://arxiv.org/abs/2611.03946",
+          "publication_date": "2026-11-04",
           "source_tier": 2
         },
         {
@@ -227,12 +227,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 6.756756756756757,
+      "skill_share": 8.695652173913043,
       "share_change": null,
-      "emerging_score": 0.6005,
-      "confidence": "high",
+      "emerging_score": 0.6037,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "d0e76f5d44b3746a",
@@ -241,6 +241,100 @@
           "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
           "publication_date": "2026-10-13",
           "source_tier": 2
+        },
+        {
+          "source_id": "b65a22dd1fb32aea",
+          "organization": "Bing",
+          "title": "Beyond the degree: Building future-ready graduates in the age of AI",
+          "url": "https://www.tbsnews.net/supplement/beyond-degree-building-future-ready-graduates-age-ai-1585141",
+          "publication_date": "2026-10-28",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 4.3478260869565215,
+      "share_change": null,
+      "emerging_score": 0.5873,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "000fa42ba94c18f7",
+          "organization": "arXiv CS.AI",
+          "title": "Performance, Scalability and Maintenance: An Experimental Study of RPA vs. Autonomous Agents in the Healthcare Domain",
+          "url": "https://arxiv.org/abs/2611.03853",
+          "publication_date": "2026-11-04",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 4.3478260869565215,
+      "share_change": null,
+      "emerging_score": 0.4626,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "859858fd6e772ee2",
+          "organization": "arXiv CS.AI",
+          "title": "We Ran a Research Sprint With AI. The AI Worked. The Research Didn't",
+          "url": "https://arxiv.org/abs/2611.03946",
+          "publication_date": "2026-11-04",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        },
+        {
+          "source_id": "a7485bd3f16c7cc2",
+          "organization": "Microsoft Work Lab",
+          "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+          "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+          "publication_date": "2026-10-07",
+          "source_tier": 3
         }
       ]
     },
@@ -250,9 +344,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.405405405405405,
+      "skill_share": 5.797101449275362,
       "share_change": null,
-      "emerging_score": 0.4538,
+      "emerging_score": 0.4536,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -292,130 +386,14 @@
       ]
     },
     {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
-      "share_change": null,
-      "emerging_score": 0.4426,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "f6615c9f50d92d4b",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
-        }
-      ]
-    },
-    {
-      "skill_id": "decision_making",
-      "skill_name": "Decision-Making",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
-      "share_change": null,
-      "emerging_score": 0.3717,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "a7485bd3f16c7cc2",
-          "organization": "Microsoft Work Lab",
-          "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-          "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-          "publication_date": "2026-10-07",
-          "source_tier": 3
-        }
-      ]
-    },
-    {
-      "skill_id": "ai_collaboration",
-      "skill_name": "AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
-      "share_change": null,
-      "emerging_score": 0.3422,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "228c2a8b74fa6e18",
-          "organization": "arXiv CS.AI",
-          "title": "A generative foundation model for computational brain imaging",
-          "url": "https://arxiv.org/abs/2611.00265",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "human_ai_collaboration",
-      "skill_name": "Human-AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
-      "share_change": null,
-      "emerging_score": 0.3422,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "228c2a8b74fa6e18",
-          "organization": "arXiv CS.AI",
-          "title": "A generative foundation model for computational brain imaging",
-          "url": "https://arxiv.org/abs/2611.00265",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "negotiation",
       "skill_name": "Negotiation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.338,
+      "emerging_score": 0.3378,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -431,45 +409,14 @@
       ]
     },
     {
-      "skill_id": "resilience",
-      "skill_name": "Resilience",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
-      "share_change": null,
-      "emerging_score": 0.3105,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "78a961e368730149",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "db1e235636da02ae",
-          "organization": "arXiv CS.AI",
-          "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-          "url": "https://arxiv.org/abs/2611.00159",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "critical_thinking",
       "skill_name": "Critical Thinking",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.3513513513513513,
+      "skill_share": 1.4492753623188406,
       "share_change": null,
-      "emerging_score": 0.1655,
+      "emerging_score": 0.1653,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -490,9 +437,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.7027027027027026,
+      "skill_share": 2.898550724637681,
       "share_change": null,
-      "emerging_score": 0.1188,
+      "emerging_score": 0.1187,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -514,18 +461,32 @@
           "source_tier": 1
         }
       ]
+    },
+    {
+      "skill_id": "resilience",
+      "skill_name": "Resilience",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.4492753623188406,
+      "share_change": null,
+      "emerging_score": 0.1112,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "78a961e368730149",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        }
+      ]
     }
   ],
   "monthly_data": [
-    {
-      "skill": "AI Collaboration",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 2.0
-        }
-      ]
-    },
     {
       "skill": "Critical Thinking",
       "series": [
@@ -548,7 +509,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -561,7 +522,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 9.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -570,7 +531,7 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 5.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -584,6 +545,10 @@
         {
           "month": "2026-09",
           "demand_index": 159044.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
         }
       ]
     },
@@ -593,10 +558,6 @@
         {
           "month": "2025-12",
           "demand_index": 7.53923324035891
-        },
-        {
-          "month": "2026-11",
-          "demand_index": 1.0
         }
       ]
     },
@@ -643,7 +604,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 2.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -653,6 +614,10 @@
         {
           "month": "2026-10",
           "demand_index": 2.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
         }
       ]
     },
@@ -673,52 +638,43 @@
           "demand_index": 123.5
         }
       ]
-    },
-    {
-      "skill": "Human-AI Collaboration",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 2.0
-        }
-      ]
     }
   ],
   "industry_comparison": [
     {
       "industry": "general",
       "count": 19,
-      "percentage": 25.7
-    },
-    {
-      "industry": "education",
-      "count": 17,
-      "percentage": 23.0
+      "percentage": 27.5
     },
     {
       "industry": "technology",
-      "count": 15,
-      "percentage": 20.3
+      "count": 16,
+      "percentage": 23.2
+    },
+    {
+      "industry": "education",
+      "count": 13,
+      "percentage": 18.8
     },
     {
       "industry": "healthcare",
-      "count": 10,
-      "percentage": 13.5
+      "count": 7,
+      "percentage": 10.1
+    },
+    {
+      "industry": "manufacturing",
+      "count": 5,
+      "percentage": 7.2
     },
     {
       "industry": "finance",
       "count": 5,
-      "percentage": 6.8
-    },
-    {
-      "industry": "manufacturing",
-      "count": 4,
-      "percentage": 5.4
+      "percentage": 7.2
     },
     {
       "industry": "government",
       "count": 3,
-      "percentage": 4.1
+      "percentage": 4.3
     },
     {
       "industry": "retail",
@@ -729,8 +685,8 @@
   "new_skills_detected": [],
   "evidence_confidence": {
     "high": 3,
-    "medium": 9,
-    "low": 19
+    "medium": 7,
+    "low": 21
   },
   "sources": [
     {
@@ -855,42 +811,6 @@
       ]
     },
     {
-      "source_id": "db1e235636da02ae",
-      "organization": "arXiv CS.AI",
-      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-      "url": "https://arxiv.org/abs/2611.00159",
-      "publication_date": "2026-11-03",
-      "source_tier": 2,
-      "skills": [
-        "Resilience"
-      ]
-    },
-    {
-      "source_id": "228c2a8b74fa6e18",
-      "organization": "arXiv CS.AI",
-      "title": "A generative foundation model for computational brain imaging",
-      "url": "https://arxiv.org/abs/2611.00265",
-      "publication_date": "2026-11-03",
-      "source_tier": 2,
-      "skills": [
-        "AI Collaboration",
-        "Collaboration",
-        "Human-AI Collaboration",
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "bba98c117a222458",
-      "organization": "arXiv CS.AI",
-      "title": "Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation",
-      "url": "https://arxiv.org/abs/2611.00323",
-      "publication_date": "2026-11-03",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
       "source_id": "0e5671290a77e192",
       "organization": "IEEE Spectrum AI",
       "title": "Could Treating AI as Conscious Make It More Dangerous?",
@@ -902,14 +822,14 @@
       ]
     },
     {
-      "source_id": "39d5f530dd825276",
+      "source_id": "636a836a2e3aeeb0",
       "organization": "arXiv CS.AI",
-      "title": "Decentralized Multi-Agent Coordination and Communication in Shared Codebases",
-      "url": "https://arxiv.org/abs/2611.00314",
-      "publication_date": "2026-11-03",
+      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "url": "https://arxiv.org/abs/2611.03684",
+      "publication_date": "2026-11-04",
       "source_tier": 2,
       "skills": [
-        "Communication"
+        "Presentation"
       ]
     },
     {
@@ -993,6 +913,28 @@
       ]
     },
     {
+      "source_id": "000fa42ba94c18f7",
+      "organization": "arXiv CS.AI",
+      "title": "Performance, Scalability and Maintenance: An Experimental Study of RPA vs. Autonomous Agents in the Healthcare Domain",
+      "url": "https://arxiv.org/abs/2611.03853",
+      "publication_date": "2026-11-04",
+      "source_tier": 2,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "2bbdc2c96694e02f",
+      "organization": "MIT Technology Review AI",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "publication_date": "2026-11-04",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
       "source_id": "c373df9e2eb76bad",
       "organization": "IEEE Spectrum AI",
       "title": "Systems Thinking Is Vital in the Age of AI",
@@ -1012,6 +954,29 @@
       "source_tier": 2,
       "skills": [
         "Leadership"
+      ]
+    },
+    {
+      "source_id": "c0b5a1999f2670ab",
+      "organization": "arXiv CS.AI",
+      "title": "VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions",
+      "url": "https://arxiv.org/abs/2611.03765",
+      "publication_date": "2026-11-04",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "859858fd6e772ee2",
+      "organization": "arXiv CS.AI",
+      "title": "We Ran a Research Sprint With AI. The AI Worked. The Research Didn't",
+      "url": "https://arxiv.org/abs/2611.03946",
+      "publication_date": "2026-11-04",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Decision-Making"
       ]
     },
     {
@@ -1046,6 +1011,17 @@
       "skills": [
         "Leadership",
         "Teamwork"
+      ]
+    },
+    {
+      "source_id": "b65a22dd1fb32aea",
+      "organization": "Bing",
+      "title": "Beyond the degree: Building future-ready graduates in the age of AI",
+      "url": "https://www.tbsnews.net/supplement/beyond-degree-building-future-ready-graduates-age-ai-1585141",
+      "publication_date": "2026-10-28",
+      "source_tier": 4,
+      "skills": [
+        "Creativity"
       ]
     },
     {
