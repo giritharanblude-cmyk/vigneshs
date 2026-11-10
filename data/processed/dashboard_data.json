@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T23:07:00.480720",
+  "generated_at": "2026-11-10T20:34:11.495390",
   "total_skills": 31,
   "emerging_skills": 6,
-  "increasing_skills": 10,
+  "increasing_skills": 9,
   "declining_skills": 5,
-  "new_evidence_items": 69,
-  "sources_analyzed": 118,
+  "new_evidence_items": 71,
+  "sources_analyzed": 115,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
@@ -15,9 +15,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 12.32876712328767,
+      "skill_share": 12.0,
       "share_change": null,
-      "emerging_score": 0.6687,
+      "emerging_score": 0.6686,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -54,27 +54,27 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.80821917808219,
+      "skill_share": 17.333333333333336,
       "share_change": null,
-      "emerging_score": 0.6619,
+      "emerging_score": 0.6618,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 6,
       "sources": [
         {
-          "source_id": "b7628839fe0bba24",
+          "source_id": "40c004c022d7ffdb",
           "organization": "arXiv CS.AI",
-          "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-          "url": "https://arxiv.org/abs/2611.08644",
-          "publication_date": "2026-11-09",
+          "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+          "url": "https://arxiv.org/abs/2611.10045",
+          "publication_date": "2026-11-10",
           "source_tier": 2
         },
         {
-          "source_id": "9ff4f99628e347cd",
+          "source_id": "701bd3773adb4ea2",
           "organization": "arXiv CS.AI",
-          "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
-          "url": "https://arxiv.org/abs/2611.08752",
-          "publication_date": "2026-11-09",
+          "title": "WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation",
+          "url": "https://arxiv.org/abs/2611.10151",
+          "publication_date": "2026-11-10",
           "source_tier": 2
         },
         {
@@ -112,61 +112,14 @@
       ]
     },
     {
-      "skill_id": "decision_making",
-      "skill_name": "Decision-Making",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 9.58904109589041,
-      "share_change": null,
-      "emerging_score": 0.6559,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "8077b9769aaeefde",
-          "organization": "IEEE Spectrum AI",
-          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
-          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
-          "publication_date": "2026-11-09",
-          "source_tier": 2
-        },
-        {
-          "source_id": "c45371f6ca50b8ed",
-          "organization": "arXiv CS.AI",
-          "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
-          "url": "https://arxiv.org/abs/2611.08718",
-          "publication_date": "2026-11-09",
-          "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "a7485bd3f16c7cc2",
-          "organization": "Microsoft Work Lab",
-          "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-          "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-          "publication_date": "2026-10-07",
-          "source_tier": 3
-        }
-      ]
-    },
-    {
       "skill_id": "communication",
       "skill_name": "Communication",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.80821917808219,
+      "skill_share": 17.333333333333336,
       "share_change": null,
-      "emerging_score": 0.637,
+      "emerging_score": 0.6369,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 8,
@@ -180,11 +133,11 @@
           "source_tier": 1
         },
         {
-          "source_id": "2e9d1169dae7f030",
+          "source_id": "e14a2e7acb67fda2",
           "organization": "arXiv CS.AI",
-          "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-          "url": "https://arxiv.org/abs/2611.08640",
-          "publication_date": "2026-11-09",
+          "title": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
+          "url": "https://arxiv.org/abs/2611.10176",
+          "publication_date": "2026-11-10",
           "source_tier": 2
         },
         {
@@ -243,13 +196,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.21917808219178,
+      "skill_share": 10.666666666666668,
       "share_change": null,
-      "emerging_score": 0.6072,
+      "emerging_score": 0.6231,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
+        {
+          "source_id": "6027d8a69a0e0295",
+          "organization": "arXiv CS.AI",
+          "title": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
+          "url": "https://arxiv.org/abs/2611.10150",
+          "publication_date": "2026-11-10",
+          "source_tier": 2
+        },
         {
           "source_id": "c373df9e2eb76bad",
           "organization": "IEEE Spectrum AI",
@@ -269,18 +230,65 @@
       ]
     },
     {
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 8.0,
+      "share_change": null,
+      "emerging_score": 0.6178,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "8077b9769aaeefde",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+          "publication_date": "2026-11-09",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        },
+        {
+          "source_id": "a7485bd3f16c7cc2",
+          "organization": "Microsoft Work Lab",
+          "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+          "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+          "publication_date": "2026-10-07",
+          "source_tier": 3
+        }
+      ]
+    },
+    {
       "skill_id": "creativity",
       "skill_name": "Creativity",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 6.8493150684931505,
+      "skill_share": 9.333333333333334,
       "share_change": null,
-      "emerging_score": 0.5997,
+      "emerging_score": 0.6157,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {
+          "source_id": "6027d8a69a0e0295",
+          "organization": "arXiv CS.AI",
+          "title": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
+          "url": "https://arxiv.org/abs/2611.10150",
+          "publication_date": "2026-11-10",
+          "source_tier": 2
+        },
         {
           "source_id": "d0e76f5d44b3746a",
           "organization": "IEEE Spectrum AI",
@@ -297,9 +305,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.47945205479452,
+      "skill_share": 5.333333333333334,
       "share_change": null,
-      "emerging_score": 0.453,
+      "emerging_score": 0.4528,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -344,9 +352,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.73972602739726,
+      "skill_share": 2.666666666666667,
       "share_change": null,
-      "emerging_score": 0.4438,
+      "emerging_score": 0.4437,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -378,37 +386,14 @@
       ]
     },
     {
-      "skill_id": "problem_solving",
-      "skill_name": "Problem Solving",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 2.73972602739726,
-      "share_change": null,
-      "emerging_score": 0.3414,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "b29c5a5bc40059f7",
-          "organization": "arXiv CS.AI",
-          "title": "Enhancing Academic Advisement with Case-Based Reasoning",
-          "url": "https://arxiv.org/abs/2611.08572",
-          "publication_date": "2026-11-09",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "negotiation",
       "skill_name": "Negotiation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.73972602739726,
+      "skill_share": 2.666666666666667,
       "share_change": null,
-      "emerging_score": 0.3372,
+      "emerging_score": 0.337,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -424,14 +409,45 @@
       ]
     },
     {
+      "skill_id": "responsible_ai_use",
+      "skill_name": "Responsible AI Use",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 2.666666666666667,
+      "share_change": null,
+      "emerging_score": 0.2263,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "01892cdd823f380d",
+          "organization": "Bing",
+          "title": "President stresses ethical, responsible AI use",
+          "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
+          "publication_date": "2026-11-05",
+          "source_tier": 4
+        },
+        {
+          "source_id": "6b59810b27061317",
+          "organization": "Bing",
+          "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
+          "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
+          "publication_date": "2026-11-04",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "ai_literacy",
       "skill_name": "AI Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.36986301369863,
+      "skill_share": 1.3333333333333335,
       "share_change": null,
-      "emerging_score": 0.1689,
+      "emerging_score": 0.1688,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -447,37 +463,14 @@
       ]
     },
     {
-      "skill_id": "responsible_ai_use",
-      "skill_name": "Responsible AI Use",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.36986301369863,
-      "share_change": null,
-      "emerging_score": 0.1689,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "6b59810b27061317",
-          "organization": "Bing",
-          "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
-          "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
-          "publication_date": "2026-11-04",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "critical_thinking",
       "skill_name": "Critical Thinking",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.36986301369863,
+      "skill_share": 1.3333333333333335,
       "share_change": null,
-      "emerging_score": 0.1647,
+      "emerging_score": 0.1645,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -498,9 +491,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 2.73972602739726,
+      "skill_share": 2.666666666666667,
       "share_change": null,
-      "emerging_score": 0.118,
+      "emerging_score": 0.1179,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -529,9 +522,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.36986301369863,
+      "skill_share": 1.3333333333333335,
       "share_change": null,
-      "emerging_score": 0.1105,
+      "emerging_score": 0.1104,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -563,15 +556,6 @@
         {
           "month": "2026-10",
           "demand_index": 1.0
-        }
-      ]
-    },
-    {
-      "skill": "Problem Solving",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 2.0
         }
       ]
     },
@@ -611,6 +595,10 @@
         {
           "month": "2026-10",
           "demand_index": 5.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 2.0
         }
       ]
     },
@@ -676,6 +664,10 @@
         {
           "month": "2026-10",
           "demand_index": 6.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 2.0
         }
       ]
     },
@@ -688,7 +680,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
+          "demand_index": 4.0
         }
       ]
     },
@@ -715,7 +707,7 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     }
@@ -723,45 +715,45 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 22,
-      "percentage": 30.1
-    },
-    {
-      "industry": "technology",
-      "count": 16,
-      "percentage": 21.9
+      "count": 21,
+      "percentage": 28.0
     },
     {
       "industry": "education",
-      "count": 16,
-      "percentage": 21.9
+      "count": 18,
+      "percentage": 24.0
+    },
+    {
+      "industry": "technology",
+      "count": 15,
+      "percentage": 20.0
     },
     {
       "industry": "healthcare",
       "count": 6,
-      "percentage": 8.2
+      "percentage": 8.0
+    },
+    {
+      "industry": "government",
+      "count": 6,
+      "percentage": 8.0
     },
     {
       "industry": "finance",
       "count": 5,
-      "percentage": 6.8
+      "percentage": 6.7
     },
     {
       "industry": "manufacturing",
       "count": 4,
-      "percentage": 5.5
-    },
-    {
-      "industry": "government",
-      "count": 4,
-      "percentage": 5.5
+      "percentage": 5.3
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
     "high": 3,
-    "medium": 8,
-    "low": 20
+    "medium": 7,
+    "low": 21
   },
   "sources": [
     {
@@ -886,25 +878,14 @@
       ]
     },
     {
-      "source_id": "2e9d1169dae7f030",
+      "source_id": "e14a2e7acb67fda2",
       "organization": "arXiv CS.AI",
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-      "url": "https://arxiv.org/abs/2611.08640",
-      "publication_date": "2026-11-09",
+      "title": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
+      "url": "https://arxiv.org/abs/2611.10176",
+      "publication_date": "2026-11-10",
       "source_tier": 2,
       "skills": [
         "Communication"
-      ]
-    },
-    {
-      "source_id": "9ff4f99628e347cd",
-      "organization": "arXiv CS.AI",
-      "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
-      "url": "https://arxiv.org/abs/2611.08752",
-      "publication_date": "2026-11-09",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
       ]
     },
     {
@@ -919,25 +900,14 @@
       ]
     },
     {
-      "source_id": "b7628839fe0bba24",
+      "source_id": "40c004c022d7ffdb",
       "organization": "arXiv CS.AI",
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "url": "https://arxiv.org/abs/2611.08644",
-      "publication_date": "2026-11-09",
+      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+      "url": "https://arxiv.org/abs/2611.10045",
+      "publication_date": "2026-11-10",
       "source_tier": 2,
       "skills": [
         "Presentation"
-      ]
-    },
-    {
-      "source_id": "b29c5a5bc40059f7",
-      "organization": "arXiv CS.AI",
-      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
-      "url": "https://arxiv.org/abs/2611.08572",
-      "publication_date": "2026-11-09",
-      "source_tier": 2,
-      "skills": [
-        "Problem Solving"
       ]
     },
     {
@@ -1021,17 +991,6 @@
       ]
     },
     {
-      "source_id": "c45371f6ca50b8ed",
-      "organization": "arXiv CS.AI",
-      "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
-      "url": "https://arxiv.org/abs/2611.08718",
-      "publication_date": "2026-11-09",
-      "source_tier": 2,
-      "skills": [
-        "Decision-Making"
-      ]
-    },
-    {
       "source_id": "2bbdc2c96694e02f",
       "organization": "MIT Technology Review AI",
       "title": "Securing the agentic enterprise with data lineage",
@@ -1062,6 +1021,29 @@
       "source_tier": 2,
       "skills": [
         "Leadership"
+      ]
+    },
+    {
+      "source_id": "6027d8a69a0e0295",
+      "organization": "arXiv CS.AI",
+      "title": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
+      "url": "https://arxiv.org/abs/2611.10150",
+      "publication_date": "2026-11-10",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Creativity"
+      ]
+    },
+    {
+      "source_id": "701bd3773adb4ea2",
+      "organization": "arXiv CS.AI",
+      "title": "WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation",
+      "url": "https://arxiv.org/abs/2611.10151",
+      "publication_date": "2026-11-10",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
       ]
     },
     {
@@ -1131,6 +1113,17 @@
         "Communication",
         "Critical Thinking",
         "Teamwork"
+      ]
+    },
+    {
+      "source_id": "01892cdd823f380d",
+      "organization": "Bing",
+      "title": "President stresses ethical, responsible AI use",
+      "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
+      "publication_date": "2026-11-05",
+      "source_tier": 4,
+      "skills": [
+        "Responsible AI Use"
       ]
     },
     {
