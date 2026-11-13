@@ -1,0 +1,985 @@
+{
+  "generated_at": "2026-11-13T20:37:35.563272",
+  "total_skills": 31,
+  "emerging_skills": 6,
+  "increasing_skills": 8,
+  "declining_skills": 3,
+  "new_evidence_items": 60,
+  "sources_analyzed": 120,
+  "industries_tracked": 7,
+  "countries_tracked": 2,
+  "trends": [
+    {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 20.3125,
+      "share_change": null,
+      "emerging_score": 0.6614,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 6,
+      "sources": [
+        {
+          "source_id": "ebe6aa8ebf5b0549",
+          "organization": "arXiv CS.AI",
+          "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+          "url": "https://arxiv.org/abs/2611.14781",
+          "publication_date": "2026-11-13",
+          "source_tier": 2
+        },
+        {
+          "source_id": "dfd0395796c65986",
+          "organization": "arXiv CS.AI",
+          "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning through Multimodal Training",
+          "url": "https://arxiv.org/abs/2611.14942",
+          "publication_date": "2026-11-13",
+          "source_tier": 2
+        },
+        {
+          "source_id": "3ece93459cb08836",
+          "organization": "IEEE Spectrum AI",
+          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2712a693a98c9fd8",
+          "organization": "IEEE Spectrum AI",
+          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
+          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "dd599bb0c347672f",
+          "organization": "IEEE Spectrum AI",
+          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "0e5671290a77e192",
+          "organization": "IEEE Spectrum AI",
+          "title": "Could Treating AI as Conscious Make It More Dangerous?",
+          "url": "https://spectrum.ieee.org/ai-model-welfare",
+          "publication_date": "2026-10-21",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "communication",
+      "skill_name": "Communication",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 21.875,
+      "share_change": null,
+      "emerging_score": 0.6393,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 8,
+      "sources": [
+        {
+          "source_id": "7d321100ff62c45c",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "5cc89742234b057e",
+          "organization": "arXiv CS.AI",
+          "title": "Rational Use of Time for Social Coordination in Humans and AI",
+          "url": "https://arxiv.org/abs/2611.14766",
+          "publication_date": "2026-11-13",
+          "source_tier": 2
+        },
+        {
+          "source_id": "eadf7498f2c720a7",
+          "organization": "arXiv CS.AI",
+          "title": "Open Challenges and Opportunities in Human-Agent Systems",
+          "url": "https://arxiv.org/abs/2611.14846",
+          "publication_date": "2026-11-13",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2bbdc2c96694e02f",
+          "organization": "MIT Technology Review AI",
+          "title": "Securing the agentic enterprise with data lineage",
+          "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+          "publication_date": "2026-11-04",
+          "source_tier": 2
+        },
+        {
+          "source_id": "dd599bb0c347672f",
+          "organization": "IEEE Spectrum AI",
+          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "179f1170580464cf",
+          "organization": "IEEE Spectrum AI",
+          "title": "How Wikipedia\u2019s Editors Keep the Online Encyclopedia Human-Written",
+          "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+          "publication_date": "2026-10-21",
+          "source_tier": 2
+        },
+        {
+          "source_id": "326b9ba5e4d67b24",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "e60fe79959c2a4ca",
+          "organization": "Bing",
+          "title": "Adapting to AI at work: IITPSA skills conference looks into the future",
+          "url": "https://www.itweb.co.za/article/adapting-to-ai-at-work-iitpsa-skills-conference-looks-into-the-future/kYbe97XbjN6qAWpG",
+          "publication_date": "2026-11-04",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "leadership",
+      "skill_name": "Leadership",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 7.8125,
+      "share_change": null,
+      "emerging_score": 0.6375,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "326b9ba5e4d67b24",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+          "publication_date": "2026-10-12",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        }
+      ]
+    },
+    {
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.375,
+      "share_change": null,
+      "emerging_score": 0.6101,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "ebe6aa8ebf5b0549",
+          "organization": "arXiv CS.AI",
+          "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+          "url": "https://arxiv.org/abs/2611.14781",
+          "publication_date": "2026-11-13",
+          "source_tier": 2
+        },
+        {
+          "source_id": "8077b9769aaeefde",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+          "publication_date": "2026-11-09",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.375,
+      "share_change": null,
+      "emerging_score": 0.6066,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "c373df9e2eb76bad",
+          "organization": "IEEE Spectrum AI",
+          "title": "Systems Thinking Is Vital in the Age of AI",
+          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "creativity",
+      "skill_name": "Creativity",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 7.8125,
+      "share_change": null,
+      "emerging_score": 0.5991,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "d0e76f5d44b3746a",
+          "organization": "IEEE Spectrum AI",
+          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
+          "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+          "publication_date": "2026-10-13",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.125,
+      "share_change": null,
+      "emerging_score": 0.4433,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "skill_id": "teamwork",
+      "skill_name": "Teamwork",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 4.6875,
+      "share_change": null,
+      "emerging_score": 0.3935,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        },
+        {
+          "source_id": "a10d71013abba3bc",
+          "organization": "Bing",
+          "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+          "publication_date": "2026-07-08",
+          "source_tier": 4
+        },
+        {
+          "source_id": "688f357ed2a1039c",
+          "organization": "Bing",
+          "title": "Will AI destroy teamwork?",
+          "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+          "publication_date": "2026-05-06",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "responsible_ai_use",
+      "skill_name": "Responsible AI Use",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 4.6875,
+      "share_change": null,
+      "emerging_score": 0.2834,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "de5d021b058c307d",
+          "organization": "Bing",
+          "title": "Rajasthan Chief Secy holds meeting with UNESCO on AI Ethics and capacity building",
+          "url": "https://www.thehawk.in/news/states-and-uts/rajasthan/rajasthan-chief-secy-holds-meeting-with-unesco-on-ai-ethics-and-capacity-building",
+          "publication_date": "2026-11-13",
+          "source_tier": 4
+        },
+        {
+          "source_id": "01892cdd823f380d",
+          "organization": "Bing",
+          "title": "President stresses ethical, responsible AI use",
+          "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
+          "publication_date": "2026-11-05",
+          "source_tier": 4
+        },
+        {
+          "source_id": "6b59810b27061317",
+          "organization": "Bing",
+          "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
+          "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
+          "publication_date": "2026-11-04",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "digital_literacy",
+      "skill_name": "Digital Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.125,
+      "share_change": null,
+      "emerging_score": 0.1175,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "9aabeb9fcbb13fb8",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+          "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "9303d612853f978f",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+          "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "skill_id": "resilience",
+      "skill_name": "Resilience",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.5625,
+      "share_change": null,
+      "emerging_score": 0.11,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "78a961e368730149",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        }
+      ]
+    }
+  ],
+  "monthly_data": [
+    {
+      "skill": "Communication",
+      "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 34.6968384349829
+        },
+        {
+          "month": "2026-10",
+          "demand_index": 8.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 5.0
+        }
+      ]
+    },
+    {
+      "skill": "Presentation",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 6.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 7.0
+        }
+      ]
+    },
+    {
+      "skill": "Creativity",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 5.0
+        }
+      ]
+    },
+    {
+      "skill": "Adaptability",
+      "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 68.8697192431851
+        },
+        {
+          "month": "2026-10",
+          "demand_index": 159293.0
+        }
+      ]
+    },
+    {
+      "skill": "Resilience",
+      "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 7.53923324035891
+        }
+      ]
+    },
+    {
+      "skill": "Leadership",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 4.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
+        }
+      ]
+    },
+    {
+      "skill": "Teamwork",
+      "series": [
+        {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-07",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
+        }
+      ]
+    },
+    {
+      "skill": "Collaboration",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 6.0
+        }
+      ]
+    },
+    {
+      "skill": "Decision-Making",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 5.0
+        }
+      ]
+    },
+    {
+      "skill": "Digital Literacy",
+      "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 123.5
+        }
+      ]
+    },
+    {
+      "skill": "Responsible AI Use",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 3.0
+        }
+      ]
+    }
+  ],
+  "industry_comparison": [
+    {
+      "industry": "general",
+      "count": 21,
+      "percentage": 32.8
+    },
+    {
+      "industry": "technology",
+      "count": 14,
+      "percentage": 21.9
+    },
+    {
+      "industry": "education",
+      "count": 13,
+      "percentage": 20.3
+    },
+    {
+      "industry": "healthcare",
+      "count": 5,
+      "percentage": 7.8
+    },
+    {
+      "industry": "manufacturing",
+      "count": 4,
+      "percentage": 6.2
+    },
+    {
+      "industry": "finance",
+      "count": 4,
+      "percentage": 6.2
+    },
+    {
+      "industry": "government",
+      "count": 3,
+      "percentage": 4.7
+    }
+  ],
+  "new_skills_detected": [],
+  "evidence_confidence": {
+    "high": 4,
+    "medium": 5,
+    "low": 22
+  },
+  "sources": [
+    {
+      "source_id": "c18a7b729bc1a00c",
+      "organization": "U.S. Bureau of Labor Statistics",
+      "title": "BLS Employment Data (CES0000000001)",
+      "url": "https://data.bls.gov/timeseries/CES0000000001",
+      "publication_date": "2026-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "7220b394d96e71b9",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+      "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9aabeb9fcbb13fb8",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+      "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "40119199f99cb3cf",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_advanced_education (SL.TLF.ADVN.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.ADVN.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "f6615c9f50d92d4b",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9303d612853f978f",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+      "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "c560179944135ecb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 research_output (IP.JRN.ARTC.SC)",
+      "url": "https://data.worldbank.org/indicator/IP.JRN.ARTC.SC",
+      "publication_date": "2023-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Analytical Thinking"
+      ]
+    },
+    {
+      "source_id": "7d321100ff62c45c",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "185972c0b1cb5cbb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 tertiary_enrollment_rate (SE.TER.ENRR)",
+      "url": "https://data.worldbank.org/indicator/SE.TER.ENRR",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "78a961e368730149",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "8077b9769aaeefde",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+      "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+      "publication_date": "2026-11-09",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "0e5671290a77e192",
+      "organization": "IEEE Spectrum AI",
+      "title": "Could Treating AI as Conscious Make It More Dangerous?",
+      "url": "https://spectrum.ieee.org/ai-model-welfare",
+      "publication_date": "2026-10-21",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "dfd0395796c65986",
+      "organization": "arXiv CS.AI",
+      "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning through Multimodal Training",
+      "url": "https://arxiv.org/abs/2611.14942",
+      "publication_date": "2026-11-13",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "d0e76f5d44b3746a",
+      "organization": "IEEE Spectrum AI",
+      "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
+      "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+      "publication_date": "2026-10-13",
+      "source_tier": 2,
+      "skills": [
+        "Creativity"
+      ]
+    },
+    {
+      "source_id": "179f1170580464cf",
+      "organization": "IEEE Spectrum AI",
+      "title": "How Wikipedia\u2019s Editors Keep the Online Encyclopedia Human-Written",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "publication_date": "2026-10-21",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "3ece93459cb08836",
+      "organization": "IEEE Spectrum AI",
+      "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+      "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+      "publication_date": "2026-11-03",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "dd599bb0c347672f",
+      "organization": "IEEE Spectrum AI",
+      "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+      "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+      "publication_date": "2026-10-27",
+      "source_tier": 2,
+      "skills": [
+        "Communication",
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "ff901306ac33508f",
+      "organization": "IEEE Spectrum AI",
+      "title": "IEEE Xplore Digital Library Adds AI Assistant",
+      "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+      "publication_date": "2026-10-26",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "326b9ba5e4d67b24",
+      "organization": "IEEE Spectrum AI",
+      "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+      "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+      "publication_date": "2026-10-12",
+      "source_tier": 2,
+      "skills": [
+        "Communication",
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "eadf7498f2c720a7",
+      "organization": "arXiv CS.AI",
+      "title": "Open Challenges and Opportunities in Human-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.14846",
+      "publication_date": "2026-11-13",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "5cc89742234b057e",
+      "organization": "arXiv CS.AI",
+      "title": "Rational Use of Time for Social Coordination in Humans and AI",
+      "url": "https://arxiv.org/abs/2611.14766",
+      "publication_date": "2026-11-13",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "ebe6aa8ebf5b0549",
+      "organization": "arXiv CS.AI",
+      "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+      "url": "https://arxiv.org/abs/2611.14781",
+      "publication_date": "2026-11-13",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making",
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "2bbdc2c96694e02f",
+      "organization": "MIT Technology Review AI",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "publication_date": "2026-11-04",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "c373df9e2eb76bad",
+      "organization": "IEEE Spectrum AI",
+      "title": "Systems Thinking Is Vital in the Age of AI",
+      "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+      "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "2712a693a98c9fd8",
+      "organization": "IEEE Spectrum AI",
+      "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
+      "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+      "publication_date": "2026-10-27",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "2b2103e4aa6ad1ad",
+      "organization": "Microsoft Work Lab",
+      "title": "Learn the rules: The hacker mindset",
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+      "publication_date": "2026-11-03",
+      "source_tier": 3,
+      "skills": [
+        "Leadership",
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "e60fe79959c2a4ca",
+      "organization": "Bing",
+      "title": "Adapting to AI at work: IITPSA skills conference looks into the future",
+      "url": "https://www.itweb.co.za/article/adapting-to-ai-at-work-iitpsa-skills-conference-looks-into-the-future/kYbe97XbjN6qAWpG",
+      "publication_date": "2026-11-04",
+      "source_tier": 4,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "a10d71013abba3bc",
+      "organization": "Bing",
+      "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+      "publication_date": "2026-07-08",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "01892cdd823f380d",
+      "organization": "Bing",
+      "title": "President stresses ethical, responsible AI use",
+      "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
+      "publication_date": "2026-11-05",
+      "source_tier": 4,
+      "skills": [
+        "Responsible AI Use"
+      ]
+    },
+    {
+      "source_id": "6b59810b27061317",
+      "organization": "Bing",
+      "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
+      "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
+      "publication_date": "2026-11-04",
+      "source_tier": 4,
+      "skills": [
+        "Responsible AI Use"
+      ]
+    },
+    {
+      "source_id": "de5d021b058c307d",
+      "organization": "Bing",
+      "title": "Rajasthan Chief Secy holds meeting with UNESCO on AI Ethics and capacity building",
+      "url": "https://www.thehawk.in/news/states-and-uts/rajasthan/rajasthan-chief-secy-holds-meeting-with-unesco-on-ai-ethics-and-capacity-building",
+      "publication_date": "2026-11-13",
+      "source_tier": 4,
+      "skills": [
+        "Responsible AI Use"
+      ]
+    },
+    {
+      "source_id": "688f357ed2a1039c",
+      "organization": "Bing",
+      "title": "Will AI destroy teamwork?",
+      "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+      "publication_date": "2026-05-06",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
+      ]
+    }
+  ]
+}
