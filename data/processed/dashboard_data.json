@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-13T20:37:35.563272",
+  "generated_at": "2026-11-14T18:57:17.640408",
   "total_skills": 31,
   "emerging_skills": 6,
-  "increasing_skills": 8,
+  "increasing_skills": 7,
   "declining_skills": 3,
-  "new_evidence_items": 60,
-  "sources_analyzed": 120,
+  "new_evidence_items": 52,
+  "sources_analyzed": 94,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
@@ -15,29 +15,13 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 20.3125,
+      "skill_share": 21.153846153846153,
       "share_change": null,
-      "emerging_score": 0.6614,
+      "emerging_score": 0.6459,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 6,
+      "source_count": 4,
       "sources": [
-        {
-          "source_id": "ebe6aa8ebf5b0549",
-          "organization": "arXiv CS.AI",
-          "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
-          "url": "https://arxiv.org/abs/2611.14781",
-          "publication_date": "2026-11-13",
-          "source_tier": 2
-        },
-        {
-          "source_id": "dfd0395796c65986",
-          "organization": "arXiv CS.AI",
-          "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning through Multimodal Training",
-          "url": "https://arxiv.org/abs/2611.14942",
-          "publication_date": "2026-11-13",
-          "source_tier": 2
-        },
         {
           "source_id": "3ece93459cb08836",
           "organization": "IEEE Spectrum AI",
@@ -78,12 +62,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 21.875,
+      "skill_share": 21.153846153846153,
       "share_change": null,
-      "emerging_score": 0.6393,
+      "emerging_score": 0.6373,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 8,
+      "source_count": 6,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -92,22 +76,6 @@
           "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
           "publication_date": "2025-12-01",
           "source_tier": 1
-        },
-        {
-          "source_id": "5cc89742234b057e",
-          "organization": "arXiv CS.AI",
-          "title": "Rational Use of Time for Social Coordination in Humans and AI",
-          "url": "https://arxiv.org/abs/2611.14766",
-          "publication_date": "2026-11-13",
-          "source_tier": 2
-        },
-        {
-          "source_id": "eadf7498f2c720a7",
-          "organization": "arXiv CS.AI",
-          "title": "Open Challenges and Opportunities in Human-Agent Systems",
-          "url": "https://arxiv.org/abs/2611.14846",
-          "publication_date": "2026-11-13",
-          "source_tier": 2
         },
         {
           "source_id": "2bbdc2c96694e02f",
@@ -157,9 +125,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.8125,
+      "skill_share": 9.615384615384617,
       "share_change": null,
-      "emerging_score": 0.6375,
+      "emerging_score": 0.6373,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -183,53 +151,14 @@
       ]
     },
     {
-      "skill_id": "decision_making",
-      "skill_name": "Decision-Making",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 9.375,
-      "share_change": null,
-      "emerging_score": 0.6101,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "ebe6aa8ebf5b0549",
-          "organization": "arXiv CS.AI",
-          "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
-          "url": "https://arxiv.org/abs/2611.14781",
-          "publication_date": "2026-11-13",
-          "source_tier": 2
-        },
-        {
-          "source_id": "8077b9769aaeefde",
-          "organization": "IEEE Spectrum AI",
-          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
-          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
-          "publication_date": "2026-11-09",
-          "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.375,
+      "skill_share": 11.538461538461538,
       "share_change": null,
-      "emerging_score": 0.6066,
+      "emerging_score": 0.6065,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -258,9 +187,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.8125,
+      "skill_share": 9.615384615384617,
       "share_change": null,
-      "emerging_score": 0.5991,
+      "emerging_score": 0.599,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -276,41 +205,33 @@
       ]
     },
     {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.125,
+      "skill_share": 9.615384615384617,
       "share_change": null,
-      "emerging_score": 0.4433,
-      "confidence": "medium",
+      "emerging_score": 0.5724,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
-          "source_tier": 1
+          "source_id": "8077b9769aaeefde",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+          "publication_date": "2026-11-09",
+          "source_tier": 2
         },
         {
-          "source_id": "f6615c9f50d92d4b",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
         }
       ]
     },
@@ -320,9 +241,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.6875,
+      "skill_share": 5.769230769230769,
       "share_change": null,
-      "emerging_score": 0.3935,
+      "emerging_score": 0.3934,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -359,9 +280,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.6875,
+      "skill_share": 5.769230769230769,
       "share_change": null,
-      "emerging_score": 0.2834,
+      "emerging_score": 0.2832,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -393,14 +314,37 @@
       ]
     },
     {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.9230769230769231,
+      "share_change": null,
+      "emerging_score": 0.1515,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
       "skill_id": "digital_literacy",
       "skill_name": "Digital Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.125,
+      "skill_share": 3.8461538461538463,
       "share_change": null,
-      "emerging_score": 0.1175,
+      "emerging_score": 0.1173,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -422,29 +366,6 @@
           "source_tier": 1
         }
       ]
-    },
-    {
-      "skill_id": "resilience",
-      "skill_name": "Resilience",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.5625,
-      "share_change": null,
-      "emerging_score": 0.11,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "78a961e368730149",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        }
-      ]
     }
   ],
   "monthly_data": [
@@ -461,7 +382,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
+          "demand_index": 2.0
         }
       ]
     },
@@ -474,7 +395,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 7.0
+          "demand_index": 5.0
         }
       ]
     },
@@ -491,21 +412,8 @@
       "skill": "Adaptability",
       "series": [
         {
-          "month": "2025-12",
-          "demand_index": 68.8697192431851
-        },
-        {
           "month": "2026-10",
           "demand_index": 159293.0
-        }
-      ]
-    },
-    {
-      "skill": "Resilience",
-      "series": [
-        {
-          "month": "2025-12",
-          "demand_index": 7.53923324035891
         }
       ]
     },
@@ -557,7 +465,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
+          "demand_index": 4.0
         }
       ]
     },
@@ -582,46 +490,46 @@
   ],
   "industry_comparison": [
     {
-      "industry": "general",
-      "count": 21,
-      "percentage": 32.8
+      "industry": "technology",
+      "count": 13,
+      "percentage": 25.0
     },
     {
-      "industry": "technology",
-      "count": 14,
-      "percentage": 21.9
+      "industry": "general",
+      "count": 13,
+      "percentage": 25.0
     },
     {
       "industry": "education",
-      "count": 13,
-      "percentage": 20.3
+      "count": 10,
+      "percentage": 19.2
     },
     {
       "industry": "healthcare",
       "count": 5,
-      "percentage": 7.8
+      "percentage": 9.6
     },
     {
       "industry": "manufacturing",
       "count": 4,
-      "percentage": 6.2
+      "percentage": 7.7
     },
     {
       "industry": "finance",
       "count": 4,
-      "percentage": 6.2
+      "percentage": 7.7
     },
     {
       "industry": "government",
       "count": 3,
-      "percentage": 4.7
+      "percentage": 5.8
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
     "high": 4,
-    "medium": 5,
-    "low": 22
+    "medium": 4,
+    "low": 23
   },
   "sources": [
     {
@@ -630,17 +538,6 @@
       "title": "BLS Employment Data (CES0000000001)",
       "url": "https://data.bls.gov/timeseries/CES0000000001",
       "publication_date": "2026-12-01",
-      "source_tier": 1,
-      "skills": [
-        "Adaptability"
-      ]
-    },
-    {
-      "source_id": "7220b394d96e71b9",
-      "organization": "World Bank",
-      "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-      "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-      "publication_date": "2024-12-01",
       "source_tier": 1,
       "skills": [
         "Adaptability"
@@ -658,28 +555,6 @@
       ]
     },
     {
-      "source_id": "40119199f99cb3cf",
-      "organization": "World Bank",
-      "title": "World Bank Open Data \u2014 labor_force_advanced_education (SL.TLF.ADVN.ZS)",
-      "url": "https://data.worldbank.org/indicator/SL.TLF.ADVN.ZS",
-      "publication_date": "2024-12-01",
-      "source_tier": 1,
-      "skills": [
-        "Learning Agility"
-      ]
-    },
-    {
-      "source_id": "f6615c9f50d92d4b",
-      "organization": "World Bank",
-      "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-      "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-      "publication_date": "2025-12-01",
-      "source_tier": 1,
-      "skills": [
-        "Adaptability"
-      ]
-    },
-    {
       "source_id": "9303d612853f978f",
       "organization": "World Bank",
       "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
@@ -691,17 +566,6 @@
       ]
     },
     {
-      "source_id": "c560179944135ecb",
-      "organization": "World Bank",
-      "title": "World Bank Open Data \u2014 research_output (IP.JRN.ARTC.SC)",
-      "url": "https://data.worldbank.org/indicator/IP.JRN.ARTC.SC",
-      "publication_date": "2023-12-01",
-      "source_tier": 1,
-      "skills": [
-        "Analytical Thinking"
-      ]
-    },
-    {
       "source_id": "7d321100ff62c45c",
       "organization": "World Bank",
       "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
@@ -710,28 +574,6 @@
       "source_tier": 1,
       "skills": [
         "Communication"
-      ]
-    },
-    {
-      "source_id": "185972c0b1cb5cbb",
-      "organization": "World Bank",
-      "title": "World Bank Open Data \u2014 tertiary_enrollment_rate (SE.TER.ENRR)",
-      "url": "https://data.worldbank.org/indicator/SE.TER.ENRR",
-      "publication_date": "2024-12-01",
-      "source_tier": 1,
-      "skills": [
-        "Learning Agility"
-      ]
-    },
-    {
-      "source_id": "78a961e368730149",
-      "organization": "World Bank",
-      "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
-      "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
-      "publication_date": "2025-12-01",
-      "source_tier": 1,
-      "skills": [
-        "Resilience"
       ]
     },
     {
@@ -751,17 +593,6 @@
       "title": "Could Treating AI as Conscious Make It More Dangerous?",
       "url": "https://spectrum.ieee.org/ai-model-welfare",
       "publication_date": "2026-10-21",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "dfd0395796c65986",
-      "organization": "arXiv CS.AI",
-      "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning through Multimodal Training",
-      "url": "https://arxiv.org/abs/2611.14942",
-      "publication_date": "2026-11-13",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -834,40 +665,6 @@
       "skills": [
         "Communication",
         "Leadership"
-      ]
-    },
-    {
-      "source_id": "eadf7498f2c720a7",
-      "organization": "arXiv CS.AI",
-      "title": "Open Challenges and Opportunities in Human-Agent Systems",
-      "url": "https://arxiv.org/abs/2611.14846",
-      "publication_date": "2026-11-13",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
-      "source_id": "5cc89742234b057e",
-      "organization": "arXiv CS.AI",
-      "title": "Rational Use of Time for Social Coordination in Humans and AI",
-      "url": "https://arxiv.org/abs/2611.14766",
-      "publication_date": "2026-11-13",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
-      "source_id": "ebe6aa8ebf5b0549",
-      "organization": "arXiv CS.AI",
-      "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
-      "url": "https://arxiv.org/abs/2611.14781",
-      "publication_date": "2026-11-13",
-      "source_tier": 2,
-      "skills": [
-        "Decision-Making",
-        "Presentation"
       ]
     },
     {
