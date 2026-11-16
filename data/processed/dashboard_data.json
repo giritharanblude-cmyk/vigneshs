@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-15T19:28:10.507279",
+  "generated_at": "2026-11-16T23:01:29.829472",
   "total_skills": 31,
-  "emerging_skills": 6,
-  "increasing_skills": 8,
+  "emerging_skills": 4,
+  "increasing_skills": 6,
   "declining_skills": 5,
-  "new_evidence_items": 55,
-  "sources_analyzed": 98,
+  "new_evidence_items": 51,
+  "sources_analyzed": 120,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
@@ -15,13 +15,29 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 18.64406779661017,
+      "skill_share": 23.636363636363637,
       "share_change": null,
-      "emerging_score": 0.6458,
+      "emerging_score": 0.661,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 6,
       "sources": [
+        {
+          "source_id": "5fa52699a5696df1",
+          "organization": "arXiv CS.AI",
+          "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+          "url": "https://arxiv.org/abs/2611.17340",
+          "publication_date": "2026-11-16",
+          "source_tier": 2
+        },
+        {
+          "source_id": "bc426b4612fff5a3",
+          "organization": "arXiv CS.AI",
+          "title": "When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost",
+          "url": "https://arxiv.org/abs/2611.17583",
+          "publication_date": "2026-11-16",
+          "source_tier": 2
+        },
         {
           "source_id": "3ece93459cb08836",
           "organization": "IEEE Spectrum AI",
@@ -57,33 +73,72 @@
       ]
     },
     {
-      "skill_id": "leadership",
-      "skill_name": "Leadership",
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.47457627118644,
+      "skill_share": 14.545454545454545,
       "share_change": null,
-      "emerging_score": 0.6372,
-      "confidence": "medium",
+      "emerging_score": 0.6249,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "360a5cf008ebe7bc",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
+          "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+          "publication_date": "2026-11-16",
+          "source_tier": 2
+        },
+        {
+          "source_id": "8077b9769aaeefde",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+          "publication_date": "2026-11-09",
+          "source_tier": 2
+        },
+        {
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 10.909090909090908,
+      "share_change": null,
+      "emerging_score": 0.6062,
+      "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 2,
       "sources": [
         {
-          "source_id": "326b9ba5e4d67b24",
+          "source_id": "c373df9e2eb76bad",
           "organization": "IEEE Spectrum AI",
-          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
-          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
-          "publication_date": "2026-10-12",
+          "title": "Systems Thinking Is Vital in the Age of AI",
+          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+          "publication_date": "2026-10-28",
           "source_tier": 2
         },
         {
-          "source_id": "2b2103e4aa6ad1ad",
-          "organization": "Microsoft Work Lab",
-          "title": "Learn the rules: The hacker mindset",
-          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
-          "publication_date": "2026-11-03",
-          "source_tier": 3
+          "source_id": "ff901306ac33508f",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "publication_date": "2026-10-26",
+          "source_tier": 2
         }
       ]
     },
@@ -93,12 +148,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 20.33898305084746,
+      "skill_share": 21.818181818181817,
       "share_change": null,
-      "emerging_score": 0.6341,
+      "emerging_score": 0.605,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 7,
+      "source_count": 9,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -107,6 +162,22 @@
           "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
           "publication_date": "2025-12-01",
           "source_tier": 1
+        },
+        {
+          "source_id": "78deedd7dd18d0b8",
+          "organization": "arXiv CS.AI",
+          "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+          "url": "https://arxiv.org/abs/2611.17532",
+          "publication_date": "2026-11-16",
+          "source_tier": 2
+        },
+        {
+          "source_id": "3fa83d4f8ebed26c",
+          "organization": "arXiv CS.AI",
+          "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+          "url": "https://arxiv.org/abs/2611.17610",
+          "publication_date": "2026-11-16",
+          "source_tier": 2
         },
         {
           "source_id": "2bbdc2c96694e02f",
@@ -133,12 +204,20 @@
           "source_tier": 2
         },
         {
-          "source_id": "326b9ba5e4d67b24",
-          "organization": "IEEE Spectrum AI",
-          "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
-          "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
-          "publication_date": "2026-10-12",
-          "source_tier": 2
+          "source_id": "0bee8559834ba18f",
+          "organization": "Bing",
+          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
+          "publication_date": "2026-11-16",
+          "source_tier": 4
+        },
+        {
+          "source_id": "aacb354be1ca33a9",
+          "organization": "Bing",
+          "title": "SUNY Poly establishes workforce development site at Griffiss Institute to expand regional training",
+          "url": "https://www.romesentinel.com/news/suny-poly-griffiss-institute-workforce-development-training/article_aee9f5ee-6654-4cd4-ba73-d0616b17fd8e.html",
+          "publication_date": "2026-11-16",
+          "source_tier": 4
         },
         {
           "source_id": "e60fe79959c2a4ca",
@@ -147,99 +226,6 @@
           "url": "https://www.itweb.co.za/article/adapting-to-ai-at-work-iitpsa-skills-conference-looks-into-the-future/kYbe97XbjN6qAWpG",
           "publication_date": "2026-11-04",
           "source_tier": 4
-        },
-        {
-          "source_id": "c3dad6dd29034df4",
-          "organization": "Bing",
-          "title": "The AI Literacy Gap No One Expected",
-          "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-          "publication_date": "2026-06-15",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "collaboration",
-      "skill_name": "Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 10.16949152542373,
-      "share_change": null,
-      "emerging_score": 0.6063,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "c373df9e2eb76bad",
-          "organization": "IEEE Spectrum AI",
-          "title": "Systems Thinking Is Vital in the Age of AI",
-          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
-          "publication_date": "2026-10-28",
-          "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "creativity",
-      "skill_name": "Creativity",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 8.47457627118644,
-      "share_change": null,
-      "emerging_score": 0.5988,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "d0e76f5d44b3746a",
-          "organization": "IEEE Spectrum AI",
-          "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
-          "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
-          "publication_date": "2026-10-13",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "decision_making",
-      "skill_name": "Decision-Making",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 8.47457627118644,
-      "share_change": null,
-      "emerging_score": 0.5722,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "8077b9769aaeefde",
-          "organization": "IEEE Spectrum AI",
-          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
-          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
-          "publication_date": "2026-11-09",
-          "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
         }
       ]
     },
@@ -249,9 +235,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.389830508474576,
+      "skill_share": 3.6363636363636362,
       "share_change": null,
-      "emerging_score": 0.443,
+      "emerging_score": 0.4429,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -288,9 +274,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.084745762711865,
+      "skill_share": 5.454545454545454,
       "share_change": null,
-      "emerging_score": 0.3932,
+      "emerging_score": 0.3931,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -322,18 +308,49 @@
       ]
     },
     {
+      "skill_id": "leadership",
+      "skill_name": "Leadership",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.8181818181818181,
+      "share_change": null,
+      "emerging_score": 0.2804,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        }
+      ]
+    },
+    {
       "skill_id": "responsible_ai_use",
       "skill_name": "Responsible AI Use",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.694915254237288,
+      "skill_share": 3.6363636363636362,
       "share_change": null,
-      "emerging_score": 0.1681,
+      "emerging_score": 0.2254,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {
+          "source_id": "01892cdd823f380d",
+          "organization": "Bing",
+          "title": "President stresses ethical, responsible AI use",
+          "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
+          "publication_date": "2026-11-05",
+          "source_tier": 4
+        },
         {
           "source_id": "6b59810b27061317",
           "organization": "Bing",
@@ -345,47 +362,24 @@
       ]
     },
     {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.694915254237288,
-      "share_change": null,
-      "emerging_score": 0.1471,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "c3dad6dd29034df4",
-          "organization": "Bing",
-          "title": "The AI Literacy Gap No One Expected",
-          "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-          "publication_date": "2026-06-15",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "critical_thinking",
       "skill_name": "Critical Thinking",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.694915254237288,
+      "skill_share": 1.8181818181818181,
       "share_change": null,
-      "emerging_score": 0.1471,
+      "emerging_score": 0.1679,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "c3dad6dd29034df4",
+          "source_id": "0bee8559834ba18f",
           "organization": "Bing",
-          "title": "The AI Literacy Gap No One Expected",
-          "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-          "publication_date": "2026-06-15",
+          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
+          "publication_date": "2026-11-16",
           "source_tier": 4
         }
       ]
@@ -396,9 +390,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.389830508474576,
+      "skill_share": 3.6363636363636362,
       "share_change": null,
-      "emerging_score": 0.1172,
+      "emerging_score": 0.1171,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -427,9 +421,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.694915254237288,
+      "skill_share": 1.8181818181818181,
       "share_change": null,
-      "emerging_score": 0.1097,
+      "emerging_score": 0.1096,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -447,19 +441,10 @@
   ],
   "monthly_data": [
     {
-      "skill": "AI Literacy",
-      "series": [
-        {
-          "month": "2026-06",
-          "demand_index": 1.0
-        }
-      ]
-    },
-    {
       "skill": "Critical Thinking",
       "series": [
         {
-          "month": "2026-06",
+          "month": "2026-11",
           "demand_index": 1.0
         }
       ]
@@ -472,16 +457,12 @@
           "demand_index": 34.6968384349829
         },
         {
-          "month": "2026-06",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-10",
-          "demand_index": 8.0
+          "demand_index": 4.0
         },
         {
           "month": "2026-11",
-          "demand_index": 2.0
+          "demand_index": 7.0
         }
       ]
     },
@@ -494,16 +475,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
-        }
-      ]
-    },
-    {
-      "skill": "Creativity",
-      "series": [
-        {
-          "month": "2026-10",
-          "demand_index": 5.0
+          "demand_index": 7.0
         }
       ]
     },
@@ -532,10 +504,6 @@
     {
       "skill": "Leadership",
       "series": [
-        {
-          "month": "2026-10",
-          "demand_index": 4.0
-        },
         {
           "month": "2026-11",
           "demand_index": 1.0
@@ -577,7 +545,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 4.0
+          "demand_index": 7.0
         }
       ]
     },
@@ -595,7 +563,7 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 1.0
+          "demand_index": 2.0
         }
       ]
     }
@@ -604,44 +572,44 @@
     {
       "industry": "general",
       "count": 20,
-      "percentage": 33.9
-    },
-    {
-      "industry": "technology",
-      "count": 13,
-      "percentage": 22.0
+      "percentage": 36.4
     },
     {
       "industry": "education",
-      "count": 10,
-      "percentage": 16.9
+      "count": 13,
+      "percentage": 23.6
     },
     {
-      "industry": "healthcare",
-      "count": 5,
-      "percentage": 8.5
+      "industry": "technology",
+      "count": 11,
+      "percentage": 20.0
     },
     {
       "industry": "manufacturing",
-      "count": 4,
-      "percentage": 6.8
+      "count": 3,
+      "percentage": 5.5
     },
     {
-      "industry": "finance",
-      "count": 4,
-      "percentage": 6.8
+      "industry": "healthcare",
+      "count": 3,
+      "percentage": 5.5
     },
     {
       "industry": "government",
       "count": 3,
-      "percentage": 5.1
+      "percentage": 5.5
+    },
+    {
+      "industry": "finance",
+      "count": 2,
+      "percentage": 3.6
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 4,
+    "high": 3,
     "medium": 5,
-    "low": 22
+    "low": 23
   },
   "sources": [
     {
@@ -766,6 +734,28 @@
       ]
     },
     {
+      "source_id": "360a5cf008ebe7bc",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
+      "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+      "publication_date": "2026-11-16",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "78deedd7dd18d0b8",
+      "organization": "arXiv CS.AI",
+      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "url": "https://arxiv.org/abs/2611.17532",
+      "publication_date": "2026-11-16",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
       "source_id": "0e5671290a77e192",
       "organization": "IEEE Spectrum AI",
       "title": "Could Treating AI as Conscious Make It More Dangerous?",
@@ -774,17 +764,6 @@
       "source_tier": 2,
       "skills": [
         "Presentation"
-      ]
-    },
-    {
-      "source_id": "d0e76f5d44b3746a",
-      "organization": "IEEE Spectrum AI",
-      "title": "Google DeepMind\u2019s New Resident Philosopher Tackles AI Ethics",
-      "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
-      "publication_date": "2026-10-13",
-      "source_tier": 2,
-      "skills": [
-        "Creativity"
       ]
     },
     {
@@ -834,15 +813,25 @@
       ]
     },
     {
-      "source_id": "326b9ba5e4d67b24",
-      "organization": "IEEE Spectrum AI",
-      "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
-      "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
-      "publication_date": "2026-10-12",
+      "source_id": "5fa52699a5696df1",
+      "organization": "arXiv CS.AI",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "publication_date": "2026-11-16",
       "source_tier": 2,
       "skills": [
-        "Communication",
-        "Leadership"
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "3fa83d4f8ebed26c",
+      "organization": "arXiv CS.AI",
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2611.17610",
+      "publication_date": "2026-11-16",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
       ]
     },
     {
@@ -865,6 +854,17 @@
       "source_tier": 2,
       "skills": [
         "Collaboration"
+      ]
+    },
+    {
+      "source_id": "bc426b4612fff5a3",
+      "organization": "arXiv CS.AI",
+      "title": "When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost",
+      "url": "https://arxiv.org/abs/2611.17583",
+      "publication_date": "2026-11-16",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
       ]
     },
     {
@@ -913,6 +913,29 @@
       ]
     },
     {
+      "source_id": "0bee8559834ba18f",
+      "organization": "Bing",
+      "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+      "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
+      "publication_date": "2026-11-16",
+      "source_tier": 4,
+      "skills": [
+        "Communication",
+        "Critical Thinking"
+      ]
+    },
+    {
+      "source_id": "01892cdd823f380d",
+      "organization": "Bing",
+      "title": "President stresses ethical, responsible AI use",
+      "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
+      "publication_date": "2026-11-05",
+      "source_tier": 4,
+      "skills": [
+        "Responsible AI Use"
+      ]
+    },
+    {
       "source_id": "6b59810b27061317",
       "organization": "Bing",
       "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
@@ -924,16 +947,14 @@
       ]
     },
     {
-      "source_id": "c3dad6dd29034df4",
+      "source_id": "aacb354be1ca33a9",
       "organization": "Bing",
-      "title": "The AI Literacy Gap No One Expected",
-      "url": "https://campustechnology.com/articles/2026/06/16/the-ai-literacy-gap-no-one-expected.aspx",
-      "publication_date": "2026-06-15",
+      "title": "SUNY Poly establishes workforce development site at Griffiss Institute to expand regional training",
+      "url": "https://www.romesentinel.com/news/suny-poly-griffiss-institute-workforce-development-training/article_aee9f5ee-6654-4cd4-ba73-d0616b17fd8e.html",
+      "publication_date": "2026-11-16",
       "source_tier": 4,
       "skills": [
-        "AI Literacy",
-        "Communication",
-        "Critical Thinking"
+        "Communication"
       ]
     },
     {
