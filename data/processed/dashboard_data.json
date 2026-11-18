@@ -1,74 +1,35 @@
 {
-  "generated_at": "2026-11-17T21:58:44.560401",
+  "generated_at": "2026-11-18T21:32:35.953108",
   "total_skills": 31,
   "emerging_skills": 5,
   "increasing_skills": 7,
-  "declining_skills": 4,
-  "new_evidence_items": 53,
-  "sources_analyzed": 108,
+  "declining_skills": 6,
+  "new_evidence_items": 52,
+  "sources_analyzed": 115,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
-    {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 18.867924528301888,
-      "share_change": null,
-      "emerging_score": 0.6386,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "25d1ca5092881415",
-          "organization": "arXiv CS.AI",
-          "title": "Match and Correct: A Repeated Computational Motif in Evoformer Layers",
-          "url": "https://arxiv.org/abs/2611.19016",
-          "publication_date": "2026-11-17",
-          "source_tier": 2
-        },
-        {
-          "source_id": "3ece93459cb08836",
-          "organization": "IEEE Spectrum AI",
-          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
-          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        },
-        {
-          "source_id": "2712a693a98c9fd8",
-          "organization": "IEEE Spectrum AI",
-          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
-          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        },
-        {
-          "source_id": "dd599bb0c347672f",
-          "organization": "IEEE Spectrum AI",
-          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        }
-      ]
-    },
     {
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 18.867924528301888,
+      "skill_share": 19.642857142857142,
       "share_change": null,
-      "emerging_score": 0.6353,
+      "emerging_score": 0.6431,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
+        {
+          "source_id": "e414906e589fbb6b",
+          "organization": "IEEE Spectrum AI",
+          "title": "Will AI Coding Eat Video Game Engines?",
+          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+          "publication_date": "2026-11-18",
+          "source_tier": 2
+        },
         {
           "source_id": "b963043e10f90f2d",
           "organization": "IEEE Spectrum AI",
@@ -104,14 +65,53 @@
       ]
     },
     {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 16.071428571428573,
+      "share_change": null,
+      "emerging_score": 0.6308,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "3ece93459cb08836",
+          "organization": "IEEE Spectrum AI",
+          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2712a693a98c9fd8",
+          "organization": "IEEE Spectrum AI",
+          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
+          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "dd599bb0c347672f",
+          "organization": "IEEE Spectrum AI",
+          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 15.09433962264151,
+      "skill_share": 14.285714285714285,
       "share_change": null,
-      "emerging_score": 0.6248,
+      "emerging_score": 0.6246,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -148,13 +148,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 20.754716981132077,
+      "skill_share": 12.5,
       "share_change": null,
-      "emerging_score": 0.614,
+      "emerging_score": 0.6056,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 6,
+      "source_count": 4,
       "sources": [
+        {
+          "source_id": "7d321100ff62c45c",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
         {
           "source_id": "0722e85a4b6928b3",
           "organization": "IEEE Spectrum AI",
@@ -164,35 +172,11 @@
           "source_tier": 2
         },
         {
-          "source_id": "2e3330da180e887c",
-          "organization": "arXiv CS.AI",
-          "title": "Between Rigor and Reality: How AI Safety Benchmark Developers Understand Benchmark Use and Maintenance",
-          "url": "https://arxiv.org/abs/2611.18930",
-          "publication_date": "2026-11-17",
-          "source_tier": 2
-        },
-        {
-          "source_id": "46e70fdc7c125920",
-          "organization": "arXiv CS.AI",
-          "title": "Dual-Stage Channel-Posterior Integration for MLM-Aided Token Communications",
-          "url": "https://arxiv.org/abs/2611.18958",
-          "publication_date": "2026-11-17",
-          "source_tier": 2
-        },
-        {
           "source_id": "dd599bb0c347672f",
           "organization": "IEEE Spectrum AI",
           "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
           "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
           "publication_date": "2026-10-27",
-          "source_tier": 2
-        },
-        {
-          "source_id": "179f1170580464cf",
-          "organization": "IEEE Spectrum AI",
-          "title": "How Wikipedia\u2019s Editors Keep the Online Encyclopedia Human-Written",
-          "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-          "publication_date": "2026-10-21",
           "source_tier": 2
         },
         {
@@ -211,12 +195,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.547169811320755,
+      "skill_share": 8.928571428571429,
       "share_change": null,
-      "emerging_score": 0.5522,
+      "emerging_score": 0.6035,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         {
           "source_id": "b963043e10f90f2d",
@@ -233,6 +217,53 @@
           "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
           "publication_date": "2026-11-03",
           "source_tier": 3
+        },
+        {
+          "source_id": "571b482db9fe8faa",
+          "organization": "Bing",
+          "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
+          "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
+          "publication_date": "2026-09-07",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.571428571428571,
+      "share_change": null,
+      "emerging_score": 0.4426,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
         }
       ]
     },
@@ -242,9 +273,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.660377358490567,
+      "skill_share": 5.357142857142857,
       "share_change": null,
-      "emerging_score": 0.393,
+      "emerging_score": 0.3928,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -276,53 +307,14 @@
       ]
     },
     {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.660377358490567,
-      "share_change": null,
-      "emerging_score": 0.3244,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "93ae6c86b2701d93",
-          "organization": "Bing",
-          "title": "AI Literacy Mediates the Link Between Error Aversion and Nurse Thriving",
-          "url": "https://bioengineer.org/ai-literacy-mediates-the-link-between-error-aversion-and-nurse-thriving/",
-          "publication_date": "2026-11-17",
-          "source_tier": 4
-        },
-        {
-          "source_id": "69849649ae50a5f2",
-          "organization": "Bing",
-          "title": "What makes a college future-ready? AI, industry exposure, entrepreneurship and global learning",
-          "url": "https://www.msn.com/en-in/news/other/what-makes-a-college-future-ready-ai-industry-exposure-entrepreneurship-and-global-learning/ar-AA2h3upb",
-          "publication_date": "2026-11-09",
-          "source_tier": 4
-        },
-        {
-          "source_id": "481e7cc1613be67a",
-          "organization": "Bing",
-          "title": "From AI Policies To AI Literacy In Education",
-          "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
-          "publication_date": "2026-05-20",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "ai_collaboration",
       "skill_name": "AI Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8867924528301887,
+      "skill_share": 1.7857142857142856,
       "share_change": null,
-      "emerging_score": 0.1678,
+      "emerging_score": 0.1677,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -343,9 +335,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8867924528301887,
+      "skill_share": 1.7857142857142856,
       "share_change": null,
-      "emerging_score": 0.1678,
+      "emerging_score": 0.1677,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -366,42 +358,96 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8867924528301887,
+      "skill_share": 1.7857142857142856,
       "share_change": null,
-      "emerging_score": 0.1678,
+      "emerging_score": 0.1677,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "01892cdd823f380d",
+          "source_id": "6b59810b27061317",
           "organization": "Bing",
-          "title": "President stresses ethical, responsible AI use",
-          "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
-          "publication_date": "2026-11-05",
+          "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
+          "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
+          "publication_date": "2026-11-04",
           "source_tier": 4
         }
       ]
     },
     {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8867924528301887,
+      "skill_share": 1.7857142857142856,
       "share_change": null,
-      "emerging_score": 0.1511,
+      "emerging_score": 0.1425,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "481e7cc1613be67a",
+          "organization": "Bing",
+          "title": "From AI Policies To AI Literacy In Education",
+          "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
+          "publication_date": "2026-05-19",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "digital_literacy",
+      "skill_name": "Digital Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.571428571428571,
+      "share_change": null,
+      "emerging_score": 0.1168,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "9aabeb9fcbb13fb8",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+          "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "9303d612853f978f",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+          "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "skill_id": "resilience",
+      "skill_name": "Resilience",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.7857142857142856,
+      "share_change": null,
+      "emerging_score": 0.1093,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
+          "source_id": "78a961e368730149",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+          "publication_date": "2025-12-01",
           "source_tier": 1
         }
       ]
@@ -414,10 +460,6 @@
         {
           "month": "2026-05",
           "demand_index": 1.0
-        },
-        {
-          "month": "2026-11",
-          "demand_index": 2.0
         }
       ]
     },
@@ -443,12 +485,16 @@
       "skill": "Communication",
       "series": [
         {
+          "month": "2025-12",
+          "demand_index": 34.6968384349829
+        },
+        {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 2.0
         },
         {
           "month": "2026-11",
-          "demand_index": 7.0
+          "demand_index": 4.0
         }
       ]
     },
@@ -461,7 +507,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 6.0
+          "demand_index": 5.0
         }
       ]
     },
@@ -469,14 +515,31 @@
       "skill": "Adaptability",
       "series": [
         {
+          "month": "2025-12",
+          "demand_index": 68.8697192431851
+        },
+        {
           "month": "2026-10",
           "demand_index": 159293.0
         }
       ]
     },
     {
+      "skill": "Resilience",
+      "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 7.53923324035891
+        }
+      ]
+    },
+    {
       "skill": "Leadership",
       "series": [
+        {
+          "month": "2026-09",
+          "demand_index": 1.0
+        },
         {
           "month": "2026-11",
           "demand_index": 4.0
@@ -509,7 +572,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 4.0
+          "demand_index": 5.0
         }
       ]
     },
@@ -527,6 +590,15 @@
       ]
     },
     {
+      "skill": "Digital Literacy",
+      "series": [
+        {
+          "month": "2025-12",
+          "demand_index": 123.5
+        }
+      ]
+    },
+    {
       "skill": "Responsible AI Use",
       "series": [
         {
@@ -538,46 +610,46 @@
   ],
   "industry_comparison": [
     {
+      "industry": "general",
+      "count": 16,
+      "percentage": 28.6
+    },
+    {
       "industry": "education",
-      "count": 17,
-      "percentage": 32.1
+      "count": 14,
+      "percentage": 25.0
     },
     {
       "industry": "technology",
-      "count": 14,
-      "percentage": 26.4
-    },
-    {
-      "industry": "general",
-      "count": 9,
-      "percentage": 17.0
+      "count": 13,
+      "percentage": 23.2
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 9.4
+      "percentage": 8.9
     },
     {
       "industry": "manufacturing",
       "count": 4,
-      "percentage": 7.5
+      "percentage": 7.1
     },
     {
       "industry": "healthcare",
       "count": 2,
-      "percentage": 3.8
+      "percentage": 3.6
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.8
+      "percentage": 3.6
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
     "high": 2,
-    "medium": 4,
-    "low": 25
+    "medium": 6,
+    "low": 23
   },
   "sources": [
     {
@@ -589,6 +661,105 @@
       "source_tier": 1,
       "skills": [
         "Adaptability"
+      ]
+    },
+    {
+      "source_id": "7220b394d96e71b9",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+      "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9aabeb9fcbb13fb8",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+      "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "40119199f99cb3cf",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_advanced_education (SL.TLF.ADVN.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.ADVN.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "f6615c9f50d92d4b",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9303d612853f978f",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+      "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "c560179944135ecb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 research_output (IP.JRN.ARTC.SC)",
+      "url": "https://data.worldbank.org/indicator/IP.JRN.ARTC.SC",
+      "publication_date": "2023-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Analytical Thinking"
+      ]
+    },
+    {
+      "source_id": "7d321100ff62c45c",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "185972c0b1cb5cbb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 tertiary_enrollment_rate (SE.TER.ENRR)",
+      "url": "https://data.worldbank.org/indicator/SE.TER.ENRR",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "78a961e368730149",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Resilience"
       ]
     },
     {
@@ -619,39 +790,6 @@
       "title": "AI Is Giving Optical Computing Another Shot",
       "url": "https://spectrum.ieee.org/optical-computing-ai",
       "publication_date": "2026-11-17",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
-      "source_id": "2e3330da180e887c",
-      "organization": "arXiv CS.AI",
-      "title": "Between Rigor and Reality: How AI Safety Benchmark Developers Understand Benchmark Use and Maintenance",
-      "url": "https://arxiv.org/abs/2611.18930",
-      "publication_date": "2026-11-17",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
-      "source_id": "46e70fdc7c125920",
-      "organization": "arXiv CS.AI",
-      "title": "Dual-Stage Channel-Posterior Integration for MLM-Aided Token Communications",
-      "url": "https://arxiv.org/abs/2611.18958",
-      "publication_date": "2026-11-17",
-      "source_tier": 2,
-      "skills": [
-        "Communication"
-      ]
-    },
-    {
-      "source_id": "179f1170580464cf",
-      "organization": "IEEE Spectrum AI",
-      "title": "How Wikipedia\u2019s Editors Keep the Online Encyclopedia Human-Written",
-      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "publication_date": "2026-10-21",
       "source_tier": 2,
       "skills": [
         "Communication"
@@ -705,22 +843,22 @@
       ]
     },
     {
-      "source_id": "25d1ca5092881415",
-      "organization": "arXiv CS.AI",
-      "title": "Match and Correct: A Repeated Computational Motif in Evoformer Layers",
-      "url": "https://arxiv.org/abs/2611.19016",
-      "publication_date": "2026-11-17",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
       "source_id": "c373df9e2eb76bad",
       "organization": "IEEE Spectrum AI",
       "title": "Systems Thinking Is Vital in the Age of AI",
       "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
       "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "e414906e589fbb6b",
+      "organization": "IEEE Spectrum AI",
+      "title": "Will AI Coding Eat Video Game Engines?",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "publication_date": "2026-11-18",
       "source_tier": 2,
       "skills": [
         "Collaboration"
@@ -747,17 +885,6 @@
       "skills": [
         "Leadership",
         "Teamwork"
-      ]
-    },
-    {
-      "source_id": "93ae6c86b2701d93",
-      "organization": "Bing",
-      "title": "AI Literacy Mediates the Link Between Error Aversion and Nurse Thriving",
-      "url": "https://bioengineer.org/ai-literacy-mediates-the-link-between-error-aversion-and-nurse-thriving/",
-      "publication_date": "2026-11-17",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
       ]
     },
     {
@@ -788,10 +915,21 @@
       "organization": "Bing",
       "title": "From AI Policies To AI Literacy In Education",
       "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
-      "publication_date": "2026-05-20",
+      "publication_date": "2026-05-19",
       "source_tier": 4,
       "skills": [
         "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "571b482db9fe8faa",
+      "organization": "Bing",
+      "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
+      "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
+      "publication_date": "2026-09-07",
+      "source_tier": 4,
+      "skills": [
+        "Leadership"
       ]
     },
     {
@@ -807,25 +945,14 @@
       ]
     },
     {
-      "source_id": "01892cdd823f380d",
+      "source_id": "6b59810b27061317",
       "organization": "Bing",
-      "title": "President stresses ethical, responsible AI use",
-      "url": "https://dailyasianage.com/news/359874/president-stresses-ethical-responsible--ai-use",
-      "publication_date": "2026-11-05",
+      "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
+      "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
+      "publication_date": "2026-11-04",
       "source_tier": 4,
       "skills": [
         "Responsible AI Use"
-      ]
-    },
-    {
-      "source_id": "69849649ae50a5f2",
-      "organization": "Bing",
-      "title": "What makes a college future-ready? AI, industry exposure, entrepreneurship and global learning",
-      "url": "https://www.msn.com/en-in/news/other/what-makes-a-college-future-ready-ai-industry-exposure-entrepreneurship-and-global-learning/ar-AA2h3upb",
-      "publication_date": "2026-11-09",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
       ]
     },
     {
