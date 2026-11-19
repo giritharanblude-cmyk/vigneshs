@@ -1,82 +1,67 @@
 {
-  "generated_at": "2026-11-18T21:32:35.953108",
+  "generated_at": "2026-11-19T21:44:39.466305",
   "total_skills": 31,
   "emerging_skills": 5,
   "increasing_skills": 7,
-  "declining_skills": 6,
-  "new_evidence_items": 52,
-  "sources_analyzed": 115,
+  "declining_skills": 3,
+  "new_evidence_items": 55,
+  "sources_analyzed": 114,
   "industries_tracked": 7,
-  "countries_tracked": 2,
+  "countries_tracked": 3,
   "trends": [
-    {
-      "skill_id": "collaboration",
-      "skill_name": "Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 19.642857142857142,
-      "share_change": null,
-      "emerging_score": 0.6431,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 5,
-      "sources": [
-        {
-          "source_id": "e414906e589fbb6b",
-          "organization": "IEEE Spectrum AI",
-          "title": "Will AI Coding Eat Video Game Engines?",
-          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-          "publication_date": "2026-11-18",
-          "source_tier": 2
-        },
-        {
-          "source_id": "b963043e10f90f2d",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-          "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
-          "publication_date": "2026-11-17",
-          "source_tier": 2
-        },
-        {
-          "source_id": "c373df9e2eb76bad",
-          "organization": "IEEE Spectrum AI",
-          "title": "Systems Thinking Is Vital in the Age of AI",
-          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
-          "publication_date": "2026-10-28",
-          "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "7f6924a40d992e67",
-          "organization": "Bing",
-          "title": "Chulalongkorn University, Google explore AI collaboration in education",
-          "url": "https://www.khaosodenglish.com/tech/2026/11/17/chulalongkorn-university-google-explore-ai-collaboration-in-education/",
-          "publication_date": "2026-11-17",
-          "source_tier": 4
-        }
-      ]
-    },
     {
       "skill_id": "presentation",
       "skill_name": "Presentation",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 16.071428571428573,
+      "skill_share": 23.728813559322035,
       "share_change": null,
-      "emerging_score": 0.6308,
+      "emerging_score": 0.6888,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 8,
       "sources": [
+        {
+          "source_id": "7342e2b3f54b165f",
+          "organization": "arXiv CS.AI",
+          "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+          "url": "https://arxiv.org/abs/2611.23410",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
+        {
+          "source_id": "27e7ae62364f0a90",
+          "organization": "arXiv CS.AI",
+          "title": "BOS Summary: The First Token Matters",
+          "url": "https://arxiv.org/abs/2611.23508",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
+        {
+          "source_id": "21dc01c09da8e624",
+          "organization": "arXiv CS.AI",
+          "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
+          "url": "https://arxiv.org/abs/2611.23520",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
+        {
+          "source_id": "4e54905d0c9054e0",
+          "organization": "arXiv CS.AI",
+          "title": "FACET - Facet Aware Contrastive Embeddings for Traits- Big Five Estimation from Life Narratives",
+          "url": "https://arxiv.org/abs/2611.23560",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
+        {
+          "source_id": "43bce856129e439e",
+          "organization": "arXiv CS.AI",
+          "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+          "url": "https://arxiv.org/abs/2611.23564",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
         {
           "source_id": "3ece93459cb08836",
           "organization": "IEEE Spectrum AI",
@@ -104,17 +89,72 @@
       ]
     },
     {
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 22.033898305084744,
+      "share_change": null,
+      "emerging_score": 0.677,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 5,
+      "sources": [
+        {
+          "source_id": "8bef40b770659487",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check",
+          "url": "https://spectrum.ieee.org/ai-agent-manager",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
+        {
+          "source_id": "e414906e589fbb6b",
+          "organization": "IEEE Spectrum AI",
+          "title": "Will AI Coding Eat Video Game Engines?",
+          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+          "publication_date": "2026-11-18",
+          "source_tier": 2
+        },
+        {
+          "source_id": "b963043e10f90f2d",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+          "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+          "publication_date": "2026-11-17",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c373df9e2eb76bad",
+          "organization": "IEEE Spectrum AI",
+          "title": "Systems Thinking Is Vital in the Age of AI",
+          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        },
+        {
+          "source_id": "688f357ed2a1039c",
+          "organization": "Bing",
+          "title": "Will AI destroy teamwork?",
+          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
+          "publication_date": "2026-05-06",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.285714285714285,
+      "skill_share": 11.864406779661017,
       "share_change": null,
-      "emerging_score": 0.6246,
+      "emerging_score": 0.6175,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "360a5cf008ebe7bc",
@@ -131,14 +171,6 @@
           "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
           "publication_date": "2026-11-09",
           "source_tier": 2
-        },
-        {
-          "source_id": "ff901306ac33508f",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "publication_date": "2026-10-26",
-          "source_tier": 2
         }
       ]
     },
@@ -148,9 +180,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 12.5,
+      "skill_share": 11.864406779661017,
       "share_change": null,
-      "emerging_score": 0.6056,
+      "emerging_score": 0.6055,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -180,10 +212,10 @@
           "source_tier": 2
         },
         {
-          "source_id": "6ea4d512c62fbb87",
+          "source_id": "0bee8559834ba18f",
           "organization": "Bing",
-          "title": "Learning & Development Leaders Say AI Is Degrading Employees' Human Skills, General Assembly Research Finds",
-          "url": "https://finance.yahoo.com/technology/ai/articles/learning-development-leaders-ai-degrading-140000804.html",
+          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
           "publication_date": "2026-11-16",
           "source_tier": 4
         }
@@ -195,9 +227,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.928571428571429,
+      "skill_share": 8.47457627118644,
       "share_change": null,
-      "emerging_score": 0.6035,
+      "emerging_score": 0.6034,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -234,9 +266,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.571428571428571,
+      "skill_share": 3.389830508474576,
       "share_change": null,
-      "emerging_score": 0.4426,
+      "emerging_score": 0.4425,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -273,9 +305,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.357142857142857,
+      "skill_share": 5.084745762711865,
       "share_change": null,
-      "emerging_score": 0.3928,
+      "emerging_score": 0.3927,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -300,31 +332,8 @@
           "source_id": "688f357ed2a1039c",
           "organization": "Bing",
           "title": "Will AI destroy teamwork?",
-          "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
           "publication_date": "2026-05-06",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "ai_collaboration",
-      "skill_name": "AI Collaboration",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
-      "share_change": null,
-      "emerging_score": 0.1677,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "7f6924a40d992e67",
-          "organization": "Bing",
-          "title": "Chulalongkorn University, Google explore AI collaboration in education",
-          "url": "https://www.khaosodenglish.com/tech/2026/11/17/chulalongkorn-university-google-explore-ai-collaboration-in-education/",
-          "publication_date": "2026-11-17",
           "source_tier": 4
         }
       ]
@@ -335,65 +344,19 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
+      "skill_share": 1.694915254237288,
       "share_change": null,
-      "emerging_score": 0.1677,
+      "emerging_score": 0.1675,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "6ea4d512c62fbb87",
+          "source_id": "0bee8559834ba18f",
           "organization": "Bing",
-          "title": "Learning & Development Leaders Say AI Is Degrading Employees' Human Skills, General Assembly Research Finds",
-          "url": "https://finance.yahoo.com/technology/ai/articles/learning-development-leaders-ai-degrading-140000804.html",
+          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
           "publication_date": "2026-11-16",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "responsible_ai_use",
-      "skill_name": "Responsible AI Use",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
-      "share_change": null,
-      "emerging_score": 0.1677,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "6b59810b27061317",
-          "organization": "Bing",
-          "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
-          "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
-          "publication_date": "2026-11-04",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
-      "share_change": null,
-      "emerging_score": 0.1425,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "481e7cc1613be67a",
-          "organization": "Bing",
-          "title": "From AI Policies To AI Literacy In Education",
-          "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
-          "publication_date": "2026-05-19",
           "source_tier": 4
         }
       ]
@@ -404,9 +367,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.571428571428571,
+      "skill_share": 3.389830508474576,
       "share_change": null,
-      "emerging_score": 0.1168,
+      "emerging_score": 0.1166,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -435,9 +398,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7857142857142856,
+      "skill_share": 1.694915254237288,
       "share_change": null,
-      "emerging_score": 0.1093,
+      "emerging_score": 0.1091,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -454,24 +417,6 @@
     }
   ],
   "monthly_data": [
-    {
-      "skill": "AI Literacy",
-      "series": [
-        {
-          "month": "2026-05",
-          "demand_index": 1.0
-        }
-      ]
-    },
-    {
-      "skill": "AI Collaboration",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 1.0
-        }
-      ]
-    },
     {
       "skill": "Critical Thinking",
       "series": [
@@ -507,7 +452,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
+          "demand_index": 10.0
         }
       ]
     },
@@ -567,22 +512,22 @@
       "skill": "Collaboration",
       "series": [
         {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-10",
-          "demand_index": 6.0
+          "demand_index": 5.0
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
+          "demand_index": 7.0
         }
       ]
     },
     {
       "skill": "Decision-Making",
       "series": [
-        {
-          "month": "2026-10",
-          "demand_index": 1.0
-        },
         {
           "month": "2026-11",
           "demand_index": 7.0
@@ -597,52 +542,43 @@
           "demand_index": 123.5
         }
       ]
-    },
-    {
-      "skill": "Responsible AI Use",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 1.0
-        }
-      ]
     }
   ],
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 16,
-      "percentage": 28.6
+      "count": 19,
+      "percentage": 32.2
     },
     {
       "industry": "education",
       "count": 14,
-      "percentage": 25.0
+      "percentage": 23.7
     },
     {
       "industry": "technology",
-      "count": 13,
-      "percentage": 23.2
+      "count": 12,
+      "percentage": 20.3
+    },
+    {
+      "industry": "manufacturing",
+      "count": 5,
+      "percentage": 8.5
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 8.9
-    },
-    {
-      "industry": "manufacturing",
-      "count": 4,
-      "percentage": 7.1
+      "percentage": 8.5
     },
     {
       "industry": "healthcare",
       "count": 2,
-      "percentage": 3.6
+      "percentage": 3.4
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.6
+      "percentage": 3.4
     }
   ],
   "new_skills_detected": [],
@@ -796,6 +732,39 @@
       ]
     },
     {
+      "source_id": "27e7ae62364f0a90",
+      "organization": "arXiv CS.AI",
+      "title": "BOS Summary: The First Token Matters",
+      "url": "https://arxiv.org/abs/2611.23508",
+      "publication_date": "2026-11-19",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "21dc01c09da8e624",
+      "organization": "arXiv CS.AI",
+      "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
+      "url": "https://arxiv.org/abs/2611.23520",
+      "publication_date": "2026-11-19",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "4e54905d0c9054e0",
+      "organization": "arXiv CS.AI",
+      "title": "FACET - Facet Aware Contrastive Embeddings for Traits- Big Five Estimation from Life Narratives",
+      "url": "https://arxiv.org/abs/2611.23560",
+      "publication_date": "2026-11-19",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
       "source_id": "3ece93459cb08836",
       "organization": "IEEE Spectrum AI",
       "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
@@ -831,15 +800,36 @@
       ]
     },
     {
-      "source_id": "ff901306ac33508f",
-      "organization": "IEEE Spectrum AI",
-      "title": "IEEE Xplore Digital Library Adds AI Assistant",
-      "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-      "publication_date": "2026-10-26",
+      "source_id": "43bce856129e439e",
+      "organization": "arXiv CS.AI",
+      "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+      "url": "https://arxiv.org/abs/2611.23564",
+      "publication_date": "2026-11-19",
       "source_tier": 2,
       "skills": [
-        "Collaboration",
-        "Decision-Making"
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "8bef40b770659487",
+      "organization": "IEEE Spectrum AI",
+      "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check",
+      "url": "https://spectrum.ieee.org/ai-agent-manager",
+      "publication_date": "2026-11-19",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "7342e2b3f54b165f",
+      "organization": "arXiv CS.AI",
+      "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+      "url": "https://arxiv.org/abs/2611.23410",
+      "publication_date": "2026-11-19",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
       ]
     },
     {
@@ -899,29 +889,6 @@
       ]
     },
     {
-      "source_id": "7f6924a40d992e67",
-      "organization": "Bing",
-      "title": "Chulalongkorn University, Google explore AI collaboration in education",
-      "url": "https://www.khaosodenglish.com/tech/2026/11/17/chulalongkorn-university-google-explore-ai-collaboration-in-education/",
-      "publication_date": "2026-11-17",
-      "source_tier": 4,
-      "skills": [
-        "AI Collaboration",
-        "Collaboration"
-      ]
-    },
-    {
-      "source_id": "481e7cc1613be67a",
-      "organization": "Bing",
-      "title": "From AI Policies To AI Literacy In Education",
-      "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/05/20/from-ai-policies-to-ai-literacy-in-education/",
-      "publication_date": "2026-05-19",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
-      ]
-    },
-    {
       "source_id": "571b482db9fe8faa",
       "organization": "Bing",
       "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
@@ -933,10 +900,10 @@
       ]
     },
     {
-      "source_id": "6ea4d512c62fbb87",
+      "source_id": "0bee8559834ba18f",
       "organization": "Bing",
-      "title": "Learning & Development Leaders Say AI Is Degrading Employees' Human Skills, General Assembly Research Finds",
-      "url": "https://finance.yahoo.com/technology/ai/articles/learning-development-leaders-ai-degrading-140000804.html",
+      "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+      "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
       "publication_date": "2026-11-16",
       "source_tier": 4,
       "skills": [
@@ -945,24 +912,14 @@
       ]
     },
     {
-      "source_id": "6b59810b27061317",
-      "organization": "Bing",
-      "title": "President stresses ethical, responsible AI use to drive Bangladesh's growth",
-      "url": "https://www.msn.com/en-xl/news/other/president-stresses-ethical-responsible-ai-use-to-drive-bangladesh-s-growth/ar-AA2gNX6W",
-      "publication_date": "2026-11-04",
-      "source_tier": 4,
-      "skills": [
-        "Responsible AI Use"
-      ]
-    },
-    {
       "source_id": "688f357ed2a1039c",
       "organization": "Bing",
       "title": "Will AI destroy teamwork?",
-      "url": "https://www.msn.com/en-us/lifestyle/career/will-ai-destroy-teamwork/ar-AA22BED9",
+      "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
       "publication_date": "2026-05-06",
       "source_tier": 4,
       "skills": [
+        "Collaboration",
         "Teamwork"
       ]
     }
