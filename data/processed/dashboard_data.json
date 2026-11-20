@@ -1,105 +1,26 @@
 {
-  "generated_at": "2026-11-19T21:44:39.466305",
+  "generated_at": "2026-11-20T21:27:44.715313",
   "total_skills": 31,
   "emerging_skills": 5,
   "increasing_skills": 7,
   "declining_skills": 3,
-  "new_evidence_items": 55,
-  "sources_analyzed": 114,
+  "new_evidence_items": 50,
+  "sources_analyzed": 113,
   "industries_tracked": 7,
-  "countries_tracked": 3,
+  "countries_tracked": 2,
   "trends": [
-    {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 23.728813559322035,
-      "share_change": null,
-      "emerging_score": 0.6888,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 8,
-      "sources": [
-        {
-          "source_id": "7342e2b3f54b165f",
-          "organization": "arXiv CS.AI",
-          "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
-          "url": "https://arxiv.org/abs/2611.23410",
-          "publication_date": "2026-11-19",
-          "source_tier": 2
-        },
-        {
-          "source_id": "27e7ae62364f0a90",
-          "organization": "arXiv CS.AI",
-          "title": "BOS Summary: The First Token Matters",
-          "url": "https://arxiv.org/abs/2611.23508",
-          "publication_date": "2026-11-19",
-          "source_tier": 2
-        },
-        {
-          "source_id": "21dc01c09da8e624",
-          "organization": "arXiv CS.AI",
-          "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
-          "url": "https://arxiv.org/abs/2611.23520",
-          "publication_date": "2026-11-19",
-          "source_tier": 2
-        },
-        {
-          "source_id": "4e54905d0c9054e0",
-          "organization": "arXiv CS.AI",
-          "title": "FACET - Facet Aware Contrastive Embeddings for Traits- Big Five Estimation from Life Narratives",
-          "url": "https://arxiv.org/abs/2611.23560",
-          "publication_date": "2026-11-19",
-          "source_tier": 2
-        },
-        {
-          "source_id": "43bce856129e439e",
-          "organization": "arXiv CS.AI",
-          "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
-          "url": "https://arxiv.org/abs/2611.23564",
-          "publication_date": "2026-11-19",
-          "source_tier": 2
-        },
-        {
-          "source_id": "3ece93459cb08836",
-          "organization": "IEEE Spectrum AI",
-          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
-          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        },
-        {
-          "source_id": "2712a693a98c9fd8",
-          "organization": "IEEE Spectrum AI",
-          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
-          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        },
-        {
-          "source_id": "dd599bb0c347672f",
-          "organization": "IEEE Spectrum AI",
-          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        }
-      ]
-    },
     {
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 22.033898305084744,
+      "skill_share": 22.22222222222222,
       "share_change": null,
-      "emerging_score": 0.677,
-      "confidence": "medium",
+      "emerging_score": 0.6531,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "8bef40b770659487",
@@ -132,14 +53,53 @@
           "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
           "publication_date": "2026-10-28",
           "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 18.51851851851852,
+      "share_change": null,
+      "emerging_score": 0.6382,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "395a5851c5cc57c7",
+          "organization": "arXiv CS.AI",
+          "title": "MS-Point: Multi-Modal Hierarchical Spectral Learning for Point Cloud Understanding",
+          "url": "https://arxiv.org/abs/2611.25282",
+          "publication_date": "2026-11-20",
+          "source_tier": 2
         },
         {
-          "source_id": "688f357ed2a1039c",
-          "organization": "Bing",
-          "title": "Will AI destroy teamwork?",
-          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
-          "publication_date": "2026-05-06",
-          "source_tier": 4
+          "source_id": "3ece93459cb08836",
+          "organization": "IEEE Spectrum AI",
+          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2712a693a98c9fd8",
+          "organization": "IEEE Spectrum AI",
+          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
+          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "dd599bb0c347672f",
+          "organization": "IEEE Spectrum AI",
+          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "publication_date": "2026-10-27",
+          "source_tier": 2
         }
       ]
     },
@@ -149,13 +109,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 11.864406779661017,
+      "skill_share": 14.814814814814813,
       "share_change": null,
-      "emerging_score": 0.6175,
+      "emerging_score": 0.6249,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
+        {
+          "source_id": "aaef63ec4905dba1",
+          "organization": "arXiv CS.AI",
+          "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+          "url": "https://arxiv.org/abs/2611.25070",
+          "publication_date": "2026-11-20",
+          "source_tier": 2
+        },
         {
           "source_id": "360a5cf008ebe7bc",
           "organization": "IEEE Spectrum AI",
@@ -180,9 +148,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 11.864406779661017,
+      "skill_share": 12.962962962962962,
       "share_change": null,
-      "emerging_score": 0.6055,
+      "emerging_score": 0.6053,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -227,9 +195,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 8.47457627118644,
+      "skill_share": 9.25925925925926,
       "share_change": null,
-      "emerging_score": 0.6034,
+      "emerging_score": 0.6032,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -266,9 +234,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.389830508474576,
+      "skill_share": 3.7037037037037033,
       "share_change": null,
-      "emerging_score": 0.4425,
+      "emerging_score": 0.4423,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -305,12 +273,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.084745762711865,
+      "skill_share": 3.7037037037037033,
       "share_change": null,
-      "emerging_score": 0.3927,
+      "emerging_score": 0.3227,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "2b2103e4aa6ad1ad",
@@ -327,14 +295,6 @@
           "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
           "publication_date": "2026-07-08",
           "source_tier": 4
-        },
-        {
-          "source_id": "688f357ed2a1039c",
-          "organization": "Bing",
-          "title": "Will AI destroy teamwork?",
-          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
-          "publication_date": "2026-05-06",
-          "source_tier": 4
         }
       ]
     },
@@ -344,9 +304,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.694915254237288,
+      "skill_share": 1.8518518518518516,
       "share_change": null,
-      "emerging_score": 0.1675,
+      "emerging_score": 0.1674,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -367,9 +327,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.389830508474576,
+      "skill_share": 3.7037037037037033,
       "share_change": null,
-      "emerging_score": 0.1166,
+      "emerging_score": 0.1165,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -398,9 +358,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.694915254237288,
+      "skill_share": 1.8518518518518516,
       "share_change": null,
-      "emerging_score": 0.1091,
+      "emerging_score": 0.109,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -452,7 +412,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 10.0
+          "demand_index": 6.0
         }
       ]
     },
@@ -495,10 +455,6 @@
       "skill": "Teamwork",
       "series": [
         {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-07",
           "demand_index": 1.0
         },
@@ -511,10 +467,6 @@
     {
       "skill": "Collaboration",
       "series": [
-        {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
         {
           "month": "2026-10",
           "demand_index": 5.0
@@ -530,7 +482,7 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 7.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -547,44 +499,44 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 19,
-      "percentage": 32.2
+      "count": 14,
+      "percentage": 25.9
     },
     {
       "industry": "education",
-      "count": 14,
-      "percentage": 23.7
+      "count": 13,
+      "percentage": 24.1
     },
     {
       "industry": "technology",
       "count": 12,
-      "percentage": 20.3
+      "percentage": 22.2
     },
     {
       "industry": "manufacturing",
-      "count": 5,
-      "percentage": 8.5
+      "count": 6,
+      "percentage": 11.1
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 8.5
+      "percentage": 9.3
     },
     {
       "industry": "healthcare",
       "count": 2,
-      "percentage": 3.4
+      "percentage": 3.7
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.4
+      "percentage": 3.7
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 2,
-    "medium": 6,
+    "high": 3,
+    "medium": 5,
     "low": 23
   },
   "sources": [
@@ -732,36 +684,14 @@
       ]
     },
     {
-      "source_id": "27e7ae62364f0a90",
+      "source_id": "aaef63ec4905dba1",
       "organization": "arXiv CS.AI",
-      "title": "BOS Summary: The First Token Matters",
-      "url": "https://arxiv.org/abs/2611.23508",
-      "publication_date": "2026-11-19",
+      "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+      "url": "https://arxiv.org/abs/2611.25070",
+      "publication_date": "2026-11-20",
       "source_tier": 2,
       "skills": [
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "21dc01c09da8e624",
-      "organization": "arXiv CS.AI",
-      "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
-      "url": "https://arxiv.org/abs/2611.23520",
-      "publication_date": "2026-11-19",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "4e54905d0c9054e0",
-      "organization": "arXiv CS.AI",
-      "title": "FACET - Facet Aware Contrastive Embeddings for Traits- Big Five Estimation from Life Narratives",
-      "url": "https://arxiv.org/abs/2611.23560",
-      "publication_date": "2026-11-19",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
+        "Decision-Making"
       ]
     },
     {
@@ -800,11 +730,11 @@
       ]
     },
     {
-      "source_id": "43bce856129e439e",
+      "source_id": "395a5851c5cc57c7",
       "organization": "arXiv CS.AI",
-      "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
-      "url": "https://arxiv.org/abs/2611.23564",
-      "publication_date": "2026-11-19",
+      "title": "MS-Point: Multi-Modal Hierarchical Spectral Learning for Point Cloud Understanding",
+      "url": "https://arxiv.org/abs/2611.25282",
+      "publication_date": "2026-11-20",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -819,17 +749,6 @@
       "source_tier": 2,
       "skills": [
         "Collaboration"
-      ]
-    },
-    {
-      "source_id": "7342e2b3f54b165f",
-      "organization": "arXiv CS.AI",
-      "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
-      "url": "https://arxiv.org/abs/2611.23410",
-      "publication_date": "2026-11-19",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
       ]
     },
     {
@@ -909,18 +828,6 @@
       "skills": [
         "Communication",
         "Critical Thinking"
-      ]
-    },
-    {
-      "source_id": "688f357ed2a1039c",
-      "organization": "Bing",
-      "title": "Will AI destroy teamwork?",
-      "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
-      "publication_date": "2026-05-06",
-      "source_tier": 4,
-      "skills": [
-        "Collaboration",
-        "Teamwork"
       ]
     }
   ]
