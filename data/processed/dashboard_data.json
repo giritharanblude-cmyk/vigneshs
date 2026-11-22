@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-21T20:13:29.141748",
+  "generated_at": "2026-11-22T20:27:42.226802",
   "total_skills": 31,
   "emerging_skills": 6,
   "increasing_skills": 7,
-  "declining_skills": 2,
-  "new_evidence_items": 47,
-  "sources_analyzed": 92,
+  "declining_skills": 3,
+  "new_evidence_items": 51,
+  "sources_analyzed": 93,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
@@ -15,12 +15,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 23.52941176470588,
+      "skill_share": 23.636363636363637,
       "share_change": null,
-      "emerging_score": 0.653,
-      "confidence": "high",
+      "emerging_score": 0.6766,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
         {
           "source_id": "8bef40b770659487",
@@ -53,6 +53,14 @@
           "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
           "publication_date": "2026-10-28",
           "source_tier": 2
+        },
+        {
+          "source_id": "688f357ed2a1039c",
+          "organization": "Bing",
+          "title": "Will AI destroy teamwork?",
+          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
+          "publication_date": "2026-05-06",
+          "source_tier": 4
         }
       ]
     },
@@ -62,9 +70,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 17.647058823529413,
+      "skill_share": 16.363636363636363,
       "share_change": null,
-      "emerging_score": 0.6304,
+      "emerging_score": 0.6302,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -101,9 +109,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 13.725490196078432,
+      "skill_share": 12.727272727272727,
       "share_change": null,
-      "emerging_score": 0.6173,
+      "emerging_score": 0.6171,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -132,12 +140,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 11.76470588235294,
+      "skill_share": 12.727272727272727,
       "share_change": null,
-      "emerging_score": 0.6078,
-      "confidence": "high",
+      "emerging_score": 0.6051,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -162,6 +170,14 @@
           "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
           "publication_date": "2026-10-27",
           "source_tier": 2
+        },
+        {
+          "source_id": "0bee8559834ba18f",
+          "organization": "Bing",
+          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
+          "publication_date": "2026-11-16",
+          "source_tier": 4
         }
       ]
     },
@@ -171,9 +187,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.803921568627452,
+      "skill_share": 9.090909090909092,
       "share_change": null,
-      "emerging_score": 0.6031,
+      "emerging_score": 0.603,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -210,9 +226,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.88235294117647,
+      "skill_share": 5.454545454545454,
       "share_change": null,
-      "emerging_score": 0.518,
+      "emerging_score": 0.5179,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -257,12 +273,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.9215686274509802,
+      "skill_share": 5.454545454545454,
       "share_change": null,
-      "emerging_score": 0.3226,
+      "emerging_score": 0.3923,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         {
           "source_id": "2b2103e4aa6ad1ad",
@@ -279,6 +295,37 @@
           "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
           "publication_date": "2026-07-08",
           "source_tier": 4
+        },
+        {
+          "source_id": "688f357ed2a1039c",
+          "organization": "Bing",
+          "title": "Will AI destroy teamwork?",
+          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
+          "publication_date": "2026-05-06",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "critical_thinking",
+      "skill_name": "Critical Thinking",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.8181818181818181,
+      "share_change": null,
+      "emerging_score": 0.1671,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "0bee8559834ba18f",
+          "organization": "Bing",
+          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
+          "publication_date": "2026-11-16",
+          "source_tier": 4
         }
       ]
     },
@@ -288,9 +335,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.9215686274509802,
+      "skill_share": 3.6363636363636362,
       "share_change": null,
-      "emerging_score": 0.1164,
+      "emerging_score": 0.1162,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -319,9 +366,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.9607843137254901,
+      "skill_share": 1.8181818181818181,
       "share_change": null,
-      "emerging_score": 0.1089,
+      "emerging_score": 0.1087,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -339,6 +386,15 @@
   ],
   "monthly_data": [
     {
+      "skill": "Critical Thinking",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
+        }
+      ]
+    },
+    {
       "skill": "Communication",
       "series": [
         {
@@ -351,7 +407,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 3.0
+          "demand_index": 4.0
         }
       ]
     },
@@ -411,6 +467,10 @@
       "skill": "Teamwork",
       "series": [
         {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
+        {
           "month": "2026-07",
           "demand_index": 1.0
         },
@@ -423,6 +483,10 @@
     {
       "skill": "Collaboration",
       "series": [
+        {
+          "month": "2026-05",
+          "demand_index": 1.0
+        },
         {
           "month": "2026-10",
           "demand_index": 5.0
@@ -455,44 +519,44 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 14,
-      "percentage": 27.5
+      "count": 16,
+      "percentage": 29.1
+    },
+    {
+      "industry": "education",
+      "count": 13,
+      "percentage": 23.6
     },
     {
       "industry": "technology",
       "count": 12,
-      "percentage": 23.5
-    },
-    {
-      "industry": "education",
-      "count": 11,
-      "percentage": 21.6
+      "percentage": 21.8
     },
     {
       "industry": "manufacturing",
       "count": 5,
-      "percentage": 9.8
+      "percentage": 9.1
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 9.8
+      "percentage": 9.1
     },
     {
       "industry": "healthcare",
       "count": 2,
-      "percentage": 3.9
+      "percentage": 3.6
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.9
+      "percentage": 3.6
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 5,
-    "medium": 3,
+    "high": 3,
+    "medium": 5,
     "low": 23
   },
   "sources": [
@@ -753,6 +817,18 @@
       ]
     },
     {
+      "source_id": "0bee8559834ba18f",
+      "organization": "Bing",
+      "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
+      "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
+      "publication_date": "2026-11-16",
+      "source_tier": 4,
+      "skills": [
+        "Communication",
+        "Critical Thinking"
+      ]
+    },
+    {
       "source_id": "70efbc16096c04dc",
       "organization": "Bing",
       "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
@@ -761,6 +837,18 @@
       "source_tier": 4,
       "skills": [
         "Adaptability"
+      ]
+    },
+    {
+      "source_id": "688f357ed2a1039c",
+      "organization": "Bing",
+      "title": "Will AI destroy teamwork?",
+      "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
+      "publication_date": "2026-05-06",
+      "source_tier": 4,
+      "skills": [
+        "Collaboration",
+        "Teamwork"
       ]
     }
   ]
