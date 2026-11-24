@@ -5,11 +5,11 @@ Date: 2026-11-24
 
 TOP EMERGING SKILLS
 --------------------
-1. Collaboration - emerging 0.653
-2. Presentation - emerging 0.645
-3. Decision-Making - emerging 0.624
-4. Communication - emerging 0.607
-5. Leadership - emerging 0.603
+1. Adaptability - emerging 0.714
+2. Collaboration - emerging 0.660
+3. Presentation - emerging 0.638
+4. Leadership - emerging 0.624
+5. Decision-Making - emerging 0.617
 
 BIGGEST MOVEMENTS
 -----------------
@@ -18,17 +18,14 @@ Figures will appear as longitudinal data accumulates across daily runs.
 
 KEY EVIDENCE (counting)
 -----------------------
-* AI Literacy: 1 evidence records, low confidence
-* Communication: 6 evidence records, high confidence
-* Presentation: 11 evidence records, high confidence
-* Creativity: 1 evidence records, medium confidence
-* Adaptability: 3 evidence records, high confidence
+* Communication: 4 evidence records, high confidence
+* Presentation: 10 evidence records, high confidence
+* Adaptability: 5 evidence records, high confidence
 * Resilience: 1 evidence records, medium confidence
 * Leadership: 5 evidence records, medium confidence
 * Teamwork: 2 evidence records, low confidence
-* Collaboration: 12 evidence records, high confidence
-* Decision-Making: 8 evidence records, high confidence
-* Coaching: 1 evidence records, low confidence
+* Collaboration: 13 evidence records, high confidence
+* Decision-Making: 7 evidence records, high confidence
 * Digital Literacy: 2 evidence records, medium confidence
 
 CITED SOURCES
@@ -43,21 +40,21 @@ CITED SOURCES
 * [World Bank Open Data — labor_force_advanced_education (SL.TLF.ADVN.ZS)](https://data.worldbank.org/indicator/SL.TLF.ADVN.ZS) — World Bank (Tier 1, 2024-12-01)
 * [World Bank Open Data — high_tech_exports (TX.VAL.TECH.MF.ZS)](https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS) — World Bank (Tier 1, 2024-12-01)
 * [World Bank Open Data — research_output (IP.JRN.ARTC.SC)](https://data.worldbank.org/indicator/IP.JRN.ARTC.SC) — World Bank (Tier 1, 2023-12-01)
-* [A legendary philosopher isn’t buying Anthropic’s consciousness argument](https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/) — MIT Technology Review AI (Tier 2, 2026-11-23)
-* [Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams](https://arxiv.org/abs/2611.26663) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation](https://arxiv.org/abs/2611.26717) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator](https://arxiv.org/abs/2611.26722) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization](https://arxiv.org/abs/2611.26782) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF](https://arxiv.org/abs/2611.26794) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory](https://arxiv.org/abs/2611.26797) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs](https://arxiv.org/abs/2611.26870) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis](https://arxiv.org/abs/2611.26903) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers](https://arxiv.org/abs/2611.26906) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress](https://arxiv.org/abs/2611.26910) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Self-Evolving Beyond Human-Crafted Experience for EDA Scripting](https://arxiv.org/abs/2611.26912) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Self-similar Organization of Information in Language](https://arxiv.org/abs/2611.26935) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory](https://arxiv.org/abs/2611.26942) — arXiv CS.AI (Tier 2, 2026-11-23)
-* [Keep the Process, Change the Supplier: Runtime Governance for Tool-Using AI Agents](https://arxiv.org/abs/2611.26966) — arXiv CS.AI (Tier 2, 2026-11-23)
+* [Why Does Voice AI Still Struggle With Kenyans’ Speech?](https://spectrum.ieee.org/swahili-speech-recognition) — IEEE Spectrum AI (Tier 2, 2026-11-24)
+* [Raising the stakes for enterprise networks with AI modernization](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) — MIT Technology Review AI (Tier 2, 2026-11-24)
+* [SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets](https://arxiv.org/abs/2611.28185) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch](https://arxiv.org/abs/2611.28195) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment](https://arxiv.org/abs/2611.28197) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [AutoPILOT: A Visual Agent Harness for Real-Time Gameplay](https://arxiv.org/abs/2611.28202) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling](https://arxiv.org/abs/2611.28239) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents](https://arxiv.org/abs/2611.28244) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition](https://arxiv.org/abs/2611.28263) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks](https://arxiv.org/abs/2611.28277) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers](https://arxiv.org/abs/2611.28285) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification](https://arxiv.org/abs/2611.28293) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [GERF: A Token-Efficient Multimodal Retrieval Framework for Schema-Guided Scientific Information Extraction](https://arxiv.org/abs/2611.28295) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [INSEP: Refusal-Direction Inseparability as a Defense Against Abliteration](https://arxiv.org/abs/2611.28314) — arXiv CS.AI (Tier 2, 2026-11-24)
+* [Selection Policies for Equal-Byte Mixed-Precision Quantization of Small Language Models](https://arxiv.org/abs/2611.28318) — arXiv CS.AI (Tier 2, 2026-11-24)
 
 TRAINER IMPLICATION
 ------------------

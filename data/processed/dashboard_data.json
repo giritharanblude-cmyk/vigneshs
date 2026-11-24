@@ -1,27 +1,90 @@
 {
-  "generated_at": "2026-11-24T01:09:40.972418",
+  "generated_at": "2026-11-24T23:15:20.300144",
   "total_skills": 31,
   "emerging_skills": 6,
   "increasing_skills": 7,
-  "declining_skills": 5,
-  "new_evidence_items": 53,
-  "sources_analyzed": 110,
+  "declining_skills": 2,
+  "new_evidence_items": 49,
+  "sources_analyzed": 115,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.433962264150944,
+      "share_change": null,
+      "emerging_score": 0.7143,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 5,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "e9563fa873010dbe",
+          "organization": "arXiv CS.AI",
+          "title": "MatHarness: Towards Long-Horizon Open-ended AutoResearch for Computational Materials Science",
+          "url": "https://arxiv.org/abs/2611.28324",
+          "publication_date": "2026-11-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "70efbc16096c04dc",
+          "organization": "Bing",
+          "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
+          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
+          "publication_date": "2026-11-21",
+          "source_tier": 4
+        }
+      ]
+    },
     {
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 21.052631578947366,
+      "skill_share": 24.528301886792452,
       "share_change": null,
-      "emerging_score": 0.6526,
+      "emerging_score": 0.6602,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
+        {
+          "source_id": "6c31e16b66c92a3a",
+          "organization": "arXiv CS.AI",
+          "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+          "url": "https://arxiv.org/abs/2611.28197",
+          "publication_date": "2026-11-24",
+          "source_tier": 2
+        },
         {
           "source_id": "7f87a6cc2629d3b3",
           "organization": "IEEE Spectrum AI",
@@ -62,27 +125,27 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 19.298245614035086,
+      "skill_share": 18.867924528301888,
       "share_change": null,
-      "emerging_score": 0.6453,
+      "emerging_score": 0.6385,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         {
-          "source_id": "134f15031a3de655",
-          "organization": "arXiv CS.AI",
-          "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
-          "url": "https://arxiv.org/abs/2611.26903",
-          "publication_date": "2026-11-23",
+          "source_id": "f1d5cd7c2f5446f7",
+          "organization": "IEEE Spectrum AI",
+          "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
+          "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+          "publication_date": "2026-11-24",
           "source_tier": 2
         },
         {
-          "source_id": "8c7eb5f40ffe9ce5",
+          "source_id": "cc1a20cdd2a32c8d",
           "organization": "arXiv CS.AI",
-          "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
-          "url": "https://arxiv.org/abs/2611.27007",
-          "publication_date": "2026-11-23",
+          "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
+          "url": "https://arxiv.org/abs/2611.28285",
+          "publication_date": "2026-11-24",
           "source_tier": 2
         },
         {
@@ -100,14 +163,45 @@
           "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
           "publication_date": "2026-10-27",
           "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "leadership",
+      "skill_name": "Leadership",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 9.433962264150944,
+      "share_change": null,
+      "emerging_score": 0.6243,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "b963043e10f90f2d",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+          "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+          "publication_date": "2026-11-17",
+          "source_tier": 2
         },
         {
-          "source_id": "dd599bb0c347672f",
-          "organization": "IEEE Spectrum AI",
-          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        },
+        {
+          "source_id": "74af4c29cbea93d6",
+          "organization": "Bing",
+          "title": "The AI Training Crisis Is Becoming A Leadership Failure",
+          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/24/the-ai-training-crisis-is-becoming-a-leadership-failure/",
+          "publication_date": "2026-11-24",
+          "source_tier": 4
         }
       ]
     },
@@ -117,21 +211,13 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.035087719298245,
+      "skill_share": 13.20754716981132,
       "share_change": null,
-      "emerging_score": 0.6243,
+      "emerging_score": 0.6168,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        {
-          "source_id": "8c7eb5f40ffe9ce5",
-          "organization": "arXiv CS.AI",
-          "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
-          "url": "https://arxiv.org/abs/2611.27007",
-          "publication_date": "2026-11-23",
-          "source_tier": 2
-        },
         {
           "source_id": "360a5cf008ebe7bc",
           "organization": "IEEE Spectrum AI",
@@ -156,12 +242,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 10.526315789473683,
+      "skill_share": 7.547169811320755,
       "share_change": null,
-      "emerging_score": 0.6074,
+      "emerging_score": 0.506,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -178,100 +264,6 @@
           "url": "https://spectrum.ieee.org/optical-computing-ai",
           "publication_date": "2026-11-17",
           "source_tier": 2
-        },
-        {
-          "source_id": "dd599bb0c347672f",
-          "organization": "IEEE Spectrum AI",
-          "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "leadership",
-      "skill_name": "Leadership",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 8.771929824561402,
-      "share_change": null,
-      "emerging_score": 0.6027,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_id": "b963043e10f90f2d",
-          "organization": "IEEE Spectrum AI",
-          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-          "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
-          "publication_date": "2026-11-17",
-          "source_tier": 2
-        },
-        {
-          "source_id": "2b2103e4aa6ad1ad",
-          "organization": "Microsoft Work Lab",
-          "title": "Learn the rules: The hacker mindset",
-          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
-          "publication_date": "2026-11-03",
-          "source_tier": 3
-        },
-        {
-          "source_id": "571b482db9fe8faa",
-          "organization": "Bing",
-          "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
-          "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
-          "publication_date": "2026-09-07",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 5.263157894736842,
-      "share_change": null,
-      "emerging_score": 0.5176,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 4,
-      "sources": [
-        {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "f6615c9f50d92d4b",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "70efbc16096c04dc",
-          "organization": "Bing",
-          "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
-          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
-          "publication_date": "2026-11-21",
-          "source_tier": 4
         }
       ]
     },
@@ -281,7 +273,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.508771929824561,
+      "skill_share": 3.7735849056603774,
       "share_change": null,
       "emerging_score": 0.3222,
       "confidence": "low",
@@ -307,81 +299,12 @@
       ]
     },
     {
-      "skill_id": "creativity",
-      "skill_name": "Creativity",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7543859649122806,
-      "share_change": null,
-      "emerging_score": 0.2518,
-      "confidence": "medium",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "0574ccb6e11efca1",
-          "organization": "arXiv CS.AI",
-          "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
-          "url": "https://arxiv.org/abs/2611.26797",
-          "publication_date": "2026-11-23",
-          "source_tier": 2
-        }
-      ]
-    },
-    {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7543859649122806,
-      "share_change": null,
-      "emerging_score": 0.1668,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "d54c597d2067ebb3",
-          "organization": "Bing",
-          "title": "Are we jumping the gun when it comes to AI literacy?",
-          "url": "https://www.timeshighereducation.com/campus/are-we-jumping-gun-when-it-comes-ai-literacy",
-          "publication_date": "2026-11-23",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
-      "skill_id": "coaching",
-      "skill_name": "Coaching",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 1.7543859649122806,
-      "share_change": null,
-      "emerging_score": 0.1668,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 1,
-      "sources": [
-        {
-          "source_id": "c4eba54967d65652",
-          "organization": "Bing",
-          "title": "Surface Introduces Surface Learning, Bringing Workforce Intelligence and AI Coaching Together to Transform Employee Development",
-          "url": "https://markets.businessinsider.com/news/stocks/surface-introduces-surface-learning-bringing-workforce-intelligence-and-ai-coaching-together-to-transform-employee-development-1036773905",
-          "publication_date": "2026-11-17",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "digital_literacy",
       "skill_name": "Digital Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.508771929824561,
+      "skill_share": 3.7735849056603774,
       "share_change": null,
       "emerging_score": 0.116,
       "confidence": "medium",
@@ -412,7 +335,7 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.7543859649122806,
+      "skill_share": 1.8867924528301887,
       "share_change": null,
       "emerging_score": 0.1085,
       "confidence": "medium",
@@ -432,24 +355,11 @@
   ],
   "monthly_data": [
     {
-      "skill": "AI Literacy",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 1.0
-        }
-      ]
-    },
-    {
       "skill": "Communication",
       "series": [
         {
           "month": "2025-12",
           "demand_index": 34.6968384349829
-        },
-        {
-          "month": "2026-10",
-          "demand_index": 2.0
         },
         {
           "month": "2026-11",
@@ -462,20 +372,11 @@
       "series": [
         {
           "month": "2026-10",
-          "demand_index": 4.0
+          "demand_index": 2.0
         },
         {
           "month": "2026-11",
-          "demand_index": 7.0
-        }
-      ]
-    },
-    {
-      "skill": "Creativity",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 1.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -492,7 +393,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 1.0
+          "demand_index": 3.0
         }
       ]
     },
@@ -509,12 +410,8 @@
       "skill": "Leadership",
       "series": [
         {
-          "month": "2026-09",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-11",
-          "demand_index": 4.0
+          "demand_index": 5.0
         }
       ]
     },
@@ -540,7 +437,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 7.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -549,16 +446,7 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 8.0
-        }
-      ]
-    },
-    {
-      "skill": "Coaching",
-      "series": [
-        {
-          "month": "2026-11",
-          "demand_index": 1.0
+          "demand_index": 7.0
         }
       ]
     },
@@ -575,45 +463,45 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 16,
-      "percentage": 28.1
+      "count": 14,
+      "percentage": 26.4
     },
     {
       "industry": "education",
       "count": 13,
-      "percentage": 22.8
+      "percentage": 24.5
     },
     {
       "industry": "technology",
-      "count": 12,
-      "percentage": 21.1
+      "count": 11,
+      "percentage": 20.8
     },
     {
       "industry": "manufacturing",
-      "count": 5,
-      "percentage": 8.8
+      "count": 6,
+      "percentage": 11.3
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 8.8
+      "percentage": 9.4
     },
     {
       "industry": "healthcare",
-      "count": 4,
-      "percentage": 7.0
+      "count": 2,
+      "percentage": 3.8
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.5
+      "percentage": 3.8
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
     "high": 5,
-    "medium": 4,
-    "low": 22
+    "medium": 3,
+    "low": 23
   },
   "sources": [
     {
@@ -760,6 +648,17 @@
       ]
     },
     {
+      "source_id": "6c31e16b66c92a3a",
+      "organization": "arXiv CS.AI",
+      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+      "url": "https://arxiv.org/abs/2611.28197",
+      "publication_date": "2026-11-24",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
       "source_id": "3ece93459cb08836",
       "organization": "IEEE Spectrum AI",
       "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
@@ -767,18 +666,6 @@
       "publication_date": "2026-11-03",
       "source_tier": 2,
       "skills": [
-        "Presentation"
-      ]
-    },
-    {
-      "source_id": "dd599bb0c347672f",
-      "organization": "IEEE Spectrum AI",
-      "title": "I Used AI to Fake a Scientific Paper. Here\u2019s What Happened",
-      "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-      "publication_date": "2026-10-27",
-      "source_tier": 2,
-      "skills": [
-        "Communication",
         "Presentation"
       ]
     },
@@ -795,6 +682,17 @@
       ]
     },
     {
+      "source_id": "e9563fa873010dbe",
+      "organization": "arXiv CS.AI",
+      "title": "MatHarness: Towards Long-Horizon Open-ended AutoResearch for Computational Materials Science",
+      "url": "https://arxiv.org/abs/2611.28324",
+      "publication_date": "2026-11-24",
+      "source_tier": 2,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
       "source_id": "7f87a6cc2629d3b3",
       "organization": "IEEE Spectrum AI",
       "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check",
@@ -806,25 +704,13 @@
       ]
     },
     {
-      "source_id": "0574ccb6e11efca1",
+      "source_id": "cc1a20cdd2a32c8d",
       "organization": "arXiv CS.AI",
-      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
-      "url": "https://arxiv.org/abs/2611.26797",
-      "publication_date": "2026-11-23",
+      "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
+      "url": "https://arxiv.org/abs/2611.28285",
+      "publication_date": "2026-11-24",
       "source_tier": 2,
       "skills": [
-        "Creativity"
-      ]
-    },
-    {
-      "source_id": "8c7eb5f40ffe9ce5",
-      "organization": "arXiv CS.AI",
-      "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
-      "url": "https://arxiv.org/abs/2611.27007",
-      "publication_date": "2026-11-23",
-      "source_tier": 2,
-      "skills": [
-        "Decision-Making",
         "Presentation"
       ]
     },
@@ -840,11 +726,11 @@
       ]
     },
     {
-      "source_id": "134f15031a3de655",
-      "organization": "arXiv CS.AI",
-      "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
-      "url": "https://arxiv.org/abs/2611.26903",
-      "publication_date": "2026-11-23",
+      "source_id": "f1d5cd7c2f5446f7",
+      "organization": "IEEE Spectrum AI",
+      "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
+      "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+      "publication_date": "2026-11-24",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -885,17 +771,6 @@
       ]
     },
     {
-      "source_id": "d54c597d2067ebb3",
-      "organization": "Bing",
-      "title": "Are we jumping the gun when it comes to AI literacy?",
-      "url": "https://www.timeshighereducation.com/campus/are-we-jumping-gun-when-it-comes-ai-literacy",
-      "publication_date": "2026-11-23",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
-      ]
-    },
-    {
       "source_id": "a10d71013abba3bc",
       "organization": "Bing",
       "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
@@ -907,28 +782,6 @@
       ]
     },
     {
-      "source_id": "571b482db9fe8faa",
-      "organization": "Bing",
-      "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
-      "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
-      "publication_date": "2026-09-07",
-      "source_tier": 4,
-      "skills": [
-        "Leadership"
-      ]
-    },
-    {
-      "source_id": "c4eba54967d65652",
-      "organization": "Bing",
-      "title": "Surface Introduces Surface Learning, Bringing Workforce Intelligence and AI Coaching Together to Transform Employee Development",
-      "url": "https://markets.businessinsider.com/news/stocks/surface-introduces-surface-learning-bringing-workforce-intelligence-and-ai-coaching-together-to-transform-employee-development-1036773905",
-      "publication_date": "2026-11-17",
-      "source_tier": 4,
-      "skills": [
-        "Coaching"
-      ]
-    },
-    {
       "source_id": "70efbc16096c04dc",
       "organization": "Bing",
       "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
@@ -937,6 +790,17 @@
       "source_tier": 4,
       "skills": [
         "Adaptability"
+      ]
+    },
+    {
+      "source_id": "74af4c29cbea93d6",
+      "organization": "Bing",
+      "title": "The AI Training Crisis Is Becoming A Leadership Failure",
+      "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/24/the-ai-training-crisis-is-becoming-a-leadership-failure/",
+      "publication_date": "2026-11-24",
+      "source_tier": 4,
+      "skills": [
+        "Leadership"
       ]
     }
   ]
