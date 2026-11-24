@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T20:27:42.226802",
+  "generated_at": "2026-11-24T01:09:40.972418",
   "total_skills": 31,
   "emerging_skills": 6,
   "increasing_skills": 7,
-  "declining_skills": 3,
-  "new_evidence_items": 51,
-  "sources_analyzed": 93,
+  "declining_skills": 5,
+  "new_evidence_items": 53,
+  "sources_analyzed": 110,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
@@ -15,17 +15,17 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 23.636363636363637,
+      "skill_share": 21.052631578947366,
       "share_change": null,
-      "emerging_score": 0.6766,
-      "confidence": "medium",
+      "emerging_score": 0.6526,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         {
-          "source_id": "8bef40b770659487",
+          "source_id": "7f87a6cc2629d3b3",
           "organization": "IEEE Spectrum AI",
-          "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check",
+          "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check",
           "url": "https://spectrum.ieee.org/ai-agent-manager",
           "publication_date": "2026-11-19",
           "source_tier": 2
@@ -53,14 +53,6 @@
           "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
           "publication_date": "2026-10-28",
           "source_tier": 2
-        },
-        {
-          "source_id": "688f357ed2a1039c",
-          "organization": "Bing",
-          "title": "Will AI destroy teamwork?",
-          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
-          "publication_date": "2026-05-06",
-          "source_tier": 4
         }
       ]
     },
@@ -70,13 +62,29 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 16.363636363636363,
+      "skill_share": 19.298245614035086,
       "share_change": null,
-      "emerging_score": 0.6302,
+      "emerging_score": 0.6453,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 5,
       "sources": [
+        {
+          "source_id": "134f15031a3de655",
+          "organization": "arXiv CS.AI",
+          "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
+          "url": "https://arxiv.org/abs/2611.26903",
+          "publication_date": "2026-11-23",
+          "source_tier": 2
+        },
+        {
+          "source_id": "8c7eb5f40ffe9ce5",
+          "organization": "arXiv CS.AI",
+          "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
+          "url": "https://arxiv.org/abs/2611.27007",
+          "publication_date": "2026-11-23",
+          "source_tier": 2
+        },
         {
           "source_id": "3ece93459cb08836",
           "organization": "IEEE Spectrum AI",
@@ -109,13 +117,21 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 12.727272727272727,
+      "skill_share": 14.035087719298245,
       "share_change": null,
-      "emerging_score": 0.6171,
+      "emerging_score": 0.6243,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
+        {
+          "source_id": "8c7eb5f40ffe9ce5",
+          "organization": "arXiv CS.AI",
+          "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
+          "url": "https://arxiv.org/abs/2611.27007",
+          "publication_date": "2026-11-23",
+          "source_tier": 2
+        },
         {
           "source_id": "360a5cf008ebe7bc",
           "organization": "IEEE Spectrum AI",
@@ -140,12 +156,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 12.727272727272727,
+      "skill_share": 10.526315789473683,
       "share_change": null,
-      "emerging_score": 0.6051,
-      "confidence": "medium",
+      "emerging_score": 0.6074,
+      "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
         {
           "source_id": "7d321100ff62c45c",
@@ -170,14 +186,6 @@
           "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
           "publication_date": "2026-10-27",
           "source_tier": 2
-        },
-        {
-          "source_id": "0bee8559834ba18f",
-          "organization": "Bing",
-          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
-          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
-          "publication_date": "2026-11-16",
-          "source_tier": 4
         }
       ]
     },
@@ -187,9 +195,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.090909090909092,
+      "skill_share": 8.771929824561402,
       "share_change": null,
-      "emerging_score": 0.603,
+      "emerging_score": 0.6027,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -226,9 +234,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.454545454545454,
+      "skill_share": 5.263157894736842,
       "share_change": null,
-      "emerging_score": 0.5179,
+      "emerging_score": 0.5176,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -262,7 +270,7 @@
           "organization": "Bing",
           "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
           "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
-          "publication_date": "2026-11-20",
+          "publication_date": "2026-11-21",
           "source_tier": 4
         }
       ]
@@ -273,12 +281,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 5.454545454545454,
+      "skill_share": 3.508771929824561,
       "share_change": null,
-      "emerging_score": 0.3923,
+      "emerging_score": 0.3222,
       "confidence": "low",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source_id": "2b2103e4aa6ad1ad",
@@ -295,36 +303,74 @@
           "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
           "publication_date": "2026-07-08",
           "source_tier": 4
-        },
-        {
-          "source_id": "688f357ed2a1039c",
-          "organization": "Bing",
-          "title": "Will AI destroy teamwork?",
-          "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
-          "publication_date": "2026-05-06",
-          "source_tier": 4
         }
       ]
     },
     {
-      "skill_id": "critical_thinking",
-      "skill_name": "Critical Thinking",
+      "skill_id": "creativity",
+      "skill_name": "Creativity",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8181818181818181,
+      "skill_share": 1.7543859649122806,
       "share_change": null,
-      "emerging_score": 0.1671,
+      "emerging_score": 0.2518,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "0574ccb6e11efca1",
+          "organization": "arXiv CS.AI",
+          "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
+          "url": "https://arxiv.org/abs/2611.26797",
+          "publication_date": "2026-11-23",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.7543859649122806,
+      "share_change": null,
+      "emerging_score": 0.1668,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "0bee8559834ba18f",
+          "source_id": "d54c597d2067ebb3",
           "organization": "Bing",
-          "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
-          "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
-          "publication_date": "2026-11-16",
+          "title": "Are we jumping the gun when it comes to AI literacy?",
+          "url": "https://www.timeshighereducation.com/campus/are-we-jumping-gun-when-it-comes-ai-literacy",
+          "publication_date": "2026-11-23",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "coaching",
+      "skill_name": "Coaching",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.7543859649122806,
+      "share_change": null,
+      "emerging_score": 0.1668,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "c4eba54967d65652",
+          "organization": "Bing",
+          "title": "Surface Introduces Surface Learning, Bringing Workforce Intelligence and AI Coaching Together to Transform Employee Development",
+          "url": "https://markets.businessinsider.com/news/stocks/surface-introduces-surface-learning-bringing-workforce-intelligence-and-ai-coaching-together-to-transform-employee-development-1036773905",
+          "publication_date": "2026-11-17",
           "source_tier": 4
         }
       ]
@@ -335,9 +381,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.6363636363636362,
+      "skill_share": 3.508771929824561,
       "share_change": null,
-      "emerging_score": 0.1162,
+      "emerging_score": 0.116,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -366,9 +412,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8181818181818181,
+      "skill_share": 1.7543859649122806,
       "share_change": null,
-      "emerging_score": 0.1087,
+      "emerging_score": 0.1085,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -386,7 +432,7 @@
   ],
   "monthly_data": [
     {
-      "skill": "Critical Thinking",
+      "skill": "AI Literacy",
       "series": [
         {
           "month": "2026-11",
@@ -407,7 +453,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 4.0
+          "demand_index": 3.0
         }
       ]
     },
@@ -420,7 +466,16 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 5.0
+          "demand_index": 7.0
+        }
+      ]
+    },
+    {
+      "skill": "Creativity",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
         }
       ]
     },
@@ -467,10 +522,6 @@
       "skill": "Teamwork",
       "series": [
         {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
-        {
           "month": "2026-07",
           "demand_index": 1.0
         },
@@ -483,10 +534,6 @@
     {
       "skill": "Collaboration",
       "series": [
-        {
-          "month": "2026-05",
-          "demand_index": 1.0
-        },
         {
           "month": "2026-10",
           "demand_index": 5.0
@@ -502,7 +549,16 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 7.0
+          "demand_index": 8.0
+        }
+      ]
+    },
+    {
+      "skill": "Coaching",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
         }
       ]
     },
@@ -520,44 +576,44 @@
     {
       "industry": "general",
       "count": 16,
-      "percentage": 29.1
+      "percentage": 28.1
     },
     {
       "industry": "education",
       "count": 13,
-      "percentage": 23.6
+      "percentage": 22.8
     },
     {
       "industry": "technology",
       "count": 12,
-      "percentage": 21.8
+      "percentage": 21.1
     },
     {
       "industry": "manufacturing",
       "count": 5,
-      "percentage": 9.1
+      "percentage": 8.8
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 9.1
+      "percentage": 8.8
     },
     {
       "industry": "healthcare",
-      "count": 2,
-      "percentage": 3.6
+      "count": 4,
+      "percentage": 7.0
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.6
+      "percentage": 3.5
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 3,
-    "medium": 5,
-    "low": 23
+    "high": 5,
+    "medium": 4,
+    "low": 22
   },
   "sources": [
     {
@@ -739,14 +795,37 @@
       ]
     },
     {
-      "source_id": "8bef40b770659487",
+      "source_id": "7f87a6cc2629d3b3",
       "organization": "IEEE Spectrum AI",
-      "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check",
+      "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check",
       "url": "https://spectrum.ieee.org/ai-agent-manager",
       "publication_date": "2026-11-19",
       "source_tier": 2,
       "skills": [
         "Collaboration"
+      ]
+    },
+    {
+      "source_id": "0574ccb6e11efca1",
+      "organization": "arXiv CS.AI",
+      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
+      "url": "https://arxiv.org/abs/2611.26797",
+      "publication_date": "2026-11-23",
+      "source_tier": 2,
+      "skills": [
+        "Creativity"
+      ]
+    },
+    {
+      "source_id": "8c7eb5f40ffe9ce5",
+      "organization": "arXiv CS.AI",
+      "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
+      "url": "https://arxiv.org/abs/2611.27007",
+      "publication_date": "2026-11-23",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making",
+        "Presentation"
       ]
     },
     {
@@ -758,6 +837,17 @@
       "source_tier": 2,
       "skills": [
         "Collaboration"
+      ]
+    },
+    {
+      "source_id": "134f15031a3de655",
+      "organization": "arXiv CS.AI",
+      "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
+      "url": "https://arxiv.org/abs/2611.26903",
+      "publication_date": "2026-11-23",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
       ]
     },
     {
@@ -795,6 +885,17 @@
       ]
     },
     {
+      "source_id": "d54c597d2067ebb3",
+      "organization": "Bing",
+      "title": "Are we jumping the gun when it comes to AI literacy?",
+      "url": "https://www.timeshighereducation.com/campus/are-we-jumping-gun-when-it-comes-ai-literacy",
+      "publication_date": "2026-11-23",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
       "source_id": "a10d71013abba3bc",
       "organization": "Bing",
       "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
@@ -817,15 +918,14 @@
       ]
     },
     {
-      "source_id": "0bee8559834ba18f",
+      "source_id": "c4eba54967d65652",
       "organization": "Bing",
-      "title": "Learning & Development Leaders Say AI Is Degrading Employees\u2019 Human Skills, General Assembly Research Finds",
-      "url": "https://www.desmoinesregister.com/press-release/story/153836/learning-development-leaders-say-ai-is-degrading-employees-human-skills-general-assembly-research-finds/",
-      "publication_date": "2026-11-16",
+      "title": "Surface Introduces Surface Learning, Bringing Workforce Intelligence and AI Coaching Together to Transform Employee Development",
+      "url": "https://markets.businessinsider.com/news/stocks/surface-introduces-surface-learning-bringing-workforce-intelligence-and-ai-coaching-together-to-transform-employee-development-1036773905",
+      "publication_date": "2026-11-17",
       "source_tier": 4,
       "skills": [
-        "Communication",
-        "Critical Thinking"
+        "Coaching"
       ]
     },
     {
@@ -833,22 +933,10 @@
       "organization": "Bing",
       "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
       "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
-      "publication_date": "2026-11-20",
+      "publication_date": "2026-11-21",
       "source_tier": 4,
       "skills": [
         "Adaptability"
-      ]
-    },
-    {
-      "source_id": "688f357ed2a1039c",
-      "organization": "Bing",
-      "title": "Will AI destroy teamwork?",
-      "url": "https://www.fastcompany.com/91520066/will-ai-destroy-teamwork",
-      "publication_date": "2026-05-06",
-      "source_tier": 4,
-      "skills": [
-        "Collaboration",
-        "Teamwork"
       ]
     }
   ]
