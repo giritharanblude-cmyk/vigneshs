@@ -1,90 +1,27 @@
 {
-  "generated_at": "2026-11-24T23:15:20.300144",
+  "generated_at": "2026-11-25T22:43:55.626237",
   "total_skills": 31,
   "emerging_skills": 6,
   "increasing_skills": 7,
-  "declining_skills": 2,
-  "new_evidence_items": 49,
-  "sources_analyzed": 115,
+  "declining_skills": 3,
+  "new_evidence_items": 50,
+  "sources_analyzed": 116,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
-    {
-      "skill_id": "adaptability",
-      "skill_name": "Adaptability",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 9.433962264150944,
-      "share_change": null,
-      "emerging_score": 0.7143,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 5,
-      "sources": [
-        {
-          "source_id": "c18a7b729bc1a00c",
-          "organization": "U.S. Bureau of Labor Statistics",
-          "title": "BLS Employment Data (CES0000000001)",
-          "url": "https://data.bls.gov/timeseries/CES0000000001",
-          "publication_date": "2026-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "f6615c9f50d92d4b",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
-          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
-          "publication_date": "2025-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "7220b394d96e71b9",
-          "organization": "World Bank",
-          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
-          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
-          "publication_date": "2024-12-01",
-          "source_tier": 1
-        },
-        {
-          "source_id": "e9563fa873010dbe",
-          "organization": "arXiv CS.AI",
-          "title": "MatHarness: Towards Long-Horizon Open-ended AutoResearch for Computational Materials Science",
-          "url": "https://arxiv.org/abs/2611.28324",
-          "publication_date": "2026-11-24",
-          "source_tier": 2
-        },
-        {
-          "source_id": "70efbc16096c04dc",
-          "organization": "Bing",
-          "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
-          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
-          "publication_date": "2026-11-21",
-          "source_tier": 4
-        }
-      ]
-    },
     {
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 24.528301886792452,
+      "skill_share": 22.22222222222222,
       "share_change": null,
-      "emerging_score": 0.6602,
+      "emerging_score": 0.6524,
       "confidence": "high",
       "evidence_type": "calculated",
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
-        {
-          "source_id": "6c31e16b66c92a3a",
-          "organization": "arXiv CS.AI",
-          "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
-          "url": "https://arxiv.org/abs/2611.28197",
-          "publication_date": "2026-11-24",
-          "source_tier": 2
-        },
         {
           "source_id": "7f87a6cc2629d3b3",
           "organization": "IEEE Spectrum AI",
@@ -125,26 +62,26 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 18.867924528301888,
+      "skill_share": 18.51851851851852,
       "share_change": null,
-      "emerging_score": 0.6385,
+      "emerging_score": 0.6384,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 4,
       "sources": [
         {
+          "source_id": "bc6c99734aa6ec8e",
+          "organization": "arXiv CS.AI",
+          "title": "COGENT: A Modular Cognitive Architecture for Agentic User Simulation",
+          "url": "https://arxiv.org/abs/2611.31559",
+          "publication_date": "2026-11-25",
+          "source_tier": 2
+        },
+        {
           "source_id": "f1d5cd7c2f5446f7",
           "organization": "IEEE Spectrum AI",
           "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
           "url": "https://spectrum.ieee.org/swahili-speech-recognition",
-          "publication_date": "2026-11-24",
-          "source_tier": 2
-        },
-        {
-          "source_id": "cc1a20cdd2a32c8d",
-          "organization": "arXiv CS.AI",
-          "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
-          "url": "https://arxiv.org/abs/2611.28285",
           "publication_date": "2026-11-24",
           "source_tier": 2
         },
@@ -172,12 +109,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.433962264150944,
+      "skill_share": 11.11111111111111,
       "share_change": null,
-      "emerging_score": 0.6243,
+      "emerging_score": 0.6274,
       "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         {
           "source_id": "b963043e10f90f2d",
@@ -202,6 +139,14 @@
           "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/24/the-ai-training-crisis-is-becoming-a-leadership-failure/",
           "publication_date": "2026-11-24",
           "source_tier": 4
+        },
+        {
+          "source_id": "571b482db9fe8faa",
+          "organization": "Bing",
+          "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
+          "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
+          "publication_date": "2026-09-07",
+          "source_tier": 4
         }
       ]
     },
@@ -211,12 +156,12 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 13.20754716981132,
+      "skill_share": 14.814814814814813,
       "share_change": null,
-      "emerging_score": 0.6168,
-      "confidence": "high",
+      "emerging_score": 0.6211,
+      "confidence": "medium",
       "evidence_type": "calculated",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         {
           "source_id": "360a5cf008ebe7bc",
@@ -233,6 +178,61 @@
           "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
           "publication_date": "2026-11-09",
           "source_tier": 2
+        },
+        {
+          "source_id": "d69e8da016f45a58",
+          "organization": "Bing",
+          "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+          "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+          "publication_date": "2026-11-25",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 5.555555555555555,
+      "share_change": null,
+      "emerging_score": 0.5175,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "70efbc16096c04dc",
+          "organization": "Bing",
+          "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
+          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
+          "publication_date": "2026-11-21",
+          "source_tier": 4
         }
       ]
     },
@@ -242,9 +242,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 7.547169811320755,
+      "skill_share": 7.4074074074074066,
       "share_change": null,
-      "emerging_score": 0.506,
+      "emerging_score": 0.5059,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -273,9 +273,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.7735849056603774,
+      "skill_share": 3.7037037037037033,
       "share_change": null,
-      "emerging_score": 0.3222,
+      "emerging_score": 0.322,
       "confidence": "low",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -299,14 +299,45 @@
       ]
     },
     {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.7037037037037033,
+      "share_change": null,
+      "emerging_score": 0.2742,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "d69e8da016f45a58",
+          "organization": "Bing",
+          "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+          "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+          "publication_date": "2026-11-25",
+          "source_tier": 4
+        },
+        {
+          "source_id": "57eafb5c9045b883",
+          "organization": "Bing",
+          "title": "ELEVATION GLOBAL MEDIA GROUP GOES GLOBAL: EXPANDING MEDIA EDUCATION, AI LITERACY & DIGITAL SAFETY",
+          "url": "https://www.providencejournal.com/press-release/story/150845/elevation-global-media-group-goes-global-expanding-media-education-ai-literacy-digital-safety/",
+          "publication_date": "2026-11-24",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
       "skill_id": "digital_literacy",
       "skill_name": "Digital Literacy",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.7735849056603774,
+      "skill_share": 3.7037037037037033,
       "share_change": null,
-      "emerging_score": 0.116,
+      "emerging_score": 0.1158,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -335,9 +366,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 1.8867924528301887,
+      "skill_share": 1.8518518518518516,
       "share_change": null,
-      "emerging_score": 0.1085,
+      "emerging_score": 0.1083,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 1,
@@ -354,6 +385,15 @@
     }
   ],
   "monthly_data": [
+    {
+      "skill": "AI Literacy",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 2.0
+        }
+      ]
+    },
     {
       "skill": "Communication",
       "series": [
@@ -393,7 +433,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 3.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -409,6 +449,10 @@
     {
       "skill": "Leadership",
       "series": [
+        {
+          "month": "2026-09",
+          "demand_index": 1.0
+        },
         {
           "month": "2026-11",
           "demand_index": 5.0
@@ -437,7 +481,7 @@
         },
         {
           "month": "2026-11",
-          "demand_index": 8.0
+          "demand_index": 7.0
         }
       ]
     },
@@ -446,7 +490,7 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 7.0
+          "demand_index": 8.0
         }
       ]
     },
@@ -463,44 +507,44 @@
   "industry_comparison": [
     {
       "industry": "general",
-      "count": 14,
-      "percentage": 26.4
+      "count": 15,
+      "percentage": 27.8
     },
     {
       "industry": "education",
       "count": 13,
-      "percentage": 24.5
+      "percentage": 24.1
     },
     {
       "industry": "technology",
-      "count": 11,
-      "percentage": 20.8
+      "count": 12,
+      "percentage": 22.2
     },
     {
       "industry": "manufacturing",
-      "count": 6,
-      "percentage": 11.3
+      "count": 5,
+      "percentage": 9.3
     },
     {
       "industry": "government",
       "count": 5,
-      "percentage": 9.4
+      "percentage": 9.3
     },
     {
       "industry": "healthcare",
       "count": 2,
-      "percentage": 3.8
+      "percentage": 3.7
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.8
+      "percentage": 3.7
     }
   ],
   "new_skills_detected": [],
   "evidence_confidence": {
-    "high": 5,
-    "medium": 3,
+    "high": 4,
+    "medium": 4,
     "low": 23
   },
   "sources": [
@@ -648,14 +692,14 @@
       ]
     },
     {
-      "source_id": "6c31e16b66c92a3a",
+      "source_id": "bc6c99734aa6ec8e",
       "organization": "arXiv CS.AI",
-      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
-      "url": "https://arxiv.org/abs/2611.28197",
-      "publication_date": "2026-11-24",
+      "title": "COGENT: A Modular Cognitive Architecture for Agentic User Simulation",
+      "url": "https://arxiv.org/abs/2611.31559",
+      "publication_date": "2026-11-25",
       "source_tier": 2,
       "skills": [
-        "Collaboration"
+        "Presentation"
       ]
     },
     {
@@ -682,17 +726,6 @@
       ]
     },
     {
-      "source_id": "e9563fa873010dbe",
-      "organization": "arXiv CS.AI",
-      "title": "MatHarness: Towards Long-Horizon Open-ended AutoResearch for Computational Materials Science",
-      "url": "https://arxiv.org/abs/2611.28324",
-      "publication_date": "2026-11-24",
-      "source_tier": 2,
-      "skills": [
-        "Adaptability"
-      ]
-    },
-    {
       "source_id": "7f87a6cc2629d3b3",
       "organization": "IEEE Spectrum AI",
       "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check",
@@ -701,17 +734,6 @@
       "source_tier": 2,
       "skills": [
         "Collaboration"
-      ]
-    },
-    {
-      "source_id": "cc1a20cdd2a32c8d",
-      "organization": "arXiv CS.AI",
-      "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
-      "url": "https://arxiv.org/abs/2611.28285",
-      "publication_date": "2026-11-24",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
       ]
     },
     {
@@ -779,6 +801,40 @@
       "source_tier": 4,
       "skills": [
         "Teamwork"
+      ]
+    },
+    {
+      "source_id": "57eafb5c9045b883",
+      "organization": "Bing",
+      "title": "ELEVATION GLOBAL MEDIA GROUP GOES GLOBAL: EXPANDING MEDIA EDUCATION, AI LITERACY & DIGITAL SAFETY",
+      "url": "https://www.providencejournal.com/press-release/story/150845/elevation-global-media-group-goes-global-expanding-media-education-ai-literacy-digital-safety/",
+      "publication_date": "2026-11-24",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy"
+      ]
+    },
+    {
+      "source_id": "571b482db9fe8faa",
+      "organization": "Bing",
+      "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
+      "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
+      "publication_date": "2026-09-07",
+      "source_tier": 4,
+      "skills": [
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "d69e8da016f45a58",
+      "organization": "Bing",
+      "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+      "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+      "publication_date": "2026-11-25",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy",
+        "Decision-Making"
       ]
     },
     {
