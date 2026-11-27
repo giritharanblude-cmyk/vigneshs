@@ -1,102 +1,23 @@
 {
-  "generated_at": "2026-11-26T22:31:24.437473",
+  "generated_at": "2026-11-27T22:16:10.285437",
   "total_skills": 31,
   "emerging_skills": 4,
   "increasing_skills": 6,
   "declining_skills": 2,
-  "new_evidence_items": 54,
-  "sources_analyzed": 103,
+  "new_evidence_items": 51,
+  "sources_analyzed": 116,
   "industries_tracked": 7,
   "countries_tracked": 2,
   "trends": [
-    {
-      "skill_id": "presentation",
-      "skill_name": "Presentation",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 23.809523809523807,
-      "share_change": null,
-      "emerging_score": 0.676,
-      "confidence": "high",
-      "evidence_type": "calculated",
-      "source_count": 8,
-      "sources": [
-        {
-          "source_id": "d04be960d3f36147",
-          "organization": "arXiv CS.AI",
-          "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
-          "url": "https://arxiv.org/abs/2611.33304",
-          "publication_date": "2026-11-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "76f6a573b7065539",
-          "organization": "arXiv CS.AI",
-          "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
-          "url": "https://arxiv.org/abs/2611.33322",
-          "publication_date": "2026-11-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "fb4d2d7dd70f63ba",
-          "organization": "arXiv CS.AI",
-          "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
-          "url": "https://arxiv.org/abs/2611.33563",
-          "publication_date": "2026-11-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "7533e4968248f837",
-          "organization": "arXiv CS.AI",
-          "title": "Learning from Natural Images Untangles Number Sense",
-          "url": "https://arxiv.org/abs/2611.33615",
-          "publication_date": "2026-11-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "b7833b9b335f3528",
-          "organization": "arXiv CS.AI",
-          "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
-          "url": "https://arxiv.org/abs/2611.33617",
-          "publication_date": "2026-11-26",
-          "source_tier": 2
-        },
-        {
-          "source_id": "f1d5cd7c2f5446f7",
-          "organization": "IEEE Spectrum AI",
-          "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
-          "url": "https://spectrum.ieee.org/swahili-speech-recognition",
-          "publication_date": "2026-11-24",
-          "source_tier": 2
-        },
-        {
-          "source_id": "3ece93459cb08836",
-          "organization": "IEEE Spectrum AI",
-          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
-          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
-          "publication_date": "2026-11-03",
-          "source_tier": 2
-        },
-        {
-          "source_id": "2712a693a98c9fd8",
-          "organization": "IEEE Spectrum AI",
-          "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
-          "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
-          "publication_date": "2026-10-27",
-          "source_tier": 2
-        }
-      ]
-    },
     {
       "skill_id": "collaboration",
       "skill_name": "Collaboration",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 22.22222222222222,
+      "skill_share": 23.333333333333332,
       "share_change": null,
-      "emerging_score": 0.6676,
+      "emerging_score": 0.6674,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 6,
@@ -106,7 +27,7 @@
           "organization": "arXiv CS.AI",
           "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
           "url": "https://arxiv.org/abs/2611.33411",
-          "publication_date": "2026-11-26",
+          "publication_date": "2026-11-27",
           "source_tier": 2
         },
         {
@@ -114,7 +35,7 @@
           "organization": "arXiv CS.AI",
           "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
           "url": "https://arxiv.org/abs/2611.33563",
-          "publication_date": "2026-11-26",
+          "publication_date": "2026-11-27",
           "source_tier": 2
         },
         {
@@ -152,14 +73,85 @@
       ]
     },
     {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 21.666666666666668,
+      "share_change": null,
+      "emerging_score": 0.6614,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 7,
+      "sources": [
+        {
+          "source_id": "d04be960d3f36147",
+          "organization": "arXiv CS.AI",
+          "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+          "url": "https://arxiv.org/abs/2611.33304",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "76f6a573b7065539",
+          "organization": "arXiv CS.AI",
+          "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+          "url": "https://arxiv.org/abs/2611.33322",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "fb4d2d7dd70f63ba",
+          "organization": "arXiv CS.AI",
+          "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+          "url": "https://arxiv.org/abs/2611.33563",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "7533e4968248f837",
+          "organization": "arXiv CS.AI",
+          "title": "Learning from Natural Images Untangles Number Sense",
+          "url": "https://arxiv.org/abs/2611.33615",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "b7833b9b335f3528",
+          "organization": "arXiv CS.AI",
+          "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
+          "url": "https://arxiv.org/abs/2611.33617",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "f1d5cd7c2f5446f7",
+          "organization": "IEEE Spectrum AI",
+          "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
+          "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+          "publication_date": "2026-11-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "3ece93459cb08836",
+          "organization": "IEEE Spectrum AI",
+          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
       "skill_id": "decision_making",
       "skill_name": "Decision-Making",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 14.285714285714285,
+      "skill_share": 15.0,
       "share_change": null,
-      "emerging_score": 0.6288,
+      "emerging_score": 0.6287,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -169,7 +161,7 @@
           "organization": "arXiv CS.AI",
           "title": "Confidence scores for gated automation of large language models",
           "url": "https://arxiv.org/abs/2611.33394",
-          "publication_date": "2026-11-26",
+          "publication_date": "2026-11-27",
           "source_tier": 2
         },
         {
@@ -204,9 +196,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 9.523809523809524,
+      "skill_share": 10.0,
       "share_change": null,
-      "emerging_score": 0.6273,
+      "emerging_score": 0.6271,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -251,9 +243,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.761904761904762,
+      "skill_share": 5.0,
       "share_change": null,
-      "emerging_score": 0.4266,
+      "emerging_score": 0.4264,
       "confidence": "high",
       "evidence_type": "calculated",
       "source_count": 2,
@@ -282,9 +274,9 @@
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 4.761904761904762,
+      "skill_share": 5.0,
       "share_change": null,
-      "emerging_score": 0.4185,
+      "emerging_score": 0.4183,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 3,
@@ -294,7 +286,7 @@
           "organization": "arXiv CS.AI",
           "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
           "url": "https://arxiv.org/abs/2611.33563",
-          "publication_date": "2026-11-26",
+          "publication_date": "2026-11-27",
           "source_tier": 2
         },
         {
@@ -316,45 +308,14 @@
       ]
     },
     {
-      "skill_id": "ai_literacy",
-      "skill_name": "AI Literacy",
-      "yoy_growth": null,
-      "mom_growth": null,
-      "rolling_12m_change": null,
-      "skill_share": 3.1746031746031744,
-      "share_change": null,
-      "emerging_score": 0.2741,
-      "confidence": "low",
-      "evidence_type": "calculated",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_id": "d69e8da016f45a58",
-          "organization": "Bing",
-          "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
-          "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
-          "publication_date": "2026-11-25",
-          "source_tier": 4
-        },
-        {
-          "source_id": "57eafb5c9045b883",
-          "organization": "Bing",
-          "title": "ELEVATION GLOBAL MEDIA GROUP GOES GLOBAL: EXPANDING MEDIA EDUCATION, AI LITERACY & DIGITAL SAFETY",
-          "url": "https://www.providencejournal.com/press-release/story/150845/elevation-global-media-group-goes-global-expanding-media-education-ai-literacy-digital-safety/",
-          "publication_date": "2026-11-24",
-          "source_tier": 4
-        }
-      ]
-    },
-    {
       "skill_id": "adaptability",
       "skill_name": "Adaptability",
       "yoy_growth": null,
       "mom_growth": null,
       "rolling_12m_change": null,
-      "skill_share": 3.1746031746031744,
+      "skill_share": 3.3333333333333335,
       "share_change": null,
-      "emerging_score": 0.2207,
+      "emerging_score": 0.2206,
       "confidence": "medium",
       "evidence_type": "calculated",
       "source_count": 4,
@@ -392,6 +353,29 @@
           "source_tier": 4
         }
       ]
+    },
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.6666666666666667,
+      "share_change": null,
+      "emerging_score": 0.1664,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "d69e8da016f45a58",
+          "organization": "Bing",
+          "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+          "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+          "publication_date": "2026-11-25",
+          "source_tier": 4
+        }
+      ]
     }
   ],
   "monthly_data": [
@@ -400,7 +384,7 @@
       "series": [
         {
           "month": "2026-11",
-          "demand_index": 2.0
+          "demand_index": 1.0
         }
       ]
     },
@@ -416,10 +400,6 @@
     {
       "skill": "Presentation",
       "series": [
-        {
-          "month": "2026-10",
-          "demand_index": 2.0
-        },
         {
           "month": "2026-11",
           "demand_index": 13.0
@@ -492,37 +472,37 @@
     {
       "industry": "education",
       "count": 19,
-      "percentage": 30.2
+      "percentage": 31.7
     },
     {
       "industry": "general",
       "count": 17,
-      "percentage": 27.0
+      "percentage": 28.3
     },
     {
       "industry": "technology",
-      "count": 13,
-      "percentage": 20.6
+      "count": 11,
+      "percentage": 18.3
     },
     {
       "industry": "manufacturing",
       "count": 5,
-      "percentage": 7.9
+      "percentage": 8.3
     },
     {
       "industry": "government",
-      "count": 5,
-      "percentage": 7.9
+      "count": 4,
+      "percentage": 6.7
     },
     {
       "industry": "healthcare",
       "count": 2,
-      "percentage": 3.2
+      "percentage": 3.3
     },
     {
       "industry": "finance",
       "count": 2,
-      "percentage": 3.2
+      "percentage": 3.3
     }
   ],
   "new_skills_detected": [],
@@ -680,7 +660,7 @@
       "organization": "arXiv CS.AI",
       "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
       "url": "https://arxiv.org/abs/2611.33322",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -691,7 +671,7 @@
       "organization": "arXiv CS.AI",
       "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
       "url": "https://arxiv.org/abs/2611.33411",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Collaboration"
@@ -702,7 +682,7 @@
       "organization": "arXiv CS.AI",
       "title": "Confidence scores for gated automation of large language models",
       "url": "https://arxiv.org/abs/2611.33394",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Decision-Making"
@@ -713,7 +693,7 @@
       "organization": "arXiv CS.AI",
       "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
       "url": "https://arxiv.org/abs/2611.33617",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -724,7 +704,7 @@
       "organization": "arXiv CS.AI",
       "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
       "url": "https://arxiv.org/abs/2611.33563",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Collaboration",
@@ -760,7 +740,7 @@
       "organization": "arXiv CS.AI",
       "title": "Learning from Natural Images Untangles Number Sense",
       "url": "https://arxiv.org/abs/2611.33615",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -793,7 +773,7 @@
       "organization": "arXiv CS.AI",
       "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
       "url": "https://arxiv.org/abs/2611.33304",
-      "publication_date": "2026-11-26",
+      "publication_date": "2026-11-27",
       "source_tier": 2,
       "skills": [
         "Presentation"
@@ -822,17 +802,6 @@
       ]
     },
     {
-      "source_id": "2712a693a98c9fd8",
-      "organization": "IEEE Spectrum AI",
-      "title": "Your Robot\u2019s Safety Functions Already Work. What If the Input Lies?",
-      "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
-      "publication_date": "2026-10-27",
-      "source_tier": 2,
-      "skills": [
-        "Presentation"
-      ]
-    },
-    {
       "source_id": "2b2103e4aa6ad1ad",
       "organization": "Microsoft Work Lab",
       "title": "Learn the rules: The hacker mindset",
@@ -853,17 +822,6 @@
       "source_tier": 4,
       "skills": [
         "Teamwork"
-      ]
-    },
-    {
-      "source_id": "57eafb5c9045b883",
-      "organization": "Bing",
-      "title": "ELEVATION GLOBAL MEDIA GROUP GOES GLOBAL: EXPANDING MEDIA EDUCATION, AI LITERACY & DIGITAL SAFETY",
-      "url": "https://www.providencejournal.com/press-release/story/150845/elevation-global-media-group-goes-global-expanding-media-education-ai-literacy-digital-safety/",
-      "publication_date": "2026-11-24",
-      "source_tier": 4,
-      "skills": [
-        "AI Literacy"
       ]
     },
     {

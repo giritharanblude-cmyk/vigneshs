@@ -1,0 +1,873 @@
+{
+  "generated_at": "2026-11-27T22:16:10.285437",
+  "total_skills": 31,
+  "emerging_skills": 4,
+  "increasing_skills": 6,
+  "declining_skills": 2,
+  "new_evidence_items": 51,
+  "sources_analyzed": 116,
+  "industries_tracked": 7,
+  "countries_tracked": 2,
+  "trends": [
+    {
+      "skill_id": "collaboration",
+      "skill_name": "Collaboration",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 23.333333333333332,
+      "share_change": null,
+      "emerging_score": 0.6674,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 6,
+      "sources": [
+        {
+          "source_id": "81aecfdd63b409e8",
+          "organization": "arXiv CS.AI",
+          "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
+          "url": "https://arxiv.org/abs/2611.33411",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "fb4d2d7dd70f63ba",
+          "organization": "arXiv CS.AI",
+          "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+          "url": "https://arxiv.org/abs/2611.33563",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "7f87a6cc2629d3b3",
+          "organization": "IEEE Spectrum AI",
+          "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check",
+          "url": "https://spectrum.ieee.org/ai-agent-manager",
+          "publication_date": "2026-11-19",
+          "source_tier": 2
+        },
+        {
+          "source_id": "e414906e589fbb6b",
+          "organization": "IEEE Spectrum AI",
+          "title": "Will AI Coding Eat Video Game Engines?",
+          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+          "publication_date": "2026-11-18",
+          "source_tier": 2
+        },
+        {
+          "source_id": "b963043e10f90f2d",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+          "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+          "publication_date": "2026-11-17",
+          "source_tier": 2
+        },
+        {
+          "source_id": "c373df9e2eb76bad",
+          "organization": "IEEE Spectrum AI",
+          "title": "Systems Thinking Is Vital in the Age of AI",
+          "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+          "publication_date": "2026-10-28",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "presentation",
+      "skill_name": "Presentation",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 21.666666666666668,
+      "share_change": null,
+      "emerging_score": 0.6614,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 7,
+      "sources": [
+        {
+          "source_id": "d04be960d3f36147",
+          "organization": "arXiv CS.AI",
+          "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+          "url": "https://arxiv.org/abs/2611.33304",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "76f6a573b7065539",
+          "organization": "arXiv CS.AI",
+          "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+          "url": "https://arxiv.org/abs/2611.33322",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "fb4d2d7dd70f63ba",
+          "organization": "arXiv CS.AI",
+          "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+          "url": "https://arxiv.org/abs/2611.33563",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "7533e4968248f837",
+          "organization": "arXiv CS.AI",
+          "title": "Learning from Natural Images Untangles Number Sense",
+          "url": "https://arxiv.org/abs/2611.33615",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "b7833b9b335f3528",
+          "organization": "arXiv CS.AI",
+          "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
+          "url": "https://arxiv.org/abs/2611.33617",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "f1d5cd7c2f5446f7",
+          "organization": "IEEE Spectrum AI",
+          "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
+          "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+          "publication_date": "2026-11-24",
+          "source_tier": 2
+        },
+        {
+          "source_id": "3ece93459cb08836",
+          "organization": "IEEE Spectrum AI",
+          "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+          "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+          "publication_date": "2026-11-03",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "decision_making",
+      "skill_name": "Decision-Making",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 15.0,
+      "share_change": null,
+      "emerging_score": 0.6287,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "a80832cf4006afb9",
+          "organization": "arXiv CS.AI",
+          "title": "Confidence scores for gated automation of large language models",
+          "url": "https://arxiv.org/abs/2611.33394",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "360a5cf008ebe7bc",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
+          "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+          "publication_date": "2026-11-16",
+          "source_tier": 2
+        },
+        {
+          "source_id": "8077b9769aaeefde",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+          "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+          "publication_date": "2026-11-09",
+          "source_tier": 2
+        },
+        {
+          "source_id": "d69e8da016f45a58",
+          "organization": "Bing",
+          "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+          "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+          "publication_date": "2026-11-25",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "leadership",
+      "skill_name": "Leadership",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 10.0,
+      "share_change": null,
+      "emerging_score": 0.6271,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "b963043e10f90f2d",
+          "organization": "IEEE Spectrum AI",
+          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+          "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+          "publication_date": "2026-11-17",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        },
+        {
+          "source_id": "74af4c29cbea93d6",
+          "organization": "Bing",
+          "title": "The AI Training Crisis Is Becoming A Leadership Failure",
+          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/24/the-ai-training-crisis-is-becoming-a-leadership-failure/",
+          "publication_date": "2026-11-24",
+          "source_tier": 4
+        },
+        {
+          "source_id": "571b482db9fe8faa",
+          "organization": "Bing",
+          "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
+          "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
+          "publication_date": "2026-09-07",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "communication",
+      "skill_name": "Communication",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 5.0,
+      "share_change": null,
+      "emerging_score": 0.4264,
+      "confidence": "high",
+      "evidence_type": "calculated",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "7d321100ff62c45c",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "0722e85a4b6928b3",
+          "organization": "IEEE Spectrum AI",
+          "title": "AI Is Giving Optical Computing Another Shot",
+          "url": "https://spectrum.ieee.org/optical-computing-ai",
+          "publication_date": "2026-11-17",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "skill_id": "teamwork",
+      "skill_name": "Teamwork",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 5.0,
+      "share_change": null,
+      "emerging_score": 0.4183,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "fb4d2d7dd70f63ba",
+          "organization": "arXiv CS.AI",
+          "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+          "url": "https://arxiv.org/abs/2611.33563",
+          "publication_date": "2026-11-27",
+          "source_tier": 2
+        },
+        {
+          "source_id": "2b2103e4aa6ad1ad",
+          "organization": "Microsoft Work Lab",
+          "title": "Learn the rules: The hacker mindset",
+          "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+          "publication_date": "2026-11-03",
+          "source_tier": 3
+        },
+        {
+          "source_id": "a10d71013abba3bc",
+          "organization": "Bing",
+          "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+          "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+          "publication_date": "2026-07-08",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "adaptability",
+      "skill_name": "Adaptability",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 3.3333333333333335,
+      "share_change": null,
+      "emerging_score": 0.2206,
+      "confidence": "medium",
+      "evidence_type": "calculated",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "c18a7b729bc1a00c",
+          "organization": "U.S. Bureau of Labor Statistics",
+          "title": "BLS Employment Data (CES0000000001)",
+          "url": "https://data.bls.gov/timeseries/CES0000000001",
+          "publication_date": "2026-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "f6615c9f50d92d4b",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+          "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+          "publication_date": "2025-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "7220b394d96e71b9",
+          "organization": "World Bank",
+          "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+          "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+          "publication_date": "2024-12-01",
+          "source_tier": 1
+        },
+        {
+          "source_id": "70efbc16096c04dc",
+          "organization": "Bing",
+          "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
+          "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
+          "publication_date": "2026-11-21",
+          "source_tier": 4
+        }
+      ]
+    },
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "AI Literacy",
+      "yoy_growth": null,
+      "mom_growth": null,
+      "rolling_12m_change": null,
+      "skill_share": 1.6666666666666667,
+      "share_change": null,
+      "emerging_score": 0.1664,
+      "confidence": "low",
+      "evidence_type": "calculated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "d69e8da016f45a58",
+          "organization": "Bing",
+          "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+          "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+          "publication_date": "2026-11-25",
+          "source_tier": 4
+        }
+      ]
+    }
+  ],
+  "monthly_data": [
+    {
+      "skill": "AI Literacy",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
+        }
+      ]
+    },
+    {
+      "skill": "Communication",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 3.0
+        }
+      ]
+    },
+    {
+      "skill": "Presentation",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 13.0
+        }
+      ]
+    },
+    {
+      "skill": "Adaptability",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 159293.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 1.0
+        }
+      ]
+    },
+    {
+      "skill": "Leadership",
+      "series": [
+        {
+          "month": "2026-09",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 5.0
+        }
+      ]
+    },
+    {
+      "skill": "Teamwork",
+      "series": [
+        {
+          "month": "2026-07",
+          "demand_index": 1.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 2.0
+        }
+      ]
+    },
+    {
+      "skill": "Collaboration",
+      "series": [
+        {
+          "month": "2026-10",
+          "demand_index": 5.0
+        },
+        {
+          "month": "2026-11",
+          "demand_index": 9.0
+        }
+      ]
+    },
+    {
+      "skill": "Decision-Making",
+      "series": [
+        {
+          "month": "2026-11",
+          "demand_index": 9.0
+        }
+      ]
+    }
+  ],
+  "industry_comparison": [
+    {
+      "industry": "education",
+      "count": 19,
+      "percentage": 31.7
+    },
+    {
+      "industry": "general",
+      "count": 17,
+      "percentage": 28.3
+    },
+    {
+      "industry": "technology",
+      "count": 11,
+      "percentage": 18.3
+    },
+    {
+      "industry": "manufacturing",
+      "count": 5,
+      "percentage": 8.3
+    },
+    {
+      "industry": "government",
+      "count": 4,
+      "percentage": 6.7
+    },
+    {
+      "industry": "healthcare",
+      "count": 2,
+      "percentage": 3.3
+    },
+    {
+      "industry": "finance",
+      "count": 2,
+      "percentage": 3.3
+    }
+  ],
+  "new_skills_detected": [],
+  "evidence_confidence": {
+    "high": 3,
+    "medium": 4,
+    "low": 24
+  },
+  "sources": [
+    {
+      "source_id": "c18a7b729bc1a00c",
+      "organization": "U.S. Bureau of Labor Statistics",
+      "title": "BLS Employment Data (CES0000000001)",
+      "url": "https://data.bls.gov/timeseries/CES0000000001",
+      "publication_date": "2026-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "7220b394d96e71b9",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 high_tech_exports (TX.VAL.TECH.MF.ZS)",
+      "url": "https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9aabeb9fcbb13fb8",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 internet_users (IT.NET.USER.ZS)",
+      "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "40119199f99cb3cf",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_advanced_education (SL.TLF.ADVN.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.ADVN.ZS",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "f6615c9f50d92d4b",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 labor_force_participation (SL.TLF.CACT.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "9303d612853f978f",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 mobile_subscriptions (IT.CEL.SETS.P2)",
+      "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Digital Literacy"
+      ]
+    },
+    {
+      "source_id": "c560179944135ecb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 research_output (IP.JRN.ARTC.SC)",
+      "url": "https://data.worldbank.org/indicator/IP.JRN.ARTC.SC",
+      "publication_date": "2023-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Analytical Thinking"
+      ]
+    },
+    {
+      "source_id": "7d321100ff62c45c",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 services_employment_share (SL.SRV.EMPL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "185972c0b1cb5cbb",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 tertiary_enrollment_rate (SE.TER.ENRR)",
+      "url": "https://data.worldbank.org/indicator/SE.TER.ENRR",
+      "publication_date": "2024-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Learning Agility"
+      ]
+    },
+    {
+      "source_id": "78a961e368730149",
+      "organization": "World Bank",
+      "title": "World Bank Open Data \u2014 unemployment_rate (SL.UEM.TOTL.ZS)",
+      "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+      "publication_date": "2025-12-01",
+      "source_tier": 1,
+      "skills": [
+        "Resilience"
+      ]
+    },
+    {
+      "source_id": "8077b9769aaeefde",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+      "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+      "publication_date": "2026-11-09",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "360a5cf008ebe7bc",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
+      "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+      "publication_date": "2026-11-16",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "0722e85a4b6928b3",
+      "organization": "IEEE Spectrum AI",
+      "title": "AI Is Giving Optical Computing Another Shot",
+      "url": "https://spectrum.ieee.org/optical-computing-ai",
+      "publication_date": "2026-11-17",
+      "source_tier": 2,
+      "skills": [
+        "Communication"
+      ]
+    },
+    {
+      "source_id": "76f6a573b7065539",
+      "organization": "arXiv CS.AI",
+      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "url": "https://arxiv.org/abs/2611.33322",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "81aecfdd63b409e8",
+      "organization": "arXiv CS.AI",
+      "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
+      "url": "https://arxiv.org/abs/2611.33411",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "a80832cf4006afb9",
+      "organization": "arXiv CS.AI",
+      "title": "Confidence scores for gated automation of large language models",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "b7833b9b335f3528",
+      "organization": "arXiv CS.AI",
+      "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
+      "url": "https://arxiv.org/abs/2611.33617",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "fb4d2d7dd70f63ba",
+      "organization": "arXiv CS.AI",
+      "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+      "url": "https://arxiv.org/abs/2611.33563",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Presentation",
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "3ece93459cb08836",
+      "organization": "IEEE Spectrum AI",
+      "title": "How a Kenyan Startup Is Rethinking AI for Small Businesses",
+      "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+      "publication_date": "2026-11-03",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "b963043e10f90f2d",
+      "organization": "IEEE Spectrum AI",
+      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+      "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "publication_date": "2026-11-17",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration",
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "7533e4968248f837",
+      "organization": "arXiv CS.AI",
+      "title": "Learning from Natural Images Untangles Number Sense",
+      "url": "https://arxiv.org/abs/2611.33615",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "7f87a6cc2629d3b3",
+      "organization": "IEEE Spectrum AI",
+      "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check",
+      "url": "https://spectrum.ieee.org/ai-agent-manager",
+      "publication_date": "2026-11-19",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "c373df9e2eb76bad",
+      "organization": "IEEE Spectrum AI",
+      "title": "Systems Thinking Is Vital in the Age of AI",
+      "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+      "publication_date": "2026-10-28",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "d04be960d3f36147",
+      "organization": "arXiv CS.AI",
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "url": "https://arxiv.org/abs/2611.33304",
+      "publication_date": "2026-11-27",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "f1d5cd7c2f5446f7",
+      "organization": "IEEE Spectrum AI",
+      "title": "Why Does Voice AI Still Struggle With Kenyans\u2019 Speech?",
+      "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+      "publication_date": "2026-11-24",
+      "source_tier": 2,
+      "skills": [
+        "Presentation"
+      ]
+    },
+    {
+      "source_id": "e414906e589fbb6b",
+      "organization": "IEEE Spectrum AI",
+      "title": "Will AI Coding Eat Video Game Engines?",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "publication_date": "2026-11-18",
+      "source_tier": 2,
+      "skills": [
+        "Collaboration"
+      ]
+    },
+    {
+      "source_id": "2b2103e4aa6ad1ad",
+      "organization": "Microsoft Work Lab",
+      "title": "Learn the rules: The hacker mindset",
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+      "publication_date": "2026-11-03",
+      "source_tier": 3,
+      "skills": [
+        "Leadership",
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "a10d71013abba3bc",
+      "organization": "Bing",
+      "title": "Blind spots in human-AI teamwork pose serious risks, warns Talogy's Chief Scientist",
+      "url": "https://finance.yahoo.com/technology/ai/articles/blind-spots-human-ai-teamwork-110400744.html",
+      "publication_date": "2026-07-08",
+      "source_tier": 4,
+      "skills": [
+        "Teamwork"
+      ]
+    },
+    {
+      "source_id": "571b482db9fe8faa",
+      "organization": "Bing",
+      "title": "I Asked An OpenAI Employee How She Uses AI At Work. Here\u2019s Her Answer",
+      "url": "https://www.forbes.com/sites/rachelwells/2026/09/07/i-asked-an-openai-employee-how-she-uses-ai-at-work-heres-her-answer/",
+      "publication_date": "2026-09-07",
+      "source_tier": 4,
+      "skills": [
+        "Leadership"
+      ]
+    },
+    {
+      "source_id": "d69e8da016f45a58",
+      "organization": "Bing",
+      "title": "Lilly Endowment's $12 million grant will benefit AI education at BSU",
+      "url": "https://www.msn.com/en-us/news/other/lilly-endowments-12-million-grant-will-benefit-ai-education-at-bsu/ar-AA2idHHN",
+      "publication_date": "2026-11-25",
+      "source_tier": 4,
+      "skills": [
+        "AI Literacy",
+        "Decision-Making"
+      ]
+    },
+    {
+      "source_id": "70efbc16096c04dc",
+      "organization": "Bing",
+      "title": "The AI Skills Gap Is Becoming A Crisis Of Workforce Confidence",
+      "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/21/the-ai-skills-gap-is-becoming-a-crisis-of-workforce-confidence/",
+      "publication_date": "2026-11-21",
+      "source_tier": 4,
+      "skills": [
+        "Adaptability"
+      ]
+    },
+    {
+      "source_id": "74af4c29cbea93d6",
+      "organization": "Bing",
+      "title": "The AI Training Crisis Is Becoming A Leadership Failure",
+      "url": "https://www.forbes.com/sites/michaeledmondson/2026/11/24/the-ai-training-crisis-is-becoming-a-leadership-failure/",
+      "publication_date": "2026-11-24",
+      "source_tier": 4,
+      "skills": [
+        "Leadership"
+      ]
+    }
+  ]
+}
